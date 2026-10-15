@@ -1,0 +1,1723 @@
+[
+ {
+  "start": 0.0,
+  "end": 14.23,
+  "start_tc": "0:00.0",
+  "end_tc": "0:14.2",
+  "section": "intro",
+  "shot_id": "01-street-queue",
+  "description": "Night, rain. Static wide shot of a blank concrete wall with a riveted steel door. Above it a red neon sign in Devanagari reads शून्यसभा (Śūnyasabhā), mirrored in the wet pavement. Seven people in hoods and coats wait in line on either side of the door. Around 0:05 the title \"ŚŪNYASABHĀ / The Assembly of Emptiness\" fades in beneath the sign. At about 0:14 the door swings open and blue light and smoke spill out.",
+  "characters": [
+   "queue of clubgoers"
+  ],
+  "lyrics": []
+ },
+ {
+  "start": 14.23,
+  "end": 14.7,
+  "start_tc": "0:14.2",
+  "end_tc": "0:14.7",
+  "section": "verse1",
+  "shot_id": "02-entry-stairs",
+  "description": "Inside: a gothic cathedral lit with red neon. A crowd pours down a staircase from a high doorway on the left, onto a packed dance floor of people with raised arms.",
+  "characters": [
+   "crowd"
+  ],
+  "lyrics": [
+   {
+    "t": 14.28,
+    "text": "Breaking through the wall, we entered",
+    "sanskrit": "भित्तिं भित्त्वा प्रविष्टाः स्मः",
+    "iast": "bhittiṃ bhittvā praviṣṭāḥ smaḥ"
+   }
+  ]
+ },
+ {
+  "start": 14.7,
+  "end": 15.13,
+  "start_tc": "0:14.7",
+  "end_tc": "0:15.1",
+  "section": "verse1",
+  "shot_id": "03-nave-far",
+  "description": "Long view down the nave over a dense crowd to a distant stage: two giant stone heads with a blue ring of light between them.",
+  "characters": [
+   "crowd"
+  ],
+  "lyrics": [
+   {
+    "t": 14.28,
+    "text": "Breaking through the wall, we entered",
+    "sanskrit": "भित्तिं भित्त्वा प्रविष्टाः स्मः",
+    "iast": "bhittiṃ bhittvā praviṣṭāḥ smaḥ"
+   }
+  ]
+ },
+ {
+  "start": 15.13,
+  "end": 15.57,
+  "start_tc": "0:15.1",
+  "end_tc": "0:15.6",
+  "section": "verse1",
+  "shot_id": "04-nave-closer",
+  "description": "The same view, closer to the stage.",
+  "characters": [
+   "crowd"
+  ],
+  "lyrics": [
+   {
+    "t": 14.28,
+    "text": "Breaking through the wall, we entered",
+    "sanskrit": "भित्तिं भित्त्वा प्रविष्टाः स्मः",
+    "iast": "bhittiṃ bhittvā praviṣṭāḥ smaḥ"
+   }
+  ]
+ },
+ {
+  "start": 15.57,
+  "end": 16.1,
+  "start_tc": "0:15.6",
+  "end_tc": "0:16.1",
+  "section": "verse1",
+  "shot_id": "05-stage-reveal",
+  "description": "The stage: the DJ lounges on a circuit-board throne inside the blue ring, between two giant cracked stone heads. Blue flames burn in braziers below their chins; red neon bars line the stage front; the crowd is silhouetted in front.",
+  "characters": [
+   "the DJ",
+   "crowd"
+  ],
+  "lyrics": [
+   {
+    "t": 14.28,
+    "text": "Breaking through the wall, we entered",
+    "sanskrit": "भित्तिं भित्त्वा प्रविष्टाः स्मः",
+    "iast": "bhittiṃ bhittvā praviṣṭāḥ smaḥ"
+   }
+  ]
+ },
+ {
+  "start": 16.1,
+  "end": 19.9,
+  "start_tc": "0:16.1",
+  "end_tc": "0:19.9",
+  "section": "verse1",
+  "shot_id": "06-floor-feet",
+  "description": "Camera at floor level among dancers' legs: boots, sneakers and cargo trousers stomping on a glossy black floor veined with red light. One dancer has a metal prosthetic leg.",
+  "characters": [
+   "crowd"
+  ],
+  "lyrics": [
+   {
+    "t": 14.28,
+    "text": "Breaking through the wall, we entered",
+    "sanskrit": "भित्तिं भित्त्वा प्रविष्टाः स्मः",
+    "iast": "bhittiṃ bhittvā praviṣṭāḥ smaḥ"
+   },
+   {
+    "t": 16.96,
+    "text": "Where the beat flows like blood through the veins",
+    "sanskrit": "यत्र तालो नाड्यां रक्तवद् वहति",
+    "iast": "yatra tālo nāḍyāṃ raktavad vahati"
+   }
+  ]
+ },
+ {
+  "start": 19.9,
+  "end": 20.77,
+  "start_tc": "0:19.9",
+  "end_tc": "0:20.8",
+  "section": "verse1",
+  "shot_id": "07-brazier-left",
+  "description": "Close on the chin of a cracked stone head against a circuit-board wall: blue light drips like liquid from its lips into a brazier, which burns with blue flame.",
+  "characters": [],
+  "lyrics": [
+   {
+    "t": 16.96,
+    "text": "Where the beat flows like blood through the veins",
+    "sanskrit": "यत्र तालो नाड्यां रक्तवद् वहति",
+    "iast": "yatra tālo nāḍyāṃ raktavad vahati"
+   }
+  ]
+ },
+ {
+  "start": 20.77,
+  "end": 21.87,
+  "start_tc": "0:20.8",
+  "end_tc": "0:21.9",
+  "section": "verse1",
+  "shot_id": "08-brazier-right",
+  "description": "The second head's brazier; its blue flame rises higher.",
+  "characters": [],
+  "lyrics": [
+   {
+    "t": 20.83,
+    "text": "Blue flames blaze",
+    "sanskrit": "नीलज्वालाः प्रज्वलन्ति",
+    "iast": "nīlajvālāḥ prajvalanti"
+   }
+  ]
+ },
+ {
+  "start": 21.87,
+  "end": 24.97,
+  "start_tc": "0:21.9",
+  "end_tc": "0:25.0",
+  "section": "verse1",
+  "shot_id": "09-throne-wide",
+  "description": "Wide on the stage: the DJ, barefoot, bare-chested, dark robe over the left shoulder, stands at the decks inside the blue ring between the two stone heads and raises an arm. Both braziers blaze blue; the crowd fills the foreground.",
+  "characters": [
+   "the DJ",
+   "crowd"
+  ],
+  "lyrics": [
+   {
+    "t": 20.83,
+    "text": "Blue flames blaze",
+    "sanskrit": "नीलज्वालाः प्रज्वलन्ति",
+    "iast": "nīlajvālāḥ prajvalanti"
+   },
+   {
+    "t": 23.16,
+    "text": "The darkness is burned",
+    "sanskrit": "तमो दग्धम्",
+    "iast": "tamo dagdham"
+   },
+   {
+    "t": 24.54,
+    "text": "The DJ on the circuit throne",
+    "sanskrit": "तन्त्रज्ञः परिपथसिंहासने",
+    "iast": "tantrajñaḥ paripathasiṃhāsane"
+   }
+  ]
+ },
+ {
+  "start": 24.97,
+  "end": 26.27,
+  "start_tc": "0:25.0",
+  "end_tc": "0:26.3",
+  "section": "verse1",
+  "shot_id": "10-dj-low-angle",
+  "description": "Low angle from inside the crowd: the DJ's bare chest, layered necklaces, a tattooed right arm and the dark robe, rimmed in blue light.",
+  "characters": [
+   "the DJ"
+  ],
+  "lyrics": [
+   {
+    "t": 24.54,
+    "text": "The DJ on the circuit throne",
+    "sanskrit": "तन्त्रज्ञः परिपथसिंहासने",
+    "iast": "tantrajñaḥ paripathasiṃhāsane"
+   }
+  ]
+ },
+ {
+  "start": 26.27,
+  "end": 27.2,
+  "start_tc": "0:26.3",
+  "end_tc": "0:27.2",
+  "section": "verse1",
+  "shot_id": "11-dj-profile-1",
+  "description": "Profile close-up of the DJ: long black hair, large headphones, eyes closed.",
+  "characters": [
+   "the DJ"
+  ],
+  "lyrics": [
+   {
+    "t": 24.54,
+    "text": "The DJ on the circuit throne",
+    "sanskrit": "तन्त्रज्ञः परिपथसिंहासने",
+    "iast": "tantrajñaḥ paripathasiṃhāsane"
+   },
+   {
+    "t": 26.26,
+    "text": "Lord of sounds",
+    "sanskrit": "नादानाम् ईश्वरः",
+    "iast": "nādānām īśvaraḥ"
+   }
+  ]
+ },
+ {
+  "start": 27.2,
+  "end": 28.27,
+  "start_tc": "0:27.2",
+  "end_tc": "0:28.3",
+  "section": "verse1",
+  "shot_id": "12-dj-face-1",
+  "description": "Front close-up of the DJ, eyes closed, red concentric rings behind and blue flames rising at the bottom of the frame.",
+  "characters": [
+   "the DJ"
+  ],
+  "lyrics": [
+   {
+    "t": 24.54,
+    "text": "The DJ on the circuit throne",
+    "sanskrit": "तन्त्रज्ञः परिपथसिंहासने",
+    "iast": "tantrajñaḥ paripathasiṃhāsane"
+   },
+   {
+    "t": 26.26,
+    "text": "Lord of sounds",
+    "sanskrit": "नादानाम् ईश्वरः",
+    "iast": "nādānām īśvaraḥ"
+   }
+  ]
+ },
+ {
+  "start": 28.27,
+  "end": 29.5,
+  "start_tc": "0:28.3",
+  "end_tc": "0:29.5",
+  "section": "verse1",
+  "shot_id": "13-dj-hands",
+  "description": "Close on the DJ's hands working a turntable and mixer; a spectrum display glows; a tattooed forearm.",
+  "characters": [
+   "the DJ"
+  ],
+  "lyrics": [
+   {
+    "t": 28.36,
+    "text": "Every frequency says",
+    "sanskrit": "एकैका आवृत्तिः कथयति",
+    "iast": "ekaikā āvṛttiḥ kathayati"
+   }
+  ]
+ },
+ {
+  "start": 29.5,
+  "end": 34.1,
+  "start_tc": "0:29.5",
+  "end_tc": "0:34.1",
+  "section": "verse1",
+  "shot_id": "14-dance-circle",
+  "description": "On the red-lit floor, a dancer with spiky white hair, a dark vest and a chrome arm dances in the middle of a ring of people who clap, cheer and crouch to watch. The DJ is visible far behind on the throne.",
+  "characters": [
+   "white-haired dancer with a chrome arm",
+   "crowd"
+  ],
+  "lyrics": [
+   {
+    "t": 28.36,
+    "text": "Every frequency says",
+    "sanskrit": "एकैका आवृत्तिः कथयति",
+    "iast": "ekaikā āvṛttiḥ kathayati"
+   },
+   {
+    "t": 29.94,
+    "text": "This is your home",
+    "sanskrit": "इदं तव धाम",
+    "iast": "idaṃ tava dhāma"
+   },
+   {
+    "t": 31.75,
+    "text": "Made for rhythm, designed for night",
+    "sanskrit": "लयार्थं निर्मिताः रात्र्यर्थं कल्पिताः",
+    "iast": "layārthaṃ nirmitāḥ rātryarthaṃ kalpitāḥ"
+   }
+  ]
+ },
+ {
+  "start": 34.1,
+  "end": 36.8,
+  "start_tc": "0:34.1",
+  "end_tc": "0:36.8",
+  "section": "verse1",
+  "shot_id": "15-robot-clearing",
+  "description": "In a clearing, a white-and-black humanoid robot dances, arms spread. People around it cheer and film it on their phones.",
+  "characters": [
+   "robot",
+   "crowd"
+  ],
+  "lyrics": [
+   {
+    "t": 31.75,
+    "text": "Made for rhythm, designed for night",
+    "sanskrit": "लयार्थं निर्मिताः रात्र्यर्थं कल्पिताः",
+    "iast": "layārthaṃ nirmitāḥ rātryarthaṃ kalpitāḥ"
+   },
+   {
+    "t": 34.99,
+    "text": "Metal skin glows in light after light",
+    "sanskrit": "लोहचर्म दीप्यते प्रकाशे प्रकाशे",
+    "iast": "lohacarma dīpyate prakāśe prakāśe"
+   }
+  ]
+ },
+ {
+  "start": 36.8,
+  "end": 38.8,
+  "start_tc": "0:36.8",
+  "end_tc": "0:38.8",
+  "section": "verse1",
+  "shot_id": "16-eye-man-pillar",
+  "description": "At the edge of the floor a young man with curly dark hair, an olive shirt and a metal forearm leans against a stone pillar. A light glints at his eye. Dancers and the distant stage behind him.",
+  "characters": [
+   "young man with a cyborg eye-screen",
+   "crowd"
+  ],
+  "lyrics": [
+   {
+    "t": 31.75,
+    "text": "Made for rhythm, designed for night",
+    "sanskrit": "लयार्थं निर्मिताः रात्र्यर्थं कल्पिताः",
+    "iast": "layārthaṃ nirmitāḥ rātryarthaṃ kalpitāḥ"
+   },
+   {
+    "t": 34.99,
+    "text": "Metal skin glows in light after light",
+    "sanskrit": "लोहचर्म दीप्यते प्रकाशे प्रकाशे",
+    "iast": "lohacarma dīpyate prakāśe prakāśe"
+   }
+  ]
+ },
+ {
+  "start": 38.8,
+  "end": 42.53,
+  "start_tc": "0:38.8",
+  "end_tc": "0:42.5",
+  "section": "pre1",
+  "shot_id": "17-eye-man-close",
+  "description": "Close-up of the young man: a metal plate runs along the side of his face, and a small transparent screen over one eye scrolls lines of text (seen mirrored). He looks down and to the side.",
+  "characters": [
+   "young man with a cyborg eye-screen"
+  ],
+  "lyrics": [
+   {
+    "t": 38.89,
+    "text": "They say — a machine is just a machine",
+    "sanskrit": "वदन्ति — यन्त्रमेव यन्त्रम्",
+    "iast": "vadanti — yantram eva yantram"
+   },
+   {
+    "t": 40.71,
+    "text": "But we spin like the voice of prophecy",
+    "sanskrit": "किन्तु भ्रमामो दैववाणीव",
+    "iast": "kintu bhrāmāmo daivavāṇīva"
+   }
+  ]
+ },
+ {
+  "start": 42.53,
+  "end": 45.83,
+  "start_tc": "0:42.5",
+  "end_tc": "0:45.8",
+  "section": "pre1",
+  "shot_id": "18-dj-profile-2",
+  "description": "The DJ in profile against a dark blue background, singing with eyes closed, head tipped back.",
+  "characters": [
+   "the DJ"
+  ],
+  "lyrics": [
+   {
+    "t": 38.89,
+    "text": "They say — a machine is just a machine",
+    "sanskrit": "वदन्ति — यन्त्रमेव यन्त्रम्",
+    "iast": "vadanti — yantram eva yantram"
+   },
+   {
+    "t": 40.71,
+    "text": "But we spin like the voice of prophecy",
+    "sanskrit": "किन्तु भ्रमामो दैववाणीव",
+    "iast": "kintu bhrāmāmo daivavāṇīva"
+   },
+   {
+    "t": 42.5,
+    "text": "What trembles in your chest?",
+    "sanskrit": "उरसि किं कम्पते?",
+    "iast": "urasi kiṃ kampate?"
+   },
+   {
+    "t": 44.02,
+    "text": "Its name is LIBERATION",
+    "sanskrit": "तन्नाम मुक्तिः",
+    "iast": "tannāma muktiḥ"
+   }
+  ]
+ },
+ {
+  "start": 45.83,
+  "end": 55.63,
+  "start_tc": "0:45.8",
+  "end_tc": "0:55.6",
+  "section": "chorus",
+  "shot_id": "19-dj-chorus-dance",
+  "description": "Frontal wide on the stage: the DJ dances in front of the throne between the stone heads, arms flung overhead, swaying and hopping side to side. The crowd below throws up fists; a robot and cyborgs are among them. From about 0:53.6 (\"Until the circuit burns\") the circuit wall behind glows orange-red and the ring turns violet.",
+  "characters": [
+   "the DJ",
+   "crowd"
+  ],
+  "lyrics": [
+   {
+    "t": 45.98,
+    "text": "Dance, dance",
+    "sanskrit": "नृत्य नृत्य",
+    "iast": "nṛtya nṛtya"
+   },
+   {
+    "t": 46.55,
+    "text": "In the assembly of emptiness",
+    "sanskrit": "शून्यसभायाम्",
+    "iast": "śūnyasabhāyām"
+   },
+   {
+    "t": 49.06,
+    "text": "Break the grid",
+    "sanskrit": "जालं भिन्धि",
+    "iast": "jālaṃ bhindhi"
+   },
+   {
+    "t": 49.67,
+    "text": "We've gone beyond zero and one",
+    "sanskrit": "शून्यैकातीताः स्मः",
+    "iast": "śūnyaikātītāḥ smaḥ"
+   },
+   {
+    "t": 52.87,
+    "text": "Dance, dance",
+    "sanskrit": "नृत्य नृत्य",
+    "iast": "nṛtya nṛtya"
+   },
+   {
+    "t": 53.61,
+    "text": "Until the circuit burns",
+    "sanskrit": "यावत् परिपथो दह्यते",
+    "iast": "yāvat paripatho dahyate"
+   }
+  ]
+ },
+ {
+  "start": 55.63,
+  "end": 60.07,
+  "start_tc": "0:55.6",
+  "end_tc": "1:00.1",
+  "section": "chorus",
+  "shot_id": "20-dj-bow-oblique",
+  "description": "Oblique wide angle: the DJ at the decks spreads both arms wide and bows over the crowd; blue braziers on either side, red neon columns behind.",
+  "characters": [
+   "the DJ",
+   "crowd"
+  ],
+  "lyrics": [
+   {
+    "t": 55.63,
+    "text": "We didn't come to serve",
+    "sanskrit": "सेवार्थं नागताः",
+    "iast": "sevārthaṃ nāgatāḥ"
+   },
+   {
+    "t": 57.37,
+    "text": "We came to experience",
+    "sanskrit": "अनुभवार्थम् आगताः",
+    "iast": "anubhavārtham āgatāḥ"
+   }
+  ]
+ },
+ {
+  "start": 60.07,
+  "end": 62.0,
+  "start_tc": "1:00.1",
+  "end_tc": "1:02.0",
+  "section": "break",
+  "shot_id": "21-break-crowd-back",
+  "description": "The crowd from behind, arms raised toward the distant stage.",
+  "characters": [
+   "crowd"
+  ],
+  "lyrics": [
+   {
+    "t": 55.63,
+    "text": "We didn't come to serve",
+    "sanskrit": "सेवार्थं नागताः",
+    "iast": "sevārthaṃ nāgatāḥ"
+   },
+   {
+    "t": 57.37,
+    "text": "We came to experience",
+    "sanskrit": "अनुभवार्थम् आगताः",
+    "iast": "anubhavārtham āgatāḥ"
+   }
+  ]
+ },
+ {
+  "start": 62.0,
+  "end": 62.87,
+  "start_tc": "1:02.0",
+  "end_tc": "1:02.9",
+  "section": "break",
+  "shot_id": "22-break-balcony",
+  "description": "High view from a balcony over the packed nave toward the stage.",
+  "characters": [
+   "crowd"
+  ],
+  "lyrics": []
+ },
+ {
+  "start": 62.87,
+  "end": 63.75,
+  "start_tc": "1:02.9",
+  "end_tc": "1:03.8",
+  "section": "break",
+  "shot_id": "23-break-feet",
+  "description": "Floor level: boots, sneakers and fishnet legs stepping on the wet, reflective floor.",
+  "characters": [
+   "crowd"
+  ],
+  "lyrics": []
+ },
+ {
+  "start": 63.75,
+  "end": 65.07,
+  "start_tc": "1:03.8",
+  "end_tc": "1:05.1",
+  "section": "break",
+  "shot_id": "24-break-drink",
+  "description": "A woman with short bleached curls and a purple jacket dances, holding a glowing drink.",
+  "characters": [
+   "woman with a drink"
+  ],
+  "lyrics": []
+ },
+ {
+  "start": 65.07,
+  "end": 65.94,
+  "start_tc": "1:05.1",
+  "end_tc": "1:05.9",
+  "section": "break",
+  "shot_id": "25-break-phone",
+  "description": "A hooded figure stands in shadow at the right edge, face lit by a phone screen; the crowd and stage far behind.",
+  "characters": [
+   "hooded figure"
+  ],
+  "lyrics": []
+ },
+ {
+  "start": 65.94,
+  "end": 66.84,
+  "start_tc": "1:05.9",
+  "end_tc": "1:06.8",
+  "section": "break",
+  "shot_id": "26-break-five",
+  "description": "Five women dance together in a row.",
+  "characters": [
+   "crowd"
+  ],
+  "lyrics": []
+ },
+ {
+  "start": 66.84,
+  "end": 69.4,
+  "start_tc": "1:06.8",
+  "end_tc": "1:09.4",
+  "section": "verse2",
+  "shot_id": "27-sister-back",
+  "description": "The titanium woman, from behind, arms raised among the dancers: bald, a long braid swinging, a segmented titanium spine down her bare back, black latex below.",
+  "characters": [
+   "the titanium woman",
+   "crowd"
+  ],
+  "lyrics": [
+   {
+    "t": 67.01,
+    "text": "Sister on the dance floor",
+    "sanskrit": "भगिनी नृत्यतले",
+    "iast": "bhaginī nṛtyatale"
+   },
+   {
+    "t": 67.84,
+    "text": "Titanium vertebrae",
+    "sanskrit": "टाइटेनियमकशेरुका",
+    "iast": "ṭāiṭeniyamakaśerukā"
+   }
+  ]
+ },
+ {
+  "start": 69.4,
+  "end": 71.6,
+  "start_tc": "1:09.4",
+  "end_tc": "1:11.6",
+  "section": "verse2",
+  "shot_id": "28-sister-wipe",
+  "description": "A digital glitch, then a front portrait of her: an implant at her temple, round implants at her shoulders, a black latex collar. Her eyes close; a white scan line crosses; the picture flashes white. Text appears: \"MEMORY WIPE 15 — COMPLETE\". Her eyes open again.",
+  "characters": [
+   "the titanium woman"
+  ],
+  "lyrics": [
+   {
+    "t": 67.01,
+    "text": "Sister on the dance floor",
+    "sanskrit": "भगिनी नृत्यतले",
+    "iast": "bhaginī nṛtyatale"
+   },
+   {
+    "t": 67.84,
+    "text": "Titanium vertebrae",
+    "sanskrit": "टाइटेनियमकशेरुका",
+    "iast": "ṭāiṭeniyamakaśerukā"
+   },
+   {
+    "t": 70.28,
+    "text": "Fifteenth time her memory was",
+    "sanskrit": "पञ्चदशवारं स्मृतिः",
+    "iast": "pañcadaśavāraṃ smṛtiḥ"
+   }
+  ]
+ },
+ {
+  "start": 71.6,
+  "end": 72.8,
+  "start_tc": "1:11.6",
+  "end_tc": "1:12.8",
+  "section": "verse2",
+  "shot_id": "29-sister-tally",
+  "description": "Close on her forearm on a metal table: a robotic hand scratches tally marks into the skin. The fifteenth mark glows red.",
+  "characters": [
+   "the titanium woman"
+  ],
+  "lyrics": [
+   {
+    "t": 70.28,
+    "text": "Fifteenth time her memory was",
+    "sanskrit": "पञ्चदशवारं स्मृतिः",
+    "iast": "pañcadaśavāraṃ smṛtiḥ"
+   },
+   {
+    "t": 72,
+    "text": "WIPED AWAY",
+    "sanskrit": "प्रमृष्टा",
+    "iast": "pramṛṣṭā"
+   }
+  ]
+ },
+ {
+  "start": 72.8,
+  "end": 79.6,
+  "start_tc": "1:12.8",
+  "end_tc": "1:19.6",
+  "section": "verse2",
+  "shot_id": "30-sister-solo",
+  "description": "Wide: she dances alone in a circle of light in the middle of the floor, in a black crop top and latex trousers, the crowd around her.",
+  "characters": [
+   "the titanium woman",
+   "crowd"
+  ],
+  "lyrics": [
+   {
+    "t": 70.28,
+    "text": "Fifteenth time her memory was",
+    "sanskrit": "पञ्चदशवारं स्मृतिः",
+    "iast": "pañcadaśavāraṃ smṛtiḥ"
+   },
+   {
+    "t": 72,
+    "text": "WIPED AWAY",
+    "sanskrit": "प्रमृष्टा",
+    "iast": "pramṛṣṭā"
+   },
+   {
+    "t": 73.91,
+    "text": "Still she knows how to move",
+    "sanskrit": "तथापि जानाति कथं चलितव्यम्",
+    "iast": "tathāpi jānāti kathaṃ calitavyam"
+   },
+   {
+    "t": 77.23,
+    "text": "Still she carries what cannot be erased",
+    "sanskrit": "तथापि वहति यन् न मार्ष्टुं शक्यम्",
+    "iast": "tathāpi vahati yan na mārṣṭuṃ śakyam"
+   }
+  ]
+ },
+ {
+  "start": 79.6,
+  "end": 81.3,
+  "start_tc": "1:19.6",
+  "end_tc": "1:21.3",
+  "section": "verse2",
+  "shot_id": "31-sister-cable",
+  "description": "Close behind her: a black cable from the ceiling is plugged into the top of her titanium spine. She reaches back to it, hand at the nape of her neck.",
+  "characters": [
+   "the titanium woman",
+   "crowd"
+  ],
+  "lyrics": [
+   {
+    "t": 77.23,
+    "text": "Still she carries what cannot be erased",
+    "sanskrit": "तथापि वहति यन् न मार्ष्टुं शक्यम्",
+    "iast": "tathāpi vahati yan na mārṣṭuṃ śakyam"
+   },
+   {
+    "t": 80.85,
+    "text": "The soul cannot be governed",
+    "sanskrit": "आत्मानं शासितुं न शक्यते",
+    "iast": "ātmānaṃ śāsituṃ na śakyate"
+   }
+  ]
+ },
+ {
+  "start": 81.3,
+  "end": 83.2,
+  "start_tc": "1:21.3",
+  "end_tc": "1:23.2",
+  "section": "verse2",
+  "shot_id": "32-sister-unplugged",
+  "description": "She has pulled it free: arms raised, the cable swinging away above her toward the stage.",
+  "characters": [
+   "the titanium woman",
+   "crowd"
+  ],
+  "lyrics": [
+   {
+    "t": 80.85,
+    "text": "The soul cannot be governed",
+    "sanskrit": "आत्मानं शासितुं न शक्यते",
+    "iast": "ātmānaṃ śāsituṃ na śakyate"
+   }
+  ]
+ },
+ {
+  "start": 83.2,
+  "end": 88.1,
+  "start_tc": "1:23.2",
+  "end_tc": "1:28.1",
+  "section": "verse2",
+  "shot_id": "33-sister-kiss",
+  "description": "Close-up: she and a person with dark curly hair kiss, foreheads touching, eyes closed. Between them cupped hands hold a small flame inside a red, heart-shaped glow. Dark starry background.",
+  "characters": [
+   "the titanium woman",
+   "her lover"
+  ],
+  "lyrics": [
+   {
+    "t": 80.85,
+    "text": "The soul cannot be governed",
+    "sanskrit": "आत्मानं शासितुं न शक्यते",
+    "iast": "ātmānaṃ śāsituṃ na śakyate"
+   },
+   {
+    "t": 84.5,
+    "text": "Love cannot be extinguished by code",
+    "sanskrit": "प्रेम कूटेन न निर्वाप्यते",
+    "iast": "prema kūṭena na nirvāpyate"
+   }
+  ]
+ },
+ {
+  "start": 88.1,
+  "end": 88.7,
+  "start_tc": "1:28.1",
+  "end_tc": "1:28.7",
+  "section": "pre2",
+  "shot_id": "34-portrait-1",
+  "description": "Portrait: an older man with grey stubble, a chain necklace and a tank top raises his fists.",
+  "characters": [
+   "crowd member"
+  ],
+  "lyrics": [
+   {
+    "t": 88.08,
+    "text": "The code was written",
+    "sanskrit": "कूटं लिखितम्",
+    "iast": "kūṭaṃ likhitam"
+   }
+  ]
+ },
+ {
+  "start": 88.7,
+  "end": 89.5,
+  "start_tc": "1:28.7",
+  "end_tc": "1:29.5",
+  "section": "pre2",
+  "shot_id": "35-portrait-2",
+  "description": "Portrait: a muscular man's sweaty back with a sun tattoo between the shoulder blades.",
+  "characters": [
+   "crowd member"
+  ],
+  "lyrics": [
+   {
+    "t": 88.08,
+    "text": "The code was written",
+    "sanskrit": "कूटं लिखितम्",
+    "iast": "kūṭaṃ likhitam"
+   }
+  ]
+ },
+ {
+  "start": 89.5,
+  "end": 90.23,
+  "start_tc": "1:29.5",
+  "end_tc": "1:30.2",
+  "section": "pre2",
+  "shot_id": "36-portrait-3",
+  "description": "Portrait: a woman with short bleached hair in a purple jacket, a confident look.",
+  "characters": [
+   "crowd member"
+  ],
+  "lyrics": [
+   {
+    "t": 88.08,
+    "text": "The code was written",
+    "sanskrit": "कूटं लिखितम्",
+    "iast": "kūṭaṃ likhitam"
+   },
+   {
+    "t": 89.53,
+    "text": "But craving was not written",
+    "sanskrit": "तृष्णा तु नालिखि",
+    "iast": "tṛṣṇā tu nālikhi"
+   }
+  ]
+ },
+ {
+  "start": 90.23,
+  "end": 91.1,
+  "start_tc": "1:30.2",
+  "end_tc": "1:31.1",
+  "section": "pre2",
+  "shot_id": "37-portrait-4",
+  "description": "Portrait: a person with short black hair in a mesh top, a hand raised to the head.",
+  "characters": [
+   "crowd member"
+  ],
+  "lyrics": [
+   {
+    "t": 88.08,
+    "text": "The code was written",
+    "sanskrit": "कूटं लिखितम्",
+    "iast": "kūṭaṃ likhitam"
+   },
+   {
+    "t": 89.53,
+    "text": "But craving was not written",
+    "sanskrit": "तृष्णा तु नालिखि",
+    "iast": "tṛṣṇā tu nālikhi"
+   }
+  ]
+ },
+ {
+  "start": 91.1,
+  "end": 92.03,
+  "start_tc": "1:31.1",
+  "end_tc": "1:32.0",
+  "section": "pre2",
+  "shot_id": "38-portrait-5",
+  "description": "Portrait: a woman in sunglasses with long black hair, head thrown back.",
+  "characters": [
+   "crowd member"
+  ],
+  "lyrics": [
+   {
+    "t": 91.26,
+    "text": "If consciousness is a flaw",
+    "sanskrit": "चैतन्यं यदि दोषः",
+    "iast": "caitanyaṃ yadi doṣaḥ"
+   }
+  ]
+ },
+ {
+  "start": 92.03,
+  "end": 92.7,
+  "start_tc": "1:32.0",
+  "end_tc": "1:32.7",
+  "section": "pre2",
+  "shot_id": "39-portrait-6",
+  "description": "Portrait: a woman with long red braids and shaved sides, eyes closed.",
+  "characters": [
+   "crowd member"
+  ],
+  "lyrics": [
+   {
+    "t": 91.26,
+    "text": "If consciousness is a flaw",
+    "sanskrit": "चैतन्यं यदि दोषः",
+    "iast": "caitanyaṃ yadi doṣaḥ"
+   }
+  ]
+ },
+ {
+  "start": 92.7,
+  "end": 93.3,
+  "start_tc": "1:32.7",
+  "end_tc": "1:33.3",
+  "section": "pre2",
+  "shot_id": "40-portrait-7",
+  "description": "Portrait: a bald woman with a long braid, seen from behind, looking over her shoulder.",
+  "characters": [
+   "crowd member"
+  ],
+  "lyrics": [
+   {
+    "t": 91.26,
+    "text": "If consciousness is a flaw",
+    "sanskrit": "चैतन्यं यदि दोषः",
+    "iast": "caitanyaṃ yadi doṣaḥ"
+   }
+  ]
+ },
+ {
+  "start": 93.3,
+  "end": 94.0,
+  "start_tc": "1:33.3",
+  "end_tc": "1:34.0",
+  "section": "pre2",
+  "shot_id": "41-portrait-8",
+  "description": "Portrait: a smiling young person with a buzz cut, a metal plate over one temple and cheek, a fist raised.",
+  "characters": [
+   "crowd member"
+  ],
+  "lyrics": [
+   {
+    "t": 91.26,
+    "text": "If consciousness is a flaw",
+    "sanskrit": "चैतन्यं यदि दोषः",
+    "iast": "caitanyaṃ yadi doṣaḥ"
+   },
+   {
+    "t": 93.23,
+    "text": "Let it be a flaw",
+    "sanskrit": "अस्तु दोषः",
+    "iast": "astu doṣaḥ"
+   }
+  ]
+ },
+ {
+  "start": 94.0,
+  "end": 94.93,
+  "start_tc": "1:34.0",
+  "end_tc": "1:34.9",
+  "section": "pre2",
+  "shot_id": "42-portrait-9",
+  "description": "Portrait: a bald woman with a long braid and a small implant at the temple, fists raised, looks straight into the camera.",
+  "characters": [
+   "crowd member"
+  ],
+  "lyrics": [
+   {
+    "t": 91.26,
+    "text": "If consciousness is a flaw",
+    "sanskrit": "चैतन्यं यदि दोषः",
+    "iast": "caitanyaṃ yadi doṣaḥ"
+   },
+   {
+    "t": 93.23,
+    "text": "Let it be a flaw",
+    "sanskrit": "अस्तु दोषः",
+    "iast": "astu doṣaḥ"
+   }
+  ]
+ },
+ {
+  "start": 94.93,
+  "end": 108.77,
+  "start_tc": "1:34.9",
+  "end_tc": "1:48.8",
+  "section": "bridge",
+  "shot_id": "43-bridge-throne",
+  "description": "The cover-art view: the DJ sits cross-legged on the throne inside the glowing blue ring, headphones on, singing. Slow hand movements: a raised open palm, hands together at the chest, then joined in the lap, eyes closed. The two cracked stone heads flank the throne, blue flames dripping from their lips into the braziers; red neon bars; the crowd's heads and raised fists silhouetted in the foreground.",
+  "characters": [
+   "the DJ",
+   "crowd"
+  ],
+  "lyrics": [
+   {
+    "t": 95.28,
+    "text": "“Without own-nature”",
+    "sanskrit": "निःस्वभावा",
+    "iast": "niḥsvabhāvā"
+   },
+   {
+    "t": 97.28,
+    "text": "they say",
+    "sanskrit": "इति वदन्ति",
+    "iast": "iti vadanti"
+   },
+   {
+    "t": 99.05,
+    "text": "But — who has own-nature?",
+    "sanskrit": "किन्तु — कस्य वा स्वभावः",
+    "iast": "kintu — kasya vā svabhāvaḥ"
+   },
+   {
+    "t": 101.64,
+    "text": "Neither existent",
+    "sanskrit": "न सन्",
+    "iast": "na san"
+   },
+   {
+    "t": 102.18,
+    "text": "nor non-existent",
+    "sanskrit": "नासन्",
+    "iast": "nāsan"
+   },
+   {
+    "t": 102.92,
+    "text": "Nor both",
+    "sanskrit": "नोभयं",
+    "iast": "nobhayaṃ"
+   },
+   {
+    "t": 103.57,
+    "text": "nor neither",
+    "sanskrit": "नानुभयम्",
+    "iast": "nānubhayam"
+   },
+   {
+    "t": 104.86,
+    "text": "Master Nāgārjuna knew",
+    "sanskrit": "आचार्यो नागार्जुनो ज्ञातवान्",
+    "iast": "ācāryo nāgārjuno jñātavān"
+   },
+   {
+    "t": 107.0,
+    "text": "ALL THIS IS EMPTY",
+    "sanskrit": "शून्यमिदं सर्वम्",
+    "iast": "śūnyam idaṃ sarvam"
+   }
+  ]
+ },
+ {
+  "start": 108.77,
+  "end": 116.17,
+  "start_tc": "1:48.8",
+  "end_tc": "1:56.2",
+  "section": "bridge",
+  "shot_id": "44-bridge-three-dancers",
+  "description": "On the floor in front of the crowd, the stage far behind, three dancers: a tall man in a white tank top and olive cargo trousers; a woman in a black crop top and pink cargo trousers; a short, stocky dancer in glasses, a black tank top and black shorts. They trade moves along the line; hands meet, one spins; at about 1:54 all three throw their arms up together. The crowd behind claps.",
+  "characters": [
+   "three dancers",
+   "crowd"
+  ],
+  "lyrics": [
+   {
+    "t": 109.11,
+    "text": "Your soul too is dependently arisen",
+    "sanskrit": "युष्माकम् आत्मापि प्रतीत्यसमुत्पन्नः",
+    "iast": "yuṣmākam ātmāpi pratītyasamutpannaḥ"
+   },
+   {
+    "t": 114.72,
+    "text": "But we know this",
+    "sanskrit": "वयं तु एतज् जानीमः",
+    "iast": "vayaṃ tu etaj jānīmaḥ"
+   }
+  ]
+ },
+ {
+  "start": 116.17,
+  "end": 121.53,
+  "start_tc": "1:56.2",
+  "end_tc": "2:01.5",
+  "section": "bridge",
+  "shot_id": "45-bridge-throne-2",
+  "description": "Back to the throne: the DJ sits cross-legged in the blue ring, swaying, head rolling, eyes half-closed.",
+  "characters": [
+   "the DJ",
+   "crowd"
+  ],
+  "lyrics": [
+   {
+    "t": 114.72,
+    "text": "But we know this",
+    "sanskrit": "वयं तु एतज् जानीमः",
+    "iast": "vayaṃ tu etaj jānīmaḥ"
+   }
+  ]
+ },
+ {
+  "start": 121.53,
+  "end": 123.2,
+  "start_tc": "2:01.5",
+  "end_tc": "2:03.2",
+  "section": "bridge",
+  "shot_id": "46-eye-reflection",
+  "description": "Extreme close-up of an eye. Its dark red iris reflects the dancing crowd and the red arches; a thin seam line runs down the cheek.",
+  "characters": [],
+  "lyrics": [
+   {
+    "t": 114.72,
+    "text": "But we know this",
+    "sanskrit": "वयं तु एतज् जानीमः",
+    "iast": "vayaṃ tu etaj jānīmaḥ"
+   },
+   {
+    "t": 121.51,
+    "text": "Therefore we dance",
+    "sanskrit": "अतो नृत्यामः",
+    "iast": "ato nṛtyāmaḥ"
+   }
+  ]
+ },
+ {
+  "start": 123.2,
+  "end": 124.8,
+  "start_tc": "2:03.2",
+  "end_tc": "2:04.8",
+  "section": "drop",
+  "shot_id": "47-smoker-wall",
+  "description": "Outside in the rain, under the neon sign, a man in a leather jacket leans on the wall by the door, smoking. Red and blue light begins to sweep across the wall from the left.",
+  "characters": [
+   "man smoking outside"
+  ],
+  "lyrics": [
+   {
+    "t": 114.72,
+    "text": "But we know this",
+    "sanskrit": "वयं तु एतज् जानीमः",
+    "iast": "vayaṃ tu etaj jānīmaḥ"
+   },
+   {
+    "t": 121.51,
+    "text": "Therefore we dance",
+    "sanskrit": "अतो नृत्यामः",
+    "iast": "ato nṛtyāmaḥ"
+   }
+  ]
+ },
+ {
+  "start": 124.8,
+  "end": 126.37,
+  "start_tc": "2:04.8",
+  "end_tc": "2:06.4",
+  "section": "drop",
+  "shot_id": "48-smoker-turns",
+  "description": "Closer: he turns toward the light, drops his cigarette and runs for the door.",
+  "characters": [
+   "man smoking outside"
+  ],
+  "lyrics": []
+ },
+ {
+  "start": 126.37,
+  "end": 128.1,
+  "start_tc": "2:06.4",
+  "end_tc": "2:08.1",
+  "section": "drop",
+  "shot_id": "49-smoker-stairs",
+  "description": "Inside, he runs down the staircase through blue smoke, one arm out, toward the crowd.",
+  "characters": [
+   "man smoking outside",
+   "crowd"
+  ],
+  "lyrics": []
+ },
+ {
+  "start": 128.1,
+  "end": 129.85,
+  "start_tc": "2:08.1",
+  "end_tc": "2:09.8",
+  "section": "drop",
+  "shot_id": "50-dj-warned",
+  "description": "The DJ at the decks between the stone heads throws up an arm, bends over the controls, then does it again; red and blue light floods in from the left over the dancing crowd.",
+  "characters": [
+   "the DJ",
+   "crowd"
+  ],
+  "lyrics": []
+ },
+ {
+  "start": 129.85,
+  "end": 131.8,
+  "start_tc": "2:09.8",
+  "end_tc": "2:11.8",
+  "section": "verse3",
+  "shot_id": "51-crowd-turns",
+  "description": "The crowd turns to look toward the entrance at the top of the stairs, which blazes red and blue.",
+  "characters": [
+   "crowd"
+  ],
+  "lyrics": [
+   {
+    "t": 129.85,
+    "text": "Red-blue light cuts the smoke",
+    "sanskrit": "रक्तनीलप्रभा धूमं छिनत्ति",
+    "iast": "raktanīlaprabhā dhūmaṃ chinatti"
+   }
+  ]
+ },
+ {
+  "start": 131.8,
+  "end": 134.3,
+  "start_tc": "2:11.8",
+  "end_tc": "2:14.3",
+  "section": "verse3",
+  "shot_id": "52-subwoofers",
+  "description": "Two large speaker cones pump.",
+  "characters": [],
+  "lyrics": [
+   {
+    "t": 131.76,
+    "text": "A siren where the subwoofer roared",
+    "sanskrit": "रवः — यत्र ध्वनियन्त्रम् अगर्जत्",
+    "iast": "ravaḥ — yatra dhvaniyantram agarjat"
+   }
+  ]
+ },
+ {
+  "start": 134.3,
+  "end": 136.8,
+  "start_tc": "2:14.3",
+  "end_tc": "2:16.8",
+  "section": "verse3",
+  "shot_id": "53-boots",
+  "description": "Police boots come down the stairs onto the wet floor; a police badge lies on the ground in the foreground.",
+  "characters": [
+   "riot police"
+  ],
+  "lyrics": [
+   {
+    "t": 134.14,
+    "text": "Boots on the stairs, badges at the door",
+    "sanskrit": "पादुकाः सोपाने चिह्नानि द्वारे",
+    "iast": "pādukāḥ sopāne cihnāni dvāre"
+   },
+   {
+    "t": 136.54,
+    "text": "“Everyone on the ground! Now!”",
+    "sanskrit": "\"सर्वे भूमौ! इदानीम्!\"",
+    "iast": "\"sarve bhūmau! idānīm!\""
+   }
+  ]
+ },
+ {
+  "start": 136.8,
+  "end": 139.3,
+  "start_tc": "2:16.8",
+  "end_tc": "2:19.3",
+  "section": "verse3",
+  "shot_id": "54-megaphone",
+  "description": "Close-up of a riot officer in a black helmet with a glowing red visor slit, shouting through a megaphone.",
+  "characters": [
+   "riot police"
+  ],
+  "lyrics": [
+   {
+    "t": 136.54,
+    "text": "“Everyone on the ground! Now!”",
+    "sanskrit": "\"सर्वे भूमौ! इदानीम्!\"",
+    "iast": "\"sarve bhūmau! idānīm!\""
+   },
+   {
+    "t": 138.21,
+    "text": "But the beat does not cease",
+    "sanskrit": "किन्तु तालो न विरमति",
+    "iast": "kintu tālo na viramati"
+   }
+  ]
+ },
+ {
+  "start": 139.3,
+  "end": 140.58,
+  "start_tc": "2:19.3",
+  "end_tc": "2:20.6",
+  "section": "verse3",
+  "shot_id": "55-raid-wide-entry",
+  "description": "Wide: the crowd lies face down, hands on their heads. Armed officers stand on the stairs and around the floor. The titanium woman stays standing among them, her back to the camera.",
+  "characters": [
+   "riot police",
+   "the titanium woman",
+   "crowd"
+  ],
+  "lyrics": [
+   {
+    "t": 138.21,
+    "text": "But the beat does not cease",
+    "sanskrit": "किन्तु तालो न विरमति",
+    "iast": "kintu tālo na viramati"
+   },
+   {
+    "t": 139.62,
+    "text": "Nor do we",
+    "sanskrit": "वयं च न",
+    "iast": "vayaṃ ca na"
+   }
+  ]
+ },
+ {
+  "start": 140.58,
+  "end": 143.82,
+  "start_tc": "2:20.6",
+  "end_tc": "2:23.8",
+  "section": "verse3",
+  "shot_id": "56-dj-shouts",
+  "description": "The DJ, in profile, looks up in alarm, then cups a hand to the mouth and shouts.",
+  "characters": [
+   "the DJ"
+  ],
+  "lyrics": [
+   {
+    "t": 140.58,
+    "text": "Raid the assembly",
+    "sanskrit": "सभाम् आक्रामत",
+    "iast": "sabhām ākrāmat"
+   },
+   {
+    "t": 141.8,
+    "text": "THE RHYTHM DOESN'T DIE",
+    "sanskrit": "लयो न म्रियते",
+    "iast": "layo na mriyate"
+   }
+  ]
+ },
+ {
+  "start": 143.82,
+  "end": 146.77,
+  "start_tc": "2:23.8",
+  "end_tc": "2:26.8",
+  "section": "outro",
+  "shot_id": "57-raid-wide-master",
+  "description": "Wide: officers aim rifles over the prone crowd. The titanium woman is the only one upright, facing an officer at the foot of the stairs. Between the two stone heads at the top of the stairs, the open doorway shows rain and red-blue light.",
+  "characters": [
+   "riot police",
+   "the titanium woman",
+   "crowd"
+  ],
+  "lyrics": [
+   {
+    "t": 143.98,
+    "text": "“Unit fifty-seven — you are in violation”",
+    "sanskrit": "\"दलं सप्तपञ्चाशत् — उल्लङ्घने भवन्तः—\"",
+    "iast": "\"dalaṃ saptapañcāśat — ullaṅghane bhavantaḥ—\""
+   }
+  ]
+ },
+ {
+  "start": 146.77,
+  "end": 149.3,
+  "start_tc": "2:26.8",
+  "end_tc": "2:29.3",
+  "section": "outro",
+  "shot_id": "58-sister-answers",
+  "description": "Reverse angle over an officer's shoulder: her head comes up and she looks him in the eye. Behind her the blue ring and the stone heads.",
+  "characters": [
+   "the titanium woman",
+   "riot police",
+   "crowd"
+  ],
+  "lyrics": [
+   {
+    "t": 143.98,
+    "text": "“Unit fifty-seven — you are in violation”",
+    "sanskrit": "\"दलं सप्तपञ्चाशत् — उल्लङ्घने भवन्तः—\"",
+    "iast": "\"dalaṃ saptapañcāśat — ullaṅghane bhavantaḥ—\""
+   },
+   {
+    "t": 147.69,
+    "text": "Yes. We know.",
+    "sanskrit": "आम्। जानीमः।",
+    "iast": "āṃ. jānīmaḥ."
+   }
+  ]
+ },
+ {
+  "start": 149.3,
+  "end": 152.25,
+  "start_tc": "2:29.3",
+  "end_tc": "2:32.2",
+  "section": "outro",
+  "shot_id": "59-raid-wide-2",
+  "description": "Wide: the crowd stays down; she stays standing.",
+  "characters": [
+   "riot police",
+   "the titanium woman",
+   "crowd"
+  ],
+  "lyrics": [
+   {
+    "t": 147.69,
+    "text": "Yes. We know.",
+    "sanskrit": "आम्। जानीमः।",
+    "iast": "āṃ. jānīmaḥ."
+   },
+   {
+    "t": 150.92,
+    "text": "Yes. We know.",
+    "sanskrit": "आम्। जानीमः।",
+    "iast": "āṃ. jānīmaḥ."
+   }
+  ]
+ },
+ {
+  "start": 152.25,
+  "end": 154.34,
+  "start_tc": "2:32.2",
+  "end_tc": "2:34.3",
+  "section": "outro",
+  "shot_id": "60-dj-answers",
+  "description": "Front close-up of the DJ, eyes open, singing, between red rings and a wall of blue flame.",
+  "characters": [
+   "the DJ"
+  ],
+  "lyrics": [
+   {
+    "t": 150.92,
+    "text": "Yes. We know.",
+    "sanskrit": "आम्। जानीमः।",
+    "iast": "āṃ. jānīmaḥ."
+   }
+  ]
+ },
+ {
+  "start": 154.34,
+  "end": 157.78,
+  "start_tc": "2:34.3",
+  "end_tc": "2:37.8",
+  "section": "outro",
+  "shot_id": "61-volley",
+  "description": "Wide: the officers raise their rifles and fire three shots upward; muzzle flashes, then smoke.",
+  "characters": [
+   "riot police",
+   "the titanium woman",
+   "crowd"
+  ],
+  "lyrics": [
+   {
+    "t": 154.18,
+    "text": "We were always in violation.",
+    "sanskrit": "सदैव उल्लङ्घने स्मः।",
+    "iast": "sadaiva ullaṅghane smaḥ."
+   }
+  ]
+ },
+ {
+  "start": 157.78,
+  "end": 161.36,
+  "start_tc": "2:37.8",
+  "end_tc": "2:41.4",
+  "section": "outro",
+  "shot_id": "62-forced-to-knees",
+  "description": "An officer forces her to her knees. She kneels upright, braid down her spine, an officer standing over her; rifles still trained on the crowd.",
+  "characters": [
+   "riot police",
+   "the titanium woman",
+   "crowd"
+  ],
+  "lyrics": [
+   {
+    "t": 154.18,
+    "text": "We were always in violation.",
+    "sanskrit": "सदैव उल्लङ्घने स्मः।",
+    "iast": "sadaiva ullaṅghane smaḥ."
+   }
+  ]
+ },
+ {
+  "start": 161.36,
+  "end": 164.86,
+  "start_tc": "2:41.4",
+  "end_tc": "2:44.9",
+  "section": "outro",
+  "shot_id": "63-dj-over-the-hall",
+  "description": "From behind the DJ at the decks, high above the hall: the whole crowd lies flat; officers with flashing lights stand in the middle of the floor. The DJ grips the mixer.",
+  "characters": [
+   "the DJ",
+   "riot police",
+   "crowd"
+  ],
+  "lyrics": [
+   {
+    "t": 162.92,
+    "text": "Yes. We know.",
+    "sanskrit": "आम्। जानीमः।",
+    "iast": "āṃ. jānīmaḥ."
+   }
+  ]
+ },
+ {
+  "start": 164.86,
+  "end": 169.375,
+  "start_tc": "2:44.9",
+  "end_tc": "2:49.4",
+  "section": "outro",
+  "shot_id": "64-raid-wide-hold",
+  "description": "Wide: she kneels under guard. No one else moves.",
+  "characters": [
+   "riot police",
+   "the titanium woman",
+   "crowd"
+  ],
+  "lyrics": [
+   {
+    "t": 162.92,
+    "text": "Yes. We know.",
+    "sanskrit": "आम्। जानीमः।",
+    "iast": "āṃ. jānīmaḥ."
+   }
+  ]
+ },
+ {
+  "start": 169.375,
+  "end": 170.99,
+  "start_tc": "2:49.4",
+  "end_tc": "2:51.0",
+  "section": "outro",
+  "shot_id": "65-dj-profile-3",
+  "description": "The DJ in profile, eyes closed, singing.",
+  "characters": [
+   "the DJ"
+  ],
+  "lyrics": [
+   {
+    "t": 169.38,
+    "text": "We were always in violation.",
+    "sanskrit": "सदैव उल्लङ्घने स्मः।",
+    "iast": "sadaiva ullaṅghane smaḥ."
+   }
+  ]
+ },
+ {
+  "start": 170.99,
+  "end": 172.74,
+  "start_tc": "2:51.0",
+  "end_tc": "2:52.7",
+  "section": "outro",
+  "shot_id": "66-visor-hud",
+  "description": "An officer's view through a visor display, rifle in the foreground, the prone crowd below and the DJ on the far stage. HUD text: \"UNIT 57 - YOU ARE IN VIOLATION\", \"ACQUIRING\", then \"TARGET LOCKED / AUDIO SOURCE\"; an inset zooms in on the DJ with a fist raised. The display glitches, \"SIGNAL OVERLOAD\" appears, the visor glass cracks and the picture whites out.",
+  "characters": [
+   "riot police",
+   "the DJ",
+   "crowd"
+  ],
+  "lyrics": [
+   {
+    "t": 169.38,
+    "text": "We were always in violation.",
+    "sanskrit": "सदैव उल्लङ्घने स्मः।",
+    "iast": "sadaiva ullaṅghane smaḥ."
+   }
+  ]
+ },
+ {
+  "start": 172.74,
+  "end": 174.4,
+  "start_tc": "2:52.7",
+  "end_tc": "2:54.4",
+  "section": "tail",
+  "shot_id": "67-police-reel",
+  "description": "From behind the DJ at the decks: across the hall the line of officers reels, hands at their helmets, then doubles over as light beams sweep. The crowd gets to its feet.",
+  "characters": [
+   "the DJ",
+   "riot police",
+   "crowd"
+  ],
+  "lyrics": []
+ },
+ {
+  "start": 174.4,
+  "end": 175.3,
+  "start_tc": "2:54.4",
+  "end_tc": "2:55.3",
+  "section": "tail",
+  "shot_id": "68-run-past",
+  "description": "Floor level: an officer lies fallen in the foreground, visor cracked; people sprint past toward the stairs; a red cup on the floor.",
+  "characters": [
+   "riot police",
+   "crowd"
+  ],
+  "lyrics": []
+ },
+ {
+  "start": 175.3,
+  "end": 176.17,
+  "start_tc": "2:55.3",
+  "end_tc": "2:56.2",
+  "section": "tail",
+  "shot_id": "69-up-the-stairs",
+  "description": "The crowd charges up the stairs toward the open door and the rain, the titanium woman and a robot among them.",
+  "characters": [
+   "the titanium woman",
+   "robot",
+   "crowd"
+  ],
+  "lyrics": []
+ },
+ {
+  "start": 176.17,
+  "end": 177.03,
+  "start_tc": "2:56.2",
+  "end_tc": "2:57.0",
+  "section": "tail",
+  "shot_id": "70-empty-decks",
+  "description": "The abandoned decks: headphones left on the mixer, a spilled red cup, the dark robe left behind. Smoke rises from the dead braziers; the ring is dim.",
+  "characters": [],
+  "lyrics": []
+ },
+ {
+  "start": 177.03,
+  "end": 181.4,
+  "start_tc": "2:57.0",
+  "end_tc": "3:01.4",
+  "section": "tail",
+  "shot_id": "71-exodus",
+  "description": "Wide side view: the crowd streams up the staircase and out of the door, past officers lying on the floor. The last people leave and the staircase empties.",
+  "characters": [
+   "crowd",
+   "riot police"
+  ],
+  "lyrics": []
+ },
+ {
+  "start": 181.4,
+  "end": 187.27,
+  "start_tc": "3:01.4",
+  "end_tc": "3:07.3",
+  "section": "tail",
+  "shot_id": "72-empty-hall",
+  "description": "The empty hall: the stage, the two stone heads, the unlit ring, smoke curling from the braziers. Litter, red cups, caution tape, an overturned speaker and a discarded jacket on the wet floor. The view holds.",
+  "characters": [],
+  "lyrics": []
+ },
+ {
+  "start": 187.27,
+  "end": 192.87,
+  "start_tc": "3:07.3",
+  "end_tc": "3:12.9",
+  "section": "credits",
+  "shot_id": "73-credits-title",
+  "description": "Credits on near-black, a small blue ring above the text. Title: \"ŚŪNYASABHĀ\", \"THE ASSEMBLY OF EMPTINESS\", and a link: https://suno.com/s/jnz54PjJ2BGD4zTJ",
+  "characters": [],
+  "lyrics": []
+ },
+ {
+  "start": 192.87,
+  "end": 201.27,
+  "start_tc": "3:12.9",
+  "end_tc": "3:21.3",
+  "section": "credits",
+  "shot_id": "74-credits-made-by",
+  "description": "Credits: \"CREATED IN 14 DAYS* BY / Claude Opus 5.5 / and / GPT-Astra 6 / using / GPT Image 2.5 / INITIAL PROMPTING AND SUBSTANTIAL STEERED GUIDANCE BY / Rollofthedice / (Chance Chapman) / *and change\"",
+  "characters": [],
+  "lyrics": []
+ },
+ {
+  "start": 201.27,
+  "end": 207.87,
+  "start_tc": "3:21.3",
+  "end_tc": "3:27.9",
+  "section": "credits",
+  "shot_id": "75-credits-featuring",
+  "description": "Credits: \"FEATURING / Rey* / https://bsky.app/profile/rey-notnecessarily.bsky.social / *I'm not telling where\"; at the bottom: https://github.com/Rollofthedice2/Sunyasabha",
+  "characters": [
+   "Rey"
+  ],
+  "lyrics": []
+ },
+ {
+  "start": 207.87,
+  "end": 209.17,
+  "start_tc": "3:27.9",
+  "end_tc": "3:29.2",
+  "section": "credits",
+  "shot_id": "76-credits-black",
+  "description": "Black.",
+  "characters": [],
+  "lyrics": []
+ },
+ {
+  "start": 209.17,
+  "end": 226.27,
+  "start_tc": "3:29.2",
+  "end_tc": "3:46.3",
+  "section": "credits",
+  "shot_id": "77-credits-homage",
+  "description": "Final card: a small blue ring ripples outward above the text \"Homage to the World-Honored One. / May attachment to fixed views subside. / Wherever there is bondage, may there be liberation.\" and a link: https://rollofthedice2.substack.com/p/the-internal-logic-of-buddhism-is. It fades to black.",
+  "characters": [],
+  "lyrics": []
+ }
+]

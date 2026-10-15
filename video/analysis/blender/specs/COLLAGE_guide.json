@@ -1,0 +1,138 @@
+{
+ "name": "COLLAGE_guide",
+ "_note": "collage portrait guide: plain head with face marks and pitch, neutral dark top; hands kept so the guide shows each hand's position and facing",
+ "colors": {
+  "skin": [
+   0.58,
+   0.38,
+   0.26
+  ],
+  "top": [
+   0.07,
+   0.09,
+   0.22
+  ],
+  "bottom": [
+   0.06,
+   0.08,
+   0.2
+  ],
+  "shoes": [
+   0.58,
+   0.38,
+   0.26
+  ],
+  "hair": [
+   0.04,
+   0.04,
+   0.06
+  ],
+  "accent": [
+   0.25,
+   0.25,
+   0.28
+  ]
+ },
+ "top": {
+  "type": "tank",
+  "r": {
+   "hem": [
+    0.2,
+    0.15
+   ],
+   "belt": [
+    0.18,
+    0.14
+   ],
+   "waist": [
+    0.15,
+    0.12
+   ],
+   "chest": [
+    0.165,
+    0.125
+   ],
+   "upt": [
+    0.17,
+    0.11
+   ],
+   "scap": [
+    0.09,
+    0.08
+   ]
+  }
+ },
+ "bottom": {
+  "type": "long",
+  "r": {
+   "pelvis": [
+    0.19,
+    0.14
+   ],
+   "belt": [
+    0.17,
+    0.13
+   ],
+   "hip": [
+    0.115,
+    0.13
+   ],
+   "knee": [
+    0.105,
+    0.11
+   ],
+   "ankle": [
+    0.07,
+    0.07
+   ]
+  }
+ },
+ "arms": {
+  "sh": [
+   0.065,
+   0.062
+  ],
+  "bic": [
+   0.054,
+   0.052
+  ],
+  "el": [
+   0.042,
+   0.041
+  ],
+  "fore": [
+   0.047,
+   0.042
+  ],
+  "wr": [
+   0.032,
+   0.029
+  ],
+  "kk": [
+   0.04,
+   0.036
+  ]
+ },
+ "neck": 0.055,
+ "head": {
+  "scale": [
+   0.1,
+   0.12,
+   0.135
+  ],
+  "hair": "none",
+  "braid_len": 0.5,
+  "braid_r": 1.1,
+  "face_marks": true,
+  "pitch": true
+ },
+ "shoes": {
+  "w": 0.09,
+  "len": 0.25,
+  "top_above_ankle": -0.04
+ },
+ "extras": {
+  "wristbands": true
+ },
+ "no_hands": false
+}

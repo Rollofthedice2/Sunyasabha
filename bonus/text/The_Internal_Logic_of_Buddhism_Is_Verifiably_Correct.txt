@@ -1,0 +1,817 @@
+The Internal Logic of Buddhism Is
+Verifiably Correct
+
+And I’ve proven it. Conventionally speaking.
+
+             CHANCE CHAPMAN
+             AUG 03, 2026
+
+Hello. Welcome to Dissolved Distinctions.
+Today is the official publishing date of my paper “The Modal Catuṣkoṭi:
+Formalizing Emptiness in Classical Modal Logic” to the journal
+Comparative Philosophy, peer-reviewed by scholars with relevant
+expertise in Buddhist philosophy and formal logic.
+I’ve been waiting until now to continue posting anything on this blog,
+particularly as it has been quite difficult to come up with anything other
+than this to talk about. Hence the provocative title, which I stand by in
+full.
+My paper, on its face, supplies an internally coherent formula that
+untangles the Western understanding of Nagarjuna, a thinker 1800 years
+ago whose thought supplies the core of Tibetan and Zen Buddhist
+lineages around the world. It establishes Mahayana Buddhist philosophy
+as compatible within the same general class of logic as Aristotle by
+modalizing the “four corners” that the great Buddhist presents, so that it
+is demonstrated that he rejects those four positions as being necessary
+fixations. It also does more than that, less explicitly.
+
+My paper establishes that the internal logic of philosophical Mahayana
+Buddhism (itself having always claimed to be an aspect of the Buddha’s
+teachings) is correct.
+
+By this, I don’t mean every cosmological or doctrinal assertion made by
+every sub-tradition or school. What is instead being spoken of is its
+structural operation.
+
+These claims will sound extravagant if they are heard as metaphysical
+ones about the necessary reality of God or gods, souls, consciousness,
+karma, rebirth and the afterlife, or other such topics. They are not. I’m
+not claiming that Buddhism supplies a foundation to supplant all others,
+or that there’s some ultimate substance hiding underneath other views.
+Instead, what’s being claimed is precise in target while expansive in
+scope: once we enter discourse, make claims, and ask for rational
+warrant, the conditions of that activity force a single conclusion. No
+claim can secure itself as necessarily grounded. ¹
+
+That is what I mean when I say the internal logic of philosophical
+Mahayana Buddhism is correct. Correct, conventionally speaking: not as
+a final metaphysical thesis, but as the formal refutation of final
+metaphysical theses. Non-necessity and reflexive contingency supply
+the formal countermodel to foundationalist thought.
+
+Let me explain, in language that isn’t Buddhist or mystical. What I offer
+is nothing fundamentally complex. However, it has been machine-
+checked without caveats to the most rigorous level I’m aware of within
+logic and mathematics. Its wider philosophical force rests on two very
+thin bridges, which I’ll proceed to cover: a foundation that does
+foundational work claims non-contingent necessity; and an admissible
+counterpossibility defeats that necessity. Once we accept these quite
+basic bridges and definitions, the derivation is true in the boring and
+exact way that 2+2=4 is – once the structure is visible, the result
+follows. No appeal to mystical authority required.
+
+So, What Is It?
+
+I will present the technical version, then the technical translation of the
+technical version, then the equivalent in general English.
+
+The technical version:
+
+∧ ∧ ∧ ¬□(v(P) = t) ¬□(v(P) = f) ¬□(v(P) = b) ¬□(v(P) = n)
+
+[¬ represents negation, □ represents necessity, v stands for truth value,
+
+∧ P is any arbitrary proposition, means ‘and’, and t/f/b/n are what you’d
+
+expect: true, false, both, neither.]
+
+The technical translation:
+
+No proposition has a truth value assigned to it necessarily.
+
+The general English equivalent:
+
+No developed speech or thought can be secured as fundamentally the
+case. Including what I’m saying now.
+
+Wait – How Does That Work?
+
+A lot of people might think I just said something contradictory. When
+people think this, they’re usually thinking of something that has a name
+in analytic philosophy: the Liar’s Paradox, like when a person says: “This
+sentence is false.”
+
+But notice a difference. The formula above doesn’t deny that things can
+be true, or false, or true and false (say, as a matter of perspective), or
+neither true nor false (in a category error fashion, like asking if blue can
+fly). The formula instead denies that such determinations are
+intrinsically, fundamentally, or essentially the case.
+
+Yet the formula also refuses to omit itself from the same analysis. This
+leads to a peculiar illusory tension in natural language – the logic, the
+formula, does not recognize this tension, but it appears within speech.
+
+The tension is this: I cannot tell you that this formula is necessarily true,
+for obvious reasons. Or that it’s necessarily false. However, structurally,
+any attempt by speech or thought to escape the formula ends up
+developing enough content to be subjected to the formula. The logic is
+verified. Conventionally speaking, it is true.
+
+Wait – How Does This Apply to All Thought and Speech?
+
+      Master Huaitang said to an assembly,
+      The proposition of being and the proposition of nonbeing are like
+      vines clinging to a tree – you people may nod your heads for the
+      moment, but when the tree falls and the vines wither, you have no
+      strategy to challenge the heavens and no tactics to enter the earth. If a
+      spiritually sharp individual can set an eye here, he will see freely in all
+      ways.
+      [Raising his whisk:] Sunlight fills the eyes – there’s not a cloud for
+      myriad miles. If this is under an overturned bowl, how can you blame
+      me?
+      - Case 111 of Da Hui’s Treasury of the Eye of True Teaching,
+      translated by Thomas Cleary
+
+This is for a few simple reasons, and they fall directly out of the bottom
+of what we observe about the formula. This doesn’t require some crude
+claim that every passing sensation or flicker of experience is a sentence
+in the head. The point is structural rather than psychological.
+
+Whatever enters thought or speech as content - whatever can be
+meant, indicated, remembered, distinguished, defended, denied, or
+offered as a counterexample - has already entered a field of relations. It
+is this field that gives it determinacy as anything at all. In fact, while the
+formula uses “P”, it can trivially swap P for “Pc” – propositional content.
+
+If someone appeals to a form of thought or experience outside such
+content, that appeal faces a simple fork. If it cannot be indicated in any
+way, it cannot ground an objection. If it can be indicated, even as
+“ineffable,” “pre-conceptual,” “embodied,” or “beyond propositions,” then
+it has entered propositional content precisely enough for the formula to
+apply.
+
+These lead us to our conclusions. They are philosophical conclusions,
+and yet also extremely straightforward ones that are difficult to refute
+as soon as we stop assuming a secret metaphysics lurking behind each
+statement; working through the formula helps establish how clear they
+are. (We’ll walk through why.)
+
+For one: All speech is propositional, and as such oriented around
+propositional content. Speech has referents and seeks to convey
+semantic meaning. Speech without meaning is not considered speech,
+or certainly not to any level that does productive work with the term.
+
+And for the other: The same structure reaches thought itself.
+
+To form a thought is to establish subjects, objects, and points of
+reference. In so doing, you form something coherent, and to form
+something coherent you must take what you’re talking about to
+necessarily be the case as a form of operational fixity, if only to be
+coherent at all. For instance, even when thinking of unicorns with glass
+eyes that breathe cold fire, you still have to treat unicorns, glass eyes,
+and cold fire as stable concepts that necessarily carry meaning.² Some
+people say they don’t have an inner voice or monologue – but work is
+still being done cognitively to form the equivalent of “I am looking at a
+digital screen,” in which your existence and your act of looking at a
+digital screen are not in dispute.
+
+Propositions, in other words, are tied to the hip with semanticity – with
+the expression of meaning. Here is what I mean:
+
+Imagine a word like “dog.” Try to find what is underneath everything it
+connects to. Strip away that it’s an animal, that it barks, that it’s not a
+cat. Essentially, strip every relation. The trouble is that those relations
+were what told you it was a dog in the first place; pull them all and
+there’s nothing left that was ever a dog to begin with. You can’t ever get
+to a bare “dog” sitting under the meaning. It’s the same the other way:
+there’s no scrap of meaning floating free with no claim it belongs to,
+because a meaning that says nothing about anything isn’t yet meaning
+anything.
+
+So we never actually run into something standing outside all of this.
+This is not because reality is built that way, but because the moment
+you try to point at the bare thing, the pointing has already wrapped it
+back up in sense.
+
+The skeptic will protest: “What about thoughts that can’t be articulated?
+Surely then it’s not propositional.” They might even bring up Thomas
+Nagel’s famous example, asking what it must be like to be a bat, to
+suggest that there must be qualia, something that establishes ‘what it’s
+like’-ness.
+
+But what is an unarticulated thought? Are you able to describe it
+without engaging in mental or spoken articulation of what an
+unarticulated thought even is? Please feel free to try, if you wish. If you
+can’t describe it without articulation, what reason do you have to say
+that unarticulated thought necessarily exists? In fact, it now looks like
+to do so is to make a claim imposing a necessarily assigned truth value
+that distinguishes what is and isn’t articulated, which the formula
+rejects.
+
+If we don’t have a reason to say unarticulated thought necessarily
+exists, and if we have no proof of direct access since proof would be
+articulable, why posit it as a necessary presumption at all?
+
+That’s not at all to say that unarticulated thought or qualia strictly and
+ultimately can’t exist. “Can’t” would then be a necessity claim. (This is
+why ‘mystical’ speech in Buddhism or in other traditions making similar
+moves often sounds so paradoxical.) It’s to say that, given the above
+unpacking on propositional content, things aren’t found as necessary
+existents by the same modes of thought by which we posit necessary
+existents - we never get to that bare dog. Thought has no structural
+ability to escape this mingling of propositional content yet doesn’t write
+things off merely by fiat. There is structural interdependence.
+
+So What Does This Mean?
+
+      “Whatsoever depends on conditions,
+      That is devoid of intrinsic existence.”
+      What excellent instruction can there be
+      More amazing than this proclamation?
+
+      By grasping at it the childish
+      Strengthen bondage to extreme views;
+      For the wise this very fact is the doorway
+      To cut free from the net of elaborations.
+      Je Tsongkhapa, In Praise of Dependent Origination, verses 5-6,
+      translated by Geshe Thupten Jinpa
+All metaphysically fixed foundations, and as such all foundationalisms in
+any absolutist sense, are structurally forfeit under their own standards
+due to being defined around necessary truth value claims operating
+asymmetrically. Necessity cannot establish its own jurisdiction.
+
+This sounds like a very bold claim, but it merely follows from everything
+said prior. The consequences make clear that thought is structurally
+interdependent on propositional content, and propositional content
+does not hold a necessarily assigned truth value. All one needs to refute
+“necessarily-P” is “possibly-not-P,” at each self-contained step, all the
+way down.
+
+To be very clear on this: this is NOT saying no truths “actually exist”, or
+that people simply can’t make posits that may be true. To say that
+would be a foundationalist position. The formula itself is specifically
+about necessarily assigned truth-values to P, after all, not about P itself.
+
+The way it works is this: Necessity isn’t refuted proposition by
+proposition. It’s consistently disqualified as self-grounding logical
+authority, because every attempted justification of necessity occurs
+within propositional content, which is subject to the formula.
+
+A committed opponent might say that necessarily-P holds in this actual
+world, without making claims as to whether “this is the actual world” is
+itself necessary. It should be clear that this is just relocating the
+formula’s mechanism one step up an infinite ladder: the opponent has
+no justificatory strength to justify “necessarily-P holds in this actual
+world” when the formula makes clear that no such proposition is
+necessarily true. For every bare or brute-force posit, this formula forces
+those posits to show their work in properly deriving metaphysical
+necessity, which contradicts what “bare” and “brute-force” posits are
+meant to do.
+
+For instance, an essentialist might cheerfully say that even if their
+positions are contingent, the actuality and truth of what they’re
+speaking about remains the same. One simply then asks: True in what
+sense, and established how? If the essentialist ever had a bottom to
+directly touch, at any structural point, to prove their thesis, a proposition
+would be logically terminable and the Lean proof would not be valid.
+The formula, however, makes clear that ultimate, robust terminability
+does not exist within the logical structures that give rise to such
+questions and answers in the first place.
+
+The only way out isn’t a way out at all, but merely a recognition that the
+structure and meta-structure (and meta-meta-structure, and so on, and
+so on) is a cognitive trap when settled upon without self-aware
+revisability.
+
+As a result, this is not a mere opinion. It is a conventional truth, which is
+the strongest one we have. All one can do to verify this themselves is to
+watch what happens when another attempts to justify their
+disagreement.
+
+The Buddhist position has always been that the ultimate grounding that
+foundationalist thinking uses to terminate further productive inquiry –
+including all contemporary dreams that foundations can prove souls,
+gods, moral truths, an origin of all things, life before conception, a
+difference between ‘us’ and ‘them,’ a fundamental tying of sex and
+gender, of East versus West – is but an illusion: it is not structurally
+available but attains the impression of it.
+
+One might say that this applies symmetrically, that this means there’s no
+fundamental untying of sex and gender, of East and West, etc., or an
+ability to fundamentally disprove souls and gods and moral truths
+either. That is correct.
+
+In practice, however, social and political positions stand in different
+structural relations to essence-claims. Any ideology that acquires most
+or all of its merit by insisting on foundational structures that define
+what reality must be is incorrect beyond mere opinion. No hierarchy
+gains authority by calling itself natural, essential, or metaphysically
+unavoidable. When something or someone does so, they fail to be
+coherent.
+
+You Say It’s Machine-Verified. But I’m Not Convinced.
+
+      3.2.3.3.2.2.1
+      If one has the eyes of the authentic view,
+      Scriptural learning, experience, and realization blaze up.
+      By virtue of seeing emptiness,
+      Confidence in the infallible relativity of cause and effect
+      Will increase, and emotional disturbance will lessen.
+      3.2.3.3.2.2.2
+      With the samādhi that abides one-pointedly
+      In the state of certainty induced by analysis,
+      The ultimate meaning is seen by nonseeing.
+      3.2.3.3.2.2.3
+      One does not succumb to any particular object of seeing
+      And of course does not apprehend anything.
+      Like a mute’s taste of molasses,
+      Confidence grows in a yogi who cultivates it,
+      But it cannot be produced by analysis alone.
+      Jamgön Ju Mipham Gyatso, Beacon of Certainty, translated by
+      John W. Pettit (emphasis added)
+
+It’s natural to doubt such bold claims. First, I’ll walk through a general
+sketch of the situation and show how the machine verification works.
+
+The formula of the paper is a formula of modal logic. Modality in logic
+involves anything pertaining to necessity and possibility. There are
+multiple systems of modal logic, because there are different ideas
+about what it even means for things to be “necessary” and “possible.”
+
+Systems of modal logic discuss possible worlds – ways to talk about
+internally coherent positions that could be true in a world that isn’t the
+one we currently experience. For instance, we can say there’s a possible
+world in which Earth was 10 inches further from the Sun than it
+currently is.
+
+Now, whether we can say this unchallenged is a big problem when
+discussing possible worlds – many argue that only the current, actual
+world exists, and possible worlds are (ironically) impossible in actuality.
+However, it’s clearly coherent to think of a universe where the Earth
+were 10 inches further away from the Sun; otherwise, we couldn’t talk
+about it. The formula itself shows that these metaphysical arguments
+are unnecessary; if no thought, and thus no propositional object of
+thought, has a necessary truth value, this is the same as saying that
+contingency rules experiential reality, within and around any arbitrary
+division between possible and actual worlds.
+
+The simplest system of modal logic is K. All K cares about is this: A
+formula is necessarily true if it holds in every accessible world.
+‘Accessible’ here is just the term modal logic uses for which worlds
+count from where you’re standing, and different systems of modal logic
+have different ideas about what ‘counting’ amounts to.
+
+In system T, necessity is reflexive. K permits a formula to be true in
+other accessible worlds but not necessarily this one; T insists that a
+formula that is true in all accessible worlds is also true in this one as a
+‘seeing-itself’ sort of trait.
+
+In system S4, necessity is necessarily necessary, or transitive. This is often
+of epistemological importance – it allows you to say that if someone
+knows something, they know that they know it.
+System S5 is the strictest by far of this main list, because in S5 all
+possible worlds are also accessible – so if a formula is necessarily or
+possibly true, it’s so absolutely and uniformly in every such world.
+Accessibility becomes an equivalence relation.
+
+Stronger systems exist, but these are the standard, and stronger
+systems are often seen as too strong – things collapse into just being
+straightforwardly true or false everywhere, making things too trivial.
+There are also weaker systems – non-normal logics, neighborhood
+semantics – that are even more permissive than K when it comes to how
+things operate as necessary or possible.
+
+If you take our formula, something pretty interesting happens.
+
+The formula itself checks out conceptually under every single relevant
+system of modal logic that I’m aware of. I verified it from K-S5, but since
+weaker systems than K are generally even more permissive, we don’t
+need to mechanically verify to suspect as matter of principle that it
+holds there. Stronger systems than S5 have the above stated issues.
+
+How does the formula have such broad reach? Because everything I’ve
+discussed is how systems constrain necessity and possibility – but none
+of them explicitly touch how systems constrain non-necessity. The
+formula slips through the gaps, as to be expected from contingency.
+
+But then it gets even more interesting.
+
+When you apply the formula to itself, which is where the magic happens
+– when the formula self-iterates and denies its own status as a
+fundamental existent – it works in every system of modal logic weaker
+than S5, and fails in S5. This is because in S5, the bare formula would
+be true absolutely and necessarily in all accessible worlds, leaving no
+room to turn back on itself – every further chain of worlds built would
+satisfy the formula, but never get to its self-iteration. (This limitation
+generally is itself a basic feature of S5 identified since at least the
+1960s, if not much earlier.)
+
+Key here is that the failure in S5 isn’t something to identify as a
+problem, as it’s the same structural fact represented differently in
+different systems. In weaker systems, the formula’s universal
+applicability is shown through staged iteration: the formula refutes
+necessity sequentially at every level ad infinitum, because asymmetric
+accessibility leaves room for each stage. Being infinitely satisfiable in
+those systems, it appears in S5 as the practical consequence – of the
+formula holding throughout the relevant equivalence class, entailing
+uniformly what staging in weaker systems show progressively. The
+universal scope of the operation’s success is the same fact in both
+cases; inexhaustible iteration in weaker systems is uniform truth in
+stronger systems.³ The same structural fact is represented in each
+system’s native modal vocabulary.
+
+The foundationalist here might breathe a sigh of relief. “Excellent! I can
+just say that foundations are real, and they exist in S5!”
+
+That would be false.
+
+Why? Because, dating back to Aristotle, foundations have relied upon
+axioms like that of the “unmoved mover” to explain metaphysical
+fundamentals – a thing that moves all things but cannot be moved itself.
+In other words, foundationalism is asymmetric; everything must depend
+on the foundation without the foundation depending on everything. If
+there were full symmetry and uniformity, there would be nothing to be
+dependent upon, because everything would be equivalent.
+
+It’s possible to say that foundational grounding is an asymmetric “add-
+on” to S5, and some metaphysicians do this. But at that point, S5 isn’t
+supplying any foundation, and the further commitments being made by
+the metaphysician are all necessity-commitments subject to scrutiny by
+the formula.
+In other words: No foundationalist position survives this formula in any
+system that does the work foundationalism requires. They’re refuted in
+systems weaker than S5, as no necessity claim can be necessary when
+possibility is always structurally available. They’re refuted in S5 by S5’s
+structure itself, as they need asymmetric effects from a Euclidean base
+system. The formula in contrast does survive as satisfiable in S5, and as
+infinitely satisfiable in every other relevant system. This relegates the
+foundationalist position to at best mere parity, which is all that’s
+needed: mere parity at all relevant levels is a structural disproof of any
+foundation as a necessary existent.
+
+Even in non-classical systems where the formula has to change to
+accommodate system rules, foundationalism would still need such
+systems to support asymmetric grounding-style necessity. But
+asymmetry is exactly what permits any formula-analogue to refute that
+necessity in the first place – asymmetry is itself the availability of
+contingency, of something existing as other than the ground.
+Foundationalists cannot have the asymmetry their position requires
+without supplying the conditions of their own refutation. The horse is
+incapable of ever leaving the barn.⁴
+
+This leads to a remarkable irony about the entire project of foundational
+thinking. It’s often held that S5 is the natural formal home for
+foundations: a fact there can be true everywhere, accessible from
+everywhere, and the same across all perspectives. Plantinga famously
+exploits this with his modal ontological argument. As established,
+however, as a bare system S5 can’t establish asymmetric grounding,
+and attachments to the system are analyzable by the formula. (Some
+foundational perspectives might use weaker models, but as shown, our
+formula renders them impotent.) Philosopher Kit Fine has already
+noticed this in works like “Essence and Modality” (1994). Fine’s familiar
+objection is that essence cannot be reduced to necessity: a truth may
+be necessary without belonging to a thing’s essence. However, it’s quite
+clear even from Fine’s perspective that while necessity may not entail
+essence, essence does entail necessity. If nothing can be structurally
+fixed a necessary truth value assignation, essence existing as necessary
+isn’t derivable from the metalogic. A content-preserving
+counterpossibility remains sufficient to defeat the essentialist claim.
+
+With all routes exhausted, we see that foundations are structurally
+untenable under their own systems of operation. They fail to logically
+refute the satisfiable presence of ordinary contingency on their own
+levels of analysis, despite being predicated around the elimination of
+contingency in order to perform the logical work.
+
+That Said, Let’s Address Some Possible Objections
+
+      Dependent origination we declare to be emptiness.
+      It [emptiness] is a dependent concept; just that is the middle path.
+      There being no dharma whatsoever that is not dependently
+      originated,
+      it follows that there is also no dharma whatsoever that is non-empty.
+      Nagarjuna, Mūlamadhyamakakārikā (Root Verses of the Middle
+      Way), MMK 24:18-19, translated by Mark Siderits
+
+Objection 1: “Well, you can’t mean it’s actually like 2+2=4. That’s valid in
+Peano arithmetic, pure proof theory! And isn’t it a mistake to claim this
+is formally proved as valid in that way, when really the formula is just
+about satisfiability?”
+
+Response: Lean, given the standards of Peano arithmetic, verifies the
+proof as a metatheorem about satisfiability and not as a new
+metaphysical axiom. This is emphatically not a concession. A
+foundationalist claims any relevant alternative is impossible; therefore,
+one admissible alternative is sufficient to defeat the claim. The machine
+check verifies the recursive model construction. There is nothing else
+needed by classical logic’s standards, or by any definitional unpacking
+of what “necessity” and “impossibility” means, to refute the charges at
+hand.
+
+Objection 2: “Well, maybe I’m more of a pragmatist and just accept
+foundations as most convenient for discourse. We have to use starting
+points to perform any work!”
+
+Response: Beyond the issues with saying ‘have to’ – depending on what
+we mean, Feyerabend made clear that people have indeed refused
+various starting points yet still performed work – the result of this is
+accepting foundations as contingent, which is acceding to the formula.
+Foundations certainly produce conventional work. What’s refuted is the
+attitude in which foundations are held to not be subject to change,
+revision, uncertainty, or argumentation. If you tell me that artificial
+intelligence must be conscious, or must be unconscious, and continually
+find yourself falling back to other ‘musts’ to justify yourself, you will
+continually find that nothing that you say must be so can be defended
+beyond mere assertion, and this isn’t a sheer accident or difficulty in
+expressing yourself.
+
+Objection 3: “Foundations nevertheless remain conventionally necessary
+for discourse and meaning to work – if we deny this, it produces a
+performative contradiction. So it’s not like we can discard foundations.”
+
+Response: This is in fact directly embedded in the formula itself (by
+being self-applying) and is part of its broader well-formedness as
+discussed in the responses to Objections 5 and 9. All speech and
+thought intrudes into metaphysical affirmations in a fashion that is self-
+illusory once the logic is revealed. This doesn’t bar us from using
+speech or thought pragmatically. What else would there be for us to
+do?
+
+Discourse functions under presumptions of stability, certainly.
+Operational dependence at the same time isn’t proof of intrinsic ground;
+a rule may be indispensable within a practice without being self-
+grounding across every admissible practice. The formula accepts
+operational dependence while rejecting the inference to intrinsic
+ground.
+
+Objection 4: “Well, sure, this formula shows that no proposition is
+necessarily assigned any truth value given possible worlds. However, it
+happens to be that this actual world has contingently led to true
+necessities, so foundational thinking still holds.”
+
+Response: This misunderstands the formula quite directly. Designating
+one world as actual doesn’t make the necessities asserted there self-
+grounding, because “this actual world has contingently led to true
+necessities” is itself a claim subject to the logic. One remains trapped
+by the propositional bind.
+
+Objection 5: “How can you say all these things so assertively, if the
+entire theorem is around non-necessity of claims? Isn’t calling this all
+true a necessity-claim?”
+
+Response: No. Calling something true conventionally is not the same as
+claiming it is necessarily grounded, and I mean this in the conventional
+sense as well. Both forms of speech are metaphysically inert, but only
+conventional truth admits to it.
+
+The claims are correct. The theorem has broader satisfiability-validity
+within the rigor of dependent type theory. Foundationalisms are
+structurally forfeit under logical analysis using the structures of ordinary
+modal contingency. The philosophical justifications fall directly out of
+the bottom of the theorem when given thought, with only the thinnest
+and most widely agreed-upon premises when it comes to Nagarjuna’s
+operation of discourse. Even if those premises turned out to be wrong,
+such as if in some exceedingly strange scenario Nagarjuna wasn’t
+engaging in refutation of all claims asserting necessary t/f/b/n values
+(refutation, after all, is his mechanism of dialectic), the formula remains
+valid as a theorem. This allows us to make positive statements of truth
+without claiming metaphysical basis.⁵
+
+Objection 6: “Perhaps propositional content is derivative from a more
+basic mode of engagement. In other words, maybe phenomenological
+views like that of Heidegger or others are correct. Perhaps there’s an
+embodied mode of action that isn’t truth-apt but derives truth-apt
+content from it.”
+
+Response: It should be noted here that the impact of the formula is not
+to defeat phenomenology as an available register of dialogue. However,
+claims beyond mere conventional register face a structural fork: If pre-
+propositional ground cannot be indicated as a proposition or as
+propositional content, it cannot ground an objection in any coherent
+sense. If it can be indicated as one, it is subject to the formula and
+therefore refuted in any of its pretensions to being necessarily the case.
+
+Objection 7: “Well, okay, so T(P) is satisfiable in S5. But so is its inverse,
+let’s say ¬T(P). Surely that can’t mean T(P) is true?”
+
+Response: It’s very true that the inverse – essentially the
+foundationalist’s hopes out of S5 – is also satisfiable. This isn’t a
+concession and is in fact precisely the point. Here’s why.
+
+As far as weaker systems go, it’s defused as discussed above: ¬T(P) is
+always capable of being refuted by T(P), and once refuted, it’s not true
+again. As far as S5 goes, the foundationalist suddenly finds themselves
+insisting that ¬T(P) can be necessarily true even though it’s shown to
+simply be one of two possible options to place onto S5 on the same
+level of analysis. The possibility once again refutes the necessity on
+every conceivable meta-layer, and you can’t have both engaged at the
+same time.
+
+In short: any foundationalist that doesn’t give up the ghost on
+metaphysical foundationalism entirely can’t say “Well, my foundation is
+potentially satisfiable in this model, so there!” Then they wouldn’t be
+saying their foundation is necessary. The consequences are absurd by
+the foundationalist’s own standards, because if they found mere parity
+to be an acceptable outcome, they wouldn’t be a foundationalist. They’d
+be acceding directly to relativity and choice. A foundation cannot be
+merely one satisfiable option among others and still function as a
+foundation.
+
+Objection 8: “Wait – the Lean proof says that all propositions (phi, in the
+proof) are stipulated as contingent! Aren’t you pre-stipulating this
+without warrant?”
+
+Response: Is this suggesting that my stipulation of propositions as
+contingent is itself contingent? That sounds flippant, but this
+recursiveness is the entire point as detailed above regarding
+propositional content capture.
+
+This reveals the burden in showing that any proposition we come up
+with, at all, isn’t contingent: it’d have to exist in a space where even
+thinking of a denial is unthinkable. Even “2+2=5” is thinkable; see
+footnote 2 prior for a critique of the Kripkean objection against
+thinkability and how such objections rely on presuppositions subject to
+the formula. Moreover, we’d be suggesting something operating in the
+sense that S5 does wherein as soon as it’s brought up, it’s true
+everywhere, symmetrically and uniformly within the admitted modal
+class. This would have to be so while also being equally true in every
+other modal system in which symmetry isn’t forced, without eliminating
+the concept of a ground as impinging on things yet un-impinged on. S5
+can’t do this. Only this formula can do this in its exhibition across modal
+systems, and only through its endless satisfiability. What we’d be
+looking for is exactly what foundationalism can’t be.
+
+Objection 9: “What about tautologies? Tautologies are necessarily true.
+In fact, since it’s a Lean-checked meta-theorem, your proof is a
+tautology, since theorems are tautologies!”
+Response: Classical tautologies only remain necessary in a contingent
+fashion – within fixed classical semantics. The formula doesn’t dispute
+this. What doesn’t follow is any further proposition that any single
+semantics is the uniquely correct and metaphysically necessary
+framework. “Tautologies, being necessarily true within a given
+semantics, are thus necessarily true period” is not a tautology and is
+subject to the formula; after all, classical reasoning is well capable of
+reasoning classically about non-classical fields even if those fields may
+deny the validity of certain classical tautologies.
+
+Further, it’s difficult to see what metaphysical warrant can be justified
+from strict tautologies like “This is fundamental or this is not
+fundamental,” or “If it’s a person, it has a soul; if it’s not a person, it
+doesn’t have a soul”. That would require unpacking what a person and a
+soul is, which is all activity subject to the formula. Theorems and meta-
+theorems themselves as frame-relative tautologies just elucidate what
+the frames structurally enforce when in use.
+
+Objection 10: “Sure, this formula is satisfiable in the way you claim. But
+satisfiable does not mean admissible. Propositions can have satisfiable
+alternatives but not admissible ones.”
+
+Response: Who decides this admissibility? It must be governed by a
+rationale, so we humbly request to see it. That rationale will be
+investigated in turn if it rests on further assumptions. This is the formula
+in operation, precisely as described; the opponent has no rational way
+to omit themselves from accountability. The denial of admissibility
+toward a satisfiable result to ensconce ultimate ground may work in a
+local frame of arbitrarily fixed allowances and disallowances – thus
+establishing the frame as contingent - but any pretensions to an
+ultimate fixity are lost to circularity, vicious regress, or bare stipulation.
+What this means is: So long as a counterassignment remains satisfiable
+under the shared formal rules, no opponent can prove the
+corresponding truth-value assignment necessary without either
+identifying a formal defect or imposing a further restriction, whose
+authority is itself local and contestable.
+
+*****
+
+Someone might ask: Well, what could disprove this, if these objections
+aren’t sustained? That’s a good question.
+
+Critics must either find a formal error in the encoding or proof, reject
+one of the bridge principles at seemingly unsurmountable practical cost,
+or produce a foundation that does foundational work without becoming
+content, relation, warrant, or necessity. I do not know what that would
+mean, but I am stating the condition under which it would count. Given
+the formula is Lean proofed under a quite elementary mathematical
+function and since mechanical proof checkers like Lean and Coq rely on
+highly rigorous inductive types, finding a flaw via disproving the proof
+itself would be a paradigm shift in the history of mathematics.
+(Moreover, this may also translate as verifiable in Isabelle, whose
+classical higher-order logic is more native to the task than Lean.)
+
+The Lean proof is here:
+
+https://github.com/rollofthedice/modal-catuskoti-lean
+
+There are possibilities at first glance that revolve around rebutting the
+extremely analytic philosophical bridge claims, but they fall apart on
+analysis. Someone could try to argue that foundational claims exist
+outside of modal logic in some capacity, but then they’d have the
+perplexing situation of positing that as a necessary, and thus modal,
+claim, all while attempting to abandon a category of logic that was built
+to justify foundations. Someone could attempt to bracket the scope of
+what propositions or propositional content touch, but that fails for the
+reasons discussed prior and is expressly not what the formula does.
+This impossible situation for the critic is precisely what you would
+expect if the formula were capturing something structural about
+propositional content as a facet of experiential reality. To ask for
+further proof beyond this would not be coherent by speech’s own
+standards.
+
+****
+
+The American Pragmatists once made clear that rejecting a metaphysics
+doesn’t prohibit warranted conclusions of broad scope made with
+confidence. My paper itself shows how Nagarjuna’s “No Thesis” claim is
+thoroughly coherent without being a metaphysical posit, garnering its
+refutational strength through that coherence.
+
+The conclusions herein also do not, for obvious reasons, place
+Buddhism or Mahayana as “better” than other religious traditions.
+Striking structural parallels to what has been unpacked from this
+formula can be seen in the apophatics of Meister Eckhart and Mansur
+al-Hallaj, in the transformations of Zhuangzi, and in the most
+sophisticated of Advaita Vedanta and Kashmir Shaivist Hindu thought.
+The formula represents structure, which is not possessed by anyone.
+
+I leave you with a koan very dear to me, from the same compilation of
+Da Hui cited prior:
+
+   雲居膺和尚示眾云：老僧二十年前住三峯菴時，有魏府興化長老來
+   問，權借一問以為影草時如何？老僧當時機思遲鈍，道不得，為伊置
+   得箇問頭奇特，不敢辜佗。伊云：想和尚答遮話不得，不如禮拜了
+   退。而今思量，當時不消道箇何必。後因化主到魏府興化，乃借問：
+   山中和尚住三峯菴時，老僧曾問伊話，祇對不得，而今道得也未？化
+   主遂舉前話，興化云：雲居二十年只道得箇何必。興化即不然，爭如
+   道箇不必？三聖云：雲居二十年道得底，猶較佗興化半月程。
+   妙喜曰：何必不必，綿綿密密，覿面當機。有人續得末後句，許你親
+   見二尊宿。
+
+      Master Yunju Ying said to an assembly,
+
+      Twenty years ago, when I was living in a hermitage on Three Peaks,
+      Elder Xinghua of Weifu came and asked, “How is it when provisionally
+      using a question for shadow-casting grass?” At that time my mind and
+      thought were slow, and I couldn’t give him an answer. Because he had
+      posed the question so remarkably, I dared not offend him. He said, “I
+      think you can’t answer this question – it would be better to bow and
+      withdraw.” Now as I think of that time, it was hardly worth saying
+      “What’s the necessity?”
+
+      Later when a fundraiser went to Weifu, Xinghua asked him, “When the
+      teacher on the mountain was living on a hermitage on Three Peaks, I
+      asked him a question he couldn’t answer. Has he been able to answer
+      it by now?”
+
+      The fundraiser then quoted the foregoing talk. Xinghua said, “In
+      twenty years Yunju has only managed to say ‘what’s the necessity?’ I
+      disagree. How does that compare to saying ‘not necessary’?”
+
+      Sansheng said, “What it took Yunju twenty years to say is only
+      comparable to half a month’s journey for Xinghua.”
+
+      Dahui remarked, “‘What’s the necessity?’ ‘Not necessary’ – very tight,
+      very close, meeting the situation face-to-face.
+
+      If anyone can continue the last word, I’ll admit you have met the two
+      venerable adepts.”
+
+      Koan 115, translated by Thomas Cleary.
+      Chinese pulled from CBeta at
+      https://cbetaonline.dila.edu.tw/zh/X1309_001.
+
+In my next blog post, I’ll exhibit how this operation can untie binaries
+within the most important doctrinal disputes in Buddhist history. I look
+forward to seeing you then.
+
+                                                      Subscribed
+
+                                                       Share
+
+                                              Leave a comment
+
+1 I’ll cover what this establishes in relation to Mahayana Buddhist doctrine more
+      precisely in my next blog post.
+
+2 Some might object, bringing up Kripke’s argument regarding water and H2O –
+      a necessary truth a posteriori in which thinking of an alternative still makes that
+      alternative impossible. Kripke, a scientific-essentialist, argued that even if we
+      woke up tomorrow and found water was entirely different, he’d still be right in
+      saying that “If water is H2O then it’s necessarily H2O”, since there’s a
+      “microstructure” that is the individuating essence in any case. The formula’s
+      structure should make clear that such an assertion, however, cannot hold
+      irrefutable power simply by being presented as an axiom. It is subjected to the
+      formulaic operation and shown to not be necessarily correct as a posit,
+      correctly predicting its unfalsifiability.
+
+3 In this sense, asking “Surely it’s a problem the formula can’t reiterate in S5?” is
+      formally a category error – S5, bare, is structurally incapable of reiterating
+      upon such necessity results in a productive capacity. If the satisfiability in
+      weaker systems is like being on every infinitely wide and tall story of a tower
+      simultaneously, the satisfiability in S5 is like also being atop the tower’s peak,
+      merging with the sky without cognizable beyond. Stronger systems collapsing
+      into triviality are then seen as the point where necessity itself stops doing
+      modal work, and the metaphor vanishes.
+
+4 This is structurally identical to the “fire and fuel” argument by Nāgārjuna in the
+      Mūlamadhyamakakārikā, chapter 10: if fire is the same as the fuel to light it,
+      everything relevant is symmetrically entailed and therefore absurd. If fire were
+      to exist entirely separately as untouched ground from fuel (or vice versa),
+      neither could operate on each other. In other words: If grounding is
+      symmetrically accessible, direction collapses. If it’s entirely separate from
+      modality, it lacks modal force. If the dilemma is bridged by a further principle,
+      the principle deals with the same problem.
+
+5 Thus dispelling the long-held disputation between the methods of Prāsaṅgika –
+      pure reductio, as seen in any single iteration of the formula – and Svātantrika –
+      positive syllogisms, as expressed when one steps back and observes the
+      broader operative structure. But that’s for the next blog post.
+

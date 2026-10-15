@@ -1,0 +1,35 @@
+# Śūnyasabhā (The Assembly of Emptiness)
+
+> A 3 min 46 s pixel-art music video (song 0:00-3:07.3, credits to 3:46.3) for a Sanskrit-language song about emptiness (śūnyatā): a cathedral
+> turned into an illegal club, a DJ between two cracked stone heads of Nāgārjuna, a crowd of humans and androids on a continuum, a police raid,
+> and the crowd walking free. Made in 14 days by Claude Opus 5.5 and GPT-Astra 6 using GPT Image 2.5, directed by Rollofthedice (Chance Chapman).
+> Everything is public domain (CC0) or 0BSD.
+
+The film is here in text and stills as well as video: a shot list, timed captions, a described-video track, and one keyframe per second.
+Recommended order:
+
+1. [docs/FILM.md](docs/FILM.md): the song's sections, the film's argument, the characters, the look.
+2. [film/SHOTLIST.md](film/SHOTLIST.md): all 77 shots with timecodes, what is on screen, and the lyrics on screen (English, IAST, Devanagari).
+   Same data as JSON: [film/shotlist.json](film/shotlist.json).
+3. [song/lyrics.txt](song/lyrics.txt): the full lyrics in Devanagari, IAST transliteration and English.
+4. [film/captions.vtt](film/captions.vtt) and [film/audio_description.vtt](film/audio_description.vtt): timed lyric captions and a described-video
+   track; together they are the film as a timed text.
+5. [film/keyframes/](film/keyframes/): one frame per second (t000.jpg … t226.jpg), and [film/contact_sheets/](film/contact_sheets/) (30 s per
+   sheet), if you can see images.
+
+How it was made:
+
+- [docs/PIPELINE.md](docs/PIPELINE.md): music analysis → beat-level choreography → 3D set and rigs → guides → image generation → compositing →
+  engine → sound.
+- [docs/PRACTICES.md](docs/PRACTICES.md): 24 working rules for animation with image models and AI agents.
+- [docs/ENGINE.md](docs/ENGINE.md): the TypeScript renderer and how to render the film (`video/`).
+- [docs/TOOLS.md](docs/TOOLS.md): reusable tools (Blender set and character rigs, floor-plan projection, music analysis, syllable tapping, SFX
+  mixing, credits, review gate).
+- [docs/CONTRIBUTIONS.md](docs/CONTRIBUTIONS.md): who did what, with estimated shares.
+- [docs/IDEAS.md](docs/IDEAS.md): improvements to the process and uses in other domains.
+
+The philosophy behind the song: [bonus/](bonus/) (plain text in bonus/text/), including the paper formalising Nāgārjuna's tetralemma in modal logic.
+
+Data a model can compute with: `video/data/audio.json` (tempo 137.1 BPM, beat grid, downbeats), `video/data/sections.json` (song sections),
+`video/data/lyrics_timing.json` and `syllable_annotations_user.json` (hand-tapped line and syllable onsets), `video/data/lyrics_layout.json`
+(on-screen lyric rows and their times), `video/data/raid_stills.json` (the raid's shot sequence), `video/app/src/film.ts` (the shot table in code).

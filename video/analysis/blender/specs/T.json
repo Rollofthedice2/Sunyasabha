@@ -1,0 +1,7 @@
+{"name": "T", "_note": "titanium lady (solo 1:13): bald, one long braid, black latex halter crop top + latex trousers, barefoot, slim athletic",
+ "colors": {"skin": [0.50, 0.31, 0.20], "top": [0.05, 0.05, 0.06], "bottom": [0.05, 0.05, 0.07], "shoes": [0.50, 0.31, 0.20], "hair": [0.10, 0.07, 0.06]},
+ "top": {"type": "crop", "r": {"belt": [0.14, 0.105], "waist": [0.122, 0.095], "chest": [0.15, 0.115], "upt": [0.145, 0.1], "scap": [0.065, 0.06]}},
+ "bottom": {"type": "long", "r": {"pelvis": [0.17, 0.12], "belt": [0.15, 0.11], "hip": [0.095, 0.11], "knee": [0.072, 0.075], "ankle": [0.06, 0.062]}},
+ "arms": {"sh": [0.062, 0.06], "bic": [0.052, 0.05], "el": [0.04, 0.04], "fore": [0.045, 0.04], "wr": [0.03, 0.027], "kk": [0.038, 0.034]},
+ "neck": 0.055, "head": {"scale": [0.098, 0.12, 0.135], "hair": "bald_braid", "braid_len": 0.6, "braid_r": 0.55},
+ "shoes": {"w": 0.09, "len": 0.25, "top_above_ankle": -0.04}}

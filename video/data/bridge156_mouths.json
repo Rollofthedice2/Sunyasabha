@@ -1,0 +1,198 @@
+{
+ "bridge156_bhumi_A01_c0": {
+  "head": -1,
+  "bank_suffix": "",
+  "zncc": 0.93,
+  "accept": true,
+  "pos_b1": [
+   75,
+   25
+  ],
+  "pos_lf": [
+   68,
+   24
+  ]
+ },
+ "bridge156_bhumi_A01_c1": {
+  "head": 0,
+  "bank_suffix": "_h0",
+  "zncc": 0.915,
+  "accept": true,
+  "pos_b1": [
+   75,
+   35
+  ],
+  "pos_lf": [
+   67,
+   34
+  ]
+ },
+ "bridge156_bhumi_A01_c2": {
+  "head": 2,
+  "bank_suffix": "_h2",
+  "zncc": 0.868,
+  "accept": true,
+  "pos_b1": [
+   75,
+   27
+  ],
+  "pos_lf": [
+   66,
+   24
+  ]
+ },
+ "bridge156_bhumi_A01_c3": {
+  "head": 1,
+  "bank_suffix": "_h1",
+  "zncc": 0.843,
+  "accept": true,
+  "pos_b1": [
+   75,
+   27
+  ],
+  "pos_lf": [
+   69,
+   24
+  ]
+ },
+ "bridge156_T4_A01_c0": {
+  "head": -1,
+  "bank_suffix": "",
+  "zncc": 0.91,
+  "accept": true,
+  "pos_b1": [
+   74,
+   24
+  ],
+  "pos_lf": [
+   67,
+   23
+  ]
+ },
+ "bridge156_T4_A01_c1": {
+  "head": -1,
+  "bank_suffix": "",
+  "zncc": 0.912,
+  "accept": true,
+  "pos_b1": [
+   75,
+   24
+  ],
+  "pos_lf": [
+   68,
+   23
+  ]
+ },
+ "bridge156_T4_A01_c2": {
+  "head": -1,
+  "bank_suffix": "",
+  "zncc": 0.937,
+  "accept": true,
+  "pos_b1": [
+   75,
+   25
+  ],
+  "pos_lf": [
+   68,
+   24
+  ]
+ },
+ "bridge156_T4_A01_c3": {
+  "head": -1,
+  "bank_suffix": "",
+  "zncc": 0.964,
+  "accept": true,
+  "pos_b1": [
+   75,
+   25
+  ],
+  "pos_lf": [
+   68,
+   24
+  ]
+ },
+ "bridge156_look_A01_c0": {
+  "head": 0,
+  "bank_suffix": "_h0",
+  "zncc": 0.838,
+  "accept": true,
+  "pos_b1": [
+   75,
+   38
+  ],
+  "pos_lf": [
+   67,
+   37
+  ]
+ },
+ "bridge156_look_A01_c1": {
+  "head": 0,
+  "bank_suffix": "_h0",
+  "zncc": 0.443,
+  "accept": false,
+  "pos_b1": [
+   75,
+   40
+  ],
+  "pos_lf": [
+   67,
+   39
+  ]
+ },
+ "bridge156_look_A01_c2": {
+  "head": 0,
+  "bank_suffix": "_h0",
+  "zncc": 0.885,
+  "accept": true,
+  "pos_b1": [
+   75,
+   32
+  ],
+  "pos_lf": [
+   67,
+   31
+  ]
+ },
+ "bridge156_look_A01_c3": {
+  "head": -1,
+  "bank_suffix": "",
+  "zncc": 0.924,
+  "accept": true,
+  "pos_b1": [
+   74,
+   27
+  ],
+  "pos_lf": [
+   67,
+   26
+  ]
+ },
+ "bridge156_look_A01_c4": {
+  "head": 3,
+  "bank_suffix": "_h3",
+  "zncc": 0.859,
+  "accept": true,
+  "pos_b1": [
+   75,
+   26
+  ],
+  "pos_lf": [
+   67,
+   24
+  ]
+ },
+ "bridge156_look_A01_c5": {
+  "head": 3,
+  "bank_suffix": "_h3",
+  "zncc": 0.844,
+  "accept": true,
+  "pos_b1": [
+   75,
+   26
+  ],
+  "pos_lf": [
+   67,
+   24
+  ]
+ }
+}

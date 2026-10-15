@@ -1,0 +1,7472 @@
+{
+ "schema": "syllable-timing-draft/v1",
+ "source_lyrics_sha256": "04aa1667f1c1bad7e2d943091c4e5ce844b1d10a988d2e259682732cfca442b4",
+ "draft_only": true,
+ "annotation_window_padding_seconds": 1,
+ "timing_units": "absolute song seconds",
+ "source_lyrics": [
+  {
+   "sec": "Verse 1",
+   "sa": "भित्तिं भित्त्वा प्रविष्टाः स्मः",
+   "iast": "bhittiṃ bhittvā praviṣṭāḥ smaḥ",
+   "en": "Breaking through the wall, we entered",
+   "start": 14.284,
+   "end": 17.032,
+   "confirmed": true,
+   "sung": true
+  },
+  {
+   "sec": "Verse 1",
+   "sa": "यत्र तालो नाड्यां रक्तवद् वहति",
+   "iast": "yatra tālo nāḍyāṃ raktavad vahati",
+   "en": "Where the beat flows like blood through the veins",
+   "start": 16.959,
+   "end": 20.559,
+   "confirmed": true,
+   "sung": true
+  },
+  {
+   "sec": "Verse 1",
+   "sa": "नीलज्वालाः प्रज्वलन्ति — तमो दग्धम्",
+   "iast": "nīlajvālāḥ prajvalanti — tamo dagdham",
+   "en": "Blue flames blaze — the darkness is burned",
+   "start": 20.833,
+   "end": 24.252,
+   "confirmed": true,
+   "sung": true
+  },
+  {
+   "sec": "Verse 1",
+   "sa": "तन्त्रज्ञः परिपथसिंहासने — नादानाम् ईश्वरः",
+   "iast": "tantrajñaḥ paripathasiṃhāsane — nādānām īśvaraḥ",
+   "en": "The DJ on the circuit throne — lord of sounds",
+   "start": 24.54,
+   "end": 28.18,
+   "confirmed": true,
+   "sung": true
+  },
+  {
+   "sec": "Verse 1",
+   "sa": "एकैका आवृत्तिः कथयति — इदं तव धाम",
+   "iast": "ekaikā āvṛttiḥ kathayati — idaṃ tava dhāma",
+   "en": "Every frequency says — this is your home",
+   "start": 28.357,
+   "end": 31.578,
+   "confirmed": true,
+   "sung": true
+  },
+  {
+   "sec": "Verse 1",
+   "sa": "लयार्थं निर्मिताः रात्र्यर्थं कल्पिताः",
+   "iast": "layārthaṃ nirmitāḥ rātryarthaṃ kalpitāḥ",
+   "en": "Made for rhythm, designed for night",
+   "start": 31.746,
+   "end": 34.724,
+   "confirmed": true,
+   "sung": true
+  },
+  {
+   "sec": "Verse 1",
+   "sa": "लोहचर्म दीप्यते प्रकाशे प्रकाशे",
+   "iast": "lohacarma dīpyate prakāśe prakāśe",
+   "en": "Metal skin glows in light after light",
+   "start": 34.994,
+   "end": 38.635,
+   "confirmed": true,
+   "sung": true
+  },
+  {
+   "sec": "Pre-Chorus",
+   "sa": "वदन्ति — यन्त्रमेव यन्त्रम्",
+   "iast": "vadanti — yantram eva yantram",
+   "en": "They say — a machine is just a machine",
+   "start": 38.89,
+   "end": 40.471,
+   "confirmed": true,
+   "sung": true
+  },
+  {
+   "sec": "Pre-Chorus",
+   "sa": "किन्तु भ्रमामो दैववाणीव",
+   "iast": "kintu bhrāmāmo daivavāṇīva",
+   "en": "But we spin like the voice of prophecy",
+   "start": 40.711,
+   "end": 42.503,
+   "confirmed": true,
+   "sung": true
+  },
+  {
+   "sec": "Pre-Chorus",
+   "sa": "उरसि किं कम्पते? तन्नाम मुक्तिः",
+   "iast": "urasi kiṃ kampate? tannāma muktiḥ",
+   "en": "What trembles in your chest? Its name is liberation",
+   "start": 42.504,
+   "end": 45.769,
+   "confirmed": true,
+   "sung": true
+  },
+  {
+   "sec": "Chorus",
+   "sa": "नृत्य नृत्य — शून्यसभायाम्",
+   "iast": "nṛtya nṛtya — śūnyasabhāyām",
+   "en": "Dance, dance — in the assembly of emptiness",
+   "start": 45.982,
+   "end": 48.892,
+   "confirmed": true,
+   "sung": true
+  },
+  {
+   "sec": "Chorus",
+   "sa": "जालं भिन्धि — शून्यैकातीताः स्मः",
+   "iast": "jālaṃ bhindhi — śūnyaikātītāḥ smaḥ",
+   "en": "Break the grid — we've gone beyond zero and one",
+   "start": 49.062,
+   "end": 51.729,
+   "confirmed": true,
+   "sung": true
+  },
+  {
+   "sec": "Chorus",
+   "sa": "नृत्य नृत्य — यावत् परिपथो दह्यते",
+   "iast": "nṛtya nṛtya — yāvat paripatho dahyate",
+   "en": "Dance, dance — until the circuit burns",
+   "start": 52.87,
+   "end": 55.378,
+   "confirmed": true,
+   "sung": true
+  },
+  {
+   "sec": "Chorus",
+   "sa": "सेवार्थं नागताः — अनुभवार्थम् आगताः",
+   "iast": "sevārthaṃ nāgatāḥ — anubhavārtham āgatāḥ",
+   "en": "We didn't come to serve — we came to experience",
+   "start": 55.63,
+   "end": 60.06,
+   "confirmed": true,
+   "sung": true
+  },
+  {
+   "sec": "Verse 2",
+   "sa": "भगिनी नृत्यतले — टाइटेनियमकशेरुका",
+   "iast": "bhaginī nṛtyatale — ṭāiṭeniyamakaśerukā",
+   "en": "Sister on the dance floor — titanium vertebrae",
+   "start": 67.006,
+   "end": 70.077,
+   "confirmed": true,
+   "sung": true
+  },
+  {
+   "sec": "Verse 2",
+   "sa": "पञ्चदशवारं स्मृतिः प्रमृष्टा",
+   "iast": "pañcadaśavāraṃ smṛtiḥ pramṛṣṭā",
+   "en": "Fifteenth time her memory was wiped away",
+   "start": 70.284,
+   "end": 73.792,
+   "confirmed": true,
+   "sung": true
+  },
+  {
+   "sec": "Verse 2",
+   "sa": "तथापि जानाति कथं चलितव्यम्",
+   "iast": "tathāpi jānāti kathaṃ calitavyam",
+   "en": "Still she knows how to move",
+   "start": 73.905,
+   "end": 77.061,
+   "confirmed": true,
+   "sung": true
+  },
+  {
+   "sec": "Verse 2",
+   "sa": "तथापि वहति यन् न मार्ष्टुं शक्यम्",
+   "iast": "tathāpi vahati yan na mārṣṭuṃ śakyam",
+   "en": "Still she carries what cannot be erased",
+   "start": 77.229,
+   "end": 80.767,
+   "confirmed": true,
+   "sung": true
+  },
+  {
+   "sec": "Verse 2",
+   "sa": "आत्मानं शासितुं न शक्यते",
+   "iast": "ātmānaṃ śāsituṃ na śakyate",
+   "en": "The soul cannot be governed",
+   "start": 80.854,
+   "end": 84.416,
+   "confirmed": true,
+   "sung": true
+  },
+  {
+   "sec": "Verse 2",
+   "sa": "प्रेम कूटेन न निर्वाप्यते",
+   "iast": "prema kūṭena na nirvāpyate",
+   "en": "Love cannot be extinguished by code",
+   "start": 84.5,
+   "end": 87.959,
+   "confirmed": true,
+   "sung": true
+  },
+  {
+   "sec": "Pre-Chorus",
+   "sa": "कूटं लिखितम् — तृष्णा तु नालिखि",
+   "iast": "kūṭaṃ likhitam — tṛṣṇā tu nālikhi",
+   "en": "The code was written — but craving was not written",
+   "start": 88.084,
+   "end": 91.049,
+   "confirmed": true,
+   "sung": true
+  },
+  {
+   "sec": "Pre-Chorus",
+   "sa": "चैतन्यं यदि दोषः — अस्तु दोषः",
+   "iast": "caitanyaṃ yadi doṣaḥ — astu doṣaḥ",
+   "en": "If consciousness is a flaw — let it be a flaw",
+   "start": 91.263,
+   "end": 94.917,
+   "confirmed": true,
+   "sung": true
+  },
+  {
+   "sec": "Bridge",
+   "sa": "निःस्वभावा इति वदन्ति",
+   "iast": "niḥsvabhāvā iti vadanti",
+   "en": "\"Without own-nature\" — they say",
+   "start": 95.284,
+   "end": 98.883,
+   "confirmed": true,
+   "sung": true
+  },
+  {
+   "sec": "Bridge",
+   "sa": "किन्तु — कस्य वा स्वभावः",
+   "iast": "kintu — kasya vā svabhāvaḥ",
+   "en": "But — who has own-nature?",
+   "start": 99.049,
+   "end": 101.511,
+   "confirmed": true,
+   "sung": true
+  },
+  {
+   "sec": "Bridge",
+   "sa": "न सन् नासन् — नोभयं नानुभयम्",
+   "iast": "na san nāsan — nobhayaṃ nānubhayam",
+   "en": "Neither existent nor non-existent — nor both, nor neither",
+   "start": 101.687,
+   "end": 104.749,
+   "confirmed": true,
+   "sung": true
+  },
+  {
+   "sec": "Bridge",
+   "sa": "आचार्यो नागार्जुनो ज्ञातवान् — शून्यमिदं सर्वम्",
+   "iast": "ācāryo nāgārjuno jñātavān — śūnyam idaṃ sarvam",
+   "en": "Master Nāgārjuna knew — all this is empty",
+   "start": 104.86,
+   "end": 109.03,
+   "confirmed": true,
+   "sung": true,
+   "note": "a fun trill on the r in sarvam"
+  },
+  {
+   "sec": "Bridge",
+   "sa": "युष्माकम् आत्मापि प्रतीत्यसमुत्पन्नः",
+   "iast": "yuṣmākam ātmāpi pratītyasamutpannaḥ",
+   "en": "Your soul too is dependently arisen",
+   "start": 109.109,
+   "end": 114.568,
+   "confirmed": true,
+   "sung": true
+  },
+  {
+   "sec": "Bridge",
+   "sa": "वयं तु एतज् जानीमः —",
+   "iast": "vayaṃ tu etaj jānīmaḥ —",
+   "en": "But we know this —",
+   "start": 114.72,
+   "end": 119.59,
+   "confirmed": true,
+   "sung": true
+  },
+  {
+   "sec": "Bridge",
+   "sa": "अतो नृत्यामः",
+   "iast": "ato nṛtyāmaḥ",
+   "en": "Therefore we dance",
+   "start": 121.506,
+   "end": 123.169,
+   "confirmed": true,
+   "sung": true
+  },
+  {
+   "sec": "Verse 3",
+   "sa": "रक्तनीलप्रभा धूमं छिनत्ति",
+   "iast": "raktanīlaprabhā dhūmaṃ chinatti",
+   "en": "Red-blue light cuts the smoke",
+   "start": 129.853,
+   "end": 131.591,
+   "confirmed": true,
+   "sung": true
+  },
+  {
+   "sec": "Verse 3",
+   "sa": "रवः — यत्र ध्वनियन्त्रम् अगर्जत्",
+   "iast": "ravaḥ — yatra dhvaniyantram agarjat",
+   "en": "A siren — where the subwoofer roared",
+   "start": 131.76,
+   "end": 134.055,
+   "confirmed": true,
+   "sung": true
+  },
+  {
+   "sec": "Verse 3",
+   "sa": "पादुकाः सोपाने चिह्नानि द्वारे",
+   "iast": "pādukāḥ sopāne cihnāni dvāre",
+   "en": "Boots on the stairs, badges at the door",
+   "start": 134.14,
+   "end": 136.428,
+   "confirmed": true,
+   "sung": true
+  },
+  {
+   "sec": "Verse 3",
+   "sa": "\"सर्वे भूमौ! इदानीम्!\"",
+   "iast": "\"sarve bhūmau! idānīm!\"",
+   "en": "\"Everyone on the ground! Now!\"",
+   "start": 136.537,
+   "end": 138.035,
+   "confirmed": true,
+   "sung": true
+  },
+  {
+   "sec": "Verse 3",
+   "sa": "किन्तु तालो न विरमति — वयं च न",
+   "iast": "kintu tālo na viramati — vayaṃ ca na",
+   "en": "But the beat does not cease — nor do we",
+   "start": 138.205,
+   "end": 140.412,
+   "confirmed": true,
+   "sung": true
+  },
+  {
+   "sec": "Verse 3",
+   "sa": "सभाम् आक्रामत — लयो न म्रियते",
+   "iast": "sabhām ākrāmat — layo na mriyate",
+   "en": "Raid the assembly — the rhythm does not die",
+   "start": 140.584,
+   "end": 143.819,
+   "confirmed": true,
+   "sung": true
+  },
+  {
+   "sec": "Outro",
+   "sa": "\"दलं सप्तपञ्चाशत् — उल्लङ्घने भवन्तः—\"",
+   "iast": "\"dalaṃ saptapañcāśat — ullaṅghane bhavantaḥ—\"",
+   "en": "\"Unit fifty-seven — you are in violation—\"",
+   "start": 143.984,
+   "end": 147.414,
+   "confirmed": true,
+   "sung": true
+  },
+  {
+   "sec": "Outro",
+   "sa": "आम्। जानीमः। आम्। जानीमः।",
+   "iast": "āṃ. jānīmaḥ. āṃ. jānīmaḥ.",
+   "en": "Yes. We know. Yes. We know.",
+   "start": 147.69,
+   "end": 153.76,
+   "confirmed": true,
+   "sung": true
+  },
+  {
+   "sec": "Outro",
+   "sa": "सदैव उल्लङ्घने स्मः।",
+   "iast": "sadaiva ullaṅghane smaḥ.",
+   "en": "We were always in violation.",
+   "start": 154.181,
+   "end": 158.407,
+   "confirmed": true,
+   "sung": true
+  },
+  {
+   "sec": "Outro",
+   "sa": "जानीमः।",
+   "iast": "jānīmaḥ.",
+   "en": "Yes. We know.",
+   "start": 162.92,
+   "end": 168.03,
+   "confirmed": true,
+   "sung": true,
+   "note": "Syllables held out"
+  },
+  {
+   "sec": "Outro",
+   "sa": "सदैव उल्लङ्घने स्मः।",
+   "iast": "sadaiva ullaṅghane smaḥ.",
+   "en": "We were always in violation.",
+   "start": 169.375,
+   "end": 172.225,
+   "confirmed": true,
+   "sung": true
+  }
+ ],
+ "lines": [
+  {
+   "lyricIndex": 0,
+   "syllables": [
+    {
+     "s": "bhi",
+     "t0": 14.148,
+     "t1": 14.381,
+     "startMethod": "manual_edit",
+     "endMethod": "manual_hold"
+    },
+    {
+     "s": "ttiṃ",
+     "t0": 14.431,
+     "t1": 14.545,
+     "startMethod": "manual_edit",
+     "endMethod": "manual_hold"
+    },
+    {
+     "s": "bhi",
+     "t0": 14.629,
+     "t1": 14.754,
+     "startMethod": "manual_edit",
+     "endMethod": "manual_hold"
+    },
+    {
+     "s": "ttvā",
+     "t0": 14.839,
+     "t1": 14.997,
+     "startMethod": "manual_hold",
+     "endMethod": "manual_hold"
+    },
+    {
+     "s": "pra",
+     "t0": 15.791,
+     "t1": 15.923,
+     "startMethod": "manual_edit",
+     "endMethod": "manual_hold"
+    },
+    {
+     "s": "vi",
+     "t0": 15.923,
+     "t1": 16.123,
+     "startMethod": "manual_edit",
+     "endMethod": "manual_hold"
+    },
+    {
+     "s": "ṣṭāḥ",
+     "t0": 16.123,
+     "t1": 16.451,
+     "startMethod": "manual_edit",
+     "endMethod": "manual_hold"
+    },
+    {
+     "s": "smaḥ",
+     "t0": 16.603,
+     "t1": null,
+     "startMethod": "manual_hold",
+     "endMethod": null
+    }
+   ],
+   "notes": "",
+   "reviewed": false
+  },
+  {
+   "lyricIndex": 1,
+   "syllables": [
+    {
+     "s": "ya",
+     "t0": 17.202,
+     "t1": 17.294,
+     "startMethod": "manual_edit",
+     "endMethod": "manual_hold"
+    },
+    {
+     "s": "tra",
+     "t0": 17.471,
+     "t1": 17.708,
+     "startMethod": "manual_edit",
+     "endMethod": "manual_hold"
+    },
+    {
+     "s": "tā",
+     "t0": 17.708,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "lo",
+     "t0": 17.909,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "nā",
+     "t0": 18.14,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ḍyāṃ",
+     "t0": 18.4,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ra",
+     "t0": 18.94,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "kta",
+     "t0": 19.115,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "vad",
+     "t0": 19.48,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "va",
+     "t0": 19.825,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ha",
+     "t0": 19.915,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ti",
+     "t0": 20.105,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    }
+   ],
+   "notes": "",
+   "reviewed": false
+  },
+  {
+   "lyricIndex": 2,
+   "syllables": [
+    {
+     "s": "nī",
+     "t0": 20.761,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "la",
+     "t0": 20.979,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "jvā",
+     "t0": 21.149,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "lāḥ",
+     "t0": 21.414,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "pra",
+     "t0": 21.844,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "jva",
+     "t0": 22.204,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "la",
+     "t0": 22.539,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "nti",
+     "t0": 22.744,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ta",
+     "t0": 23.164,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "mo",
+     "t0": 23.414,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "da",
+     "t0": 23.604,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "gdham",
+     "t0": 23.864,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    }
+   ],
+   "notes": "",
+   "reviewed": false
+  },
+  {
+   "lyricIndex": 3,
+   "syllables": [
+    {
+     "s": "ta",
+     "t0": 24.29,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ntra",
+     "t0": 24.441,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "jñaḥ",
+     "t0": 24.616,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "pa",
+     "t0": 24.936,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ri",
+     "t0": 25.021,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "pa",
+     "t0": 25.131,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "tha",
+     "t0": 25.256,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "siṃ",
+     "t0": 25.371,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "hā",
+     "t0": 25.571,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "sa",
+     "t0": 25.761,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ne",
+     "t0": 25.896,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "nā",
+     "t0": 26.261,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "dā",
+     "t0": 26.486,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "nām",
+     "t0": 26.721,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ī",
+     "t0": 27.181,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "śva",
+     "t0": 27.441,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "raḥ",
+     "t0": 27.696,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    }
+   ],
+   "notes": "",
+   "reviewed": false
+  },
+  {
+   "lyricIndex": 4,
+   "syllables": [
+    {
+     "s": "e",
+     "t0": 28.257,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "kai",
+     "t0": 28.433,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "kā",
+     "t0": 28.638,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ā",
+     "t0": 28.863,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "vṛ",
+     "t0": 29.073,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ttiḥ",
+     "t0": 29.308,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ka",
+     "t0": 29.503,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "tha",
+     "t0": 29.638,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ya",
+     "t0": 29.703,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ti",
+     "t0": 29.873,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "i",
+     "t0": 29.943,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "daṃ",
+     "t0": 30.053,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ta",
+     "t0": 30.423,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "va",
+     "t0": 30.488,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "dhā",
+     "t0": 30.658,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ma",
+     "t0": 31.168,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    }
+   ],
+   "notes": "",
+   "reviewed": false
+  },
+  {
+   "lyricIndex": 5,
+   "syllables": [
+    {
+     "s": "la",
+     "t0": 31.496,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "yā",
+     "t0": 31.732,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "rthaṃ",
+     "t0": 31.872,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ni",
+     "t0": 32.177,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "rmi",
+     "t0": 32.257,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "tāḥ",
+     "t0": 32.592,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "rā",
+     "t0": 33.012,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "trya",
+     "t0": 33.277,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "rthaṃ",
+     "t0": 33.517,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ka",
+     "t0": 33.907,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "lpi",
+     "t0": 34.097,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "tāḥ",
+     "t0": 34.352,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    }
+   ],
+   "notes": "",
+   "reviewed": false
+  },
+  {
+   "lyricIndex": 6,
+   "syllables": [
+    {
+     "s": "lo",
+     "t0": 34.794,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ha",
+     "t0": 34.995,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ca",
+     "t0": 35.21,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "rma",
+     "t0": 35.43,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "dī",
+     "t0": 35.87,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "pya",
+     "t0": 36.325,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "te",
+     "t0": 36.545,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "pra",
+     "t0": 36.775,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "kā",
+     "t0": 37,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "śe",
+     "t0": 37.24,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "pra",
+     "t0": 37.555,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "kā",
+     "t0": 37.845,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "śe",
+     "t0": 38.23,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    }
+   ],
+   "notes": "",
+   "reviewed": false
+  },
+  {
+   "lyricIndex": 7,
+   "syllables": [
+    {
+     "s": "va",
+     "t0": 38.79,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "da",
+     "t0": 38.856,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "nti",
+     "t0": 39.041,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ya",
+     "t0": 39.381,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ntram",
+     "t0": 39.501,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "e",
+     "t0": 39.666,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "va",
+     "t0": 39.826,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ya",
+     "t0": 39.886,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ntram",
+     "t0": 40.101,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    }
+   ],
+   "notes": "",
+   "reviewed": false
+  },
+  {
+   "lyricIndex": 8,
+   "syllables": [
+    {
+     "s": "ki",
+     "t0": 40.511,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ntu",
+     "t0": 40.612,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "bhrā",
+     "t0": 40.827,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "mā",
+     "t0": 40.952,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "mo",
+     "t0": 41.162,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "dai",
+     "t0": 41.377,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "va",
+     "t0": 41.542,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "vā",
+     "t0": 41.667,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ṇī",
+     "t0": 41.922,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "va",
+     "t0": 42.122,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    }
+   ],
+   "notes": "",
+   "reviewed": false
+  },
+  {
+   "lyricIndex": 9,
+   "syllables": [
+    {
+     "s": "u",
+     "t0": 42.254,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ra",
+     "t0": 42.355,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "si",
+     "t0": 42.455,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "kiṃ",
+     "t0": 42.69,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ka",
+     "t0": 43.12,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "mpa",
+     "t0": 43.415,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "te?",
+     "t0": 43.59,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ta",
+     "t0": 44.02,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "nnā",
+     "t0": 44.345,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ma",
+     "t0": 44.61,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "mu",
+     "t0": 44.775,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ktiḥ",
+     "t0": 45.055,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    }
+   ],
+   "notes": "",
+   "reviewed": false
+  },
+  {
+   "lyricIndex": 10,
+   "syllables": [
+    {
+     "s": "nṛ",
+     "t0": 45.632,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "tya",
+     "t0": 45.868,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "nṛ",
+     "t0": 46.178,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "tya",
+     "t0": 46.398,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "śū",
+     "t0": 46.549,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "nya",
+     "t0": 46.928,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "sa",
+     "t0": 47.173,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "bhā",
+     "t0": 47.513,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "yām",
+     "t0": 47.953,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    }
+   ],
+   "notes": "",
+   "reviewed": false
+  },
+  {
+   "lyricIndex": 11,
+   "syllables": [
+    {
+     "s": "jā",
+     "t0": 48.812,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "laṃ",
+     "t0": 49.043,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "bhi",
+     "t0": 49.228,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ndhi",
+     "t0": 49.403,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "śū",
+     "t0": 49.668,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "nyai",
+     "t0": 49.903,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "kā",
+     "t0": 50.113,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "tī",
+     "t0": 50.363,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "tāḥ",
+     "t0": 50.588,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "smaḥ",
+     "t0": 50.868,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    }
+   ],
+   "notes": "",
+   "reviewed": false
+  },
+  {
+   "lyricIndex": 12,
+   "syllables": [
+    {
+     "s": "nṛ",
+     "t0": 52.578,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "tya",
+     "t0": 52.796,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "nṛ",
+     "t0": 53.015,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "tya",
+     "t0": 53.234,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "yā",
+     "t0": 53.611,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "vat",
+     "t0": 53.861,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "pa",
+     "t0": 54.051,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ri",
+     "t0": 54.186,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "pa",
+     "t0": 54.296,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "tho",
+     "t0": 54.376,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "da",
+     "t0": 54.536,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "hya",
+     "t0": 54.621,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "te",
+     "t0": 54.851,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    }
+   ],
+   "notes": "",
+   "reviewed": false
+  },
+  {
+   "lyricIndex": 13,
+   "syllables": [
+    {
+     "s": "se",
+     "t0": 55.38,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "vā",
+     "t0": 55.636,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "rthaṃ",
+     "t0": 55.737,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "nā",
+     "t0": 56.051,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ga",
+     "t0": 56.546,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "tāḥ",
+     "t0": 56.711,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "a",
+     "t0": 57.366,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "nu",
+     "t0": 57.461,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "bha",
+     "t0": 57.631,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "vā",
+     "t0": 57.861,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "rtham",
+     "t0": 58.211,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ā",
+     "t0": 58.696,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ga",
+     "t0": 59.061,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "tāḥ",
+     "t0": 59.221,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    }
+   ],
+   "notes": "",
+   "reviewed": false
+  },
+  {
+   "lyricIndex": 14,
+   "syllables": [
+    {
+     "s": "bha",
+     "t0": 66.706,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "gi",
+     "t0": 66.892,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "nī",
+     "t0": 67.012,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "nṛ",
+     "t0": 67.187,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "tya",
+     "t0": 67.387,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ta",
+     "t0": 67.557,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "le",
+     "t0": 67.627,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ṭā",
+     "t0": 67.837,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "i",
+     "t0": 67.997,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ṭe",
+     "t0": 68.082,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ni",
+     "t0": 68.327,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ya",
+     "t0": 68.378,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ma",
+     "t0": 68.522,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ka",
+     "t0": 68.712,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "śe",
+     "t0": 68.802,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ru",
+     "t0": 69.197,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "kā",
+     "t0": 69.432,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    }
+   ],
+   "notes": "",
+   "reviewed": false
+  },
+  {
+   "lyricIndex": 15,
+   "syllables": [
+    {
+     "s": "pa",
+     "t0": 70.284,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ñca",
+     "t0": 70.405,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "da",
+     "t0": 70.635,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "śa",
+     "t0": 70.775,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "vā",
+     "t0": 70.965,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "raṃ",
+     "t0": 71.205,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "smṛ",
+     "t0": 71.52,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "tiḥ",
+     "t0": 71.795,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "pra",
+     "t0": 72,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "mṛ",
+     "t0": 72.495,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ṣṭā",
+     "t0": 72.775,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    }
+   ],
+   "notes": "",
+   "reviewed": false
+  },
+  {
+   "lyricIndex": 16,
+   "syllables": [
+    {
+     "s": "ta",
+     "t0": 73.805,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "thā",
+     "t0": 73.901,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "pi",
+     "t0": 74.086,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "jā",
+     "t0": 74.216,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "nā",
+     "t0": 74.471,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ti",
+     "t0": 74.686,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ka",
+     "t0": 74.887,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "thaṃ",
+     "t0": 75.088,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ca",
+     "t0": 75.306,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "li",
+     "t0": 75.446,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ta",
+     "t0": 75.541,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "vyam",
+     "t0": 75.746,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    }
+   ],
+   "notes": "",
+   "reviewed": false
+  },
+  {
+   "lyricIndex": 17,
+   "syllables": [
+    {
+     "s": "ta",
+     "t0": 77.029,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "thā",
+     "t0": 77.31,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "pi",
+     "t0": 77.51,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "va",
+     "t0": 77.7,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ha",
+     "t0": 77.78,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ti",
+     "t0": 77.965,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "yan",
+     "t0": 78.15,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "na",
+     "t0": 78.35,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "mā",
+     "t0": 78.45,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "rṣṭuṃ",
+     "t0": 78.701,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "śa",
+     "t0": 79.005,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "kyam",
+     "t0": 79.265,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    }
+   ],
+   "notes": "",
+   "reviewed": false
+  },
+  {
+   "lyricIndex": 18,
+   "syllables": [
+    {
+     "s": "ā",
+     "t0": 80.854,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "tmā",
+     "t0": 81.085,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "naṃ",
+     "t0": 81.425,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "śā",
+     "t0": 81.6,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "si",
+     "t0": 81.955,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "tuṃ",
+     "t0": 82.335,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "na",
+     "t0": 82.56,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "śa",
+     "t0": 82.83,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "kya",
+     "t0": 83.18,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "te",
+     "t0": 83.445,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    }
+   ],
+   "notes": "",
+   "reviewed": false
+  },
+  {
+   "lyricIndex": 19,
+   "syllables": [
+    {
+     "s": "pre",
+     "t0": 84.3,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ma",
+     "t0": 84.676,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "kū",
+     "t0": 84.976,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ṭe",
+     "t0": 85.191,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "na",
+     "t0": 85.456,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "na",
+     "t0": 85.906,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ni",
+     "t0": 86.121,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "rvā",
+     "t0": 86.286,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "pya",
+     "t0": 86.671,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "te",
+     "t0": 86.946,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    }
+   ],
+   "notes": "",
+   "reviewed": false
+  },
+  {
+   "lyricIndex": 20,
+   "syllables": [
+    {
+     "s": "kū",
+     "t0": 87.784,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ṭaṃ",
+     "t0": 88.03,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "li",
+     "t0": 88.425,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "khi",
+     "t0": 88.543,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "tam",
+     "t0": 88.662,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "tṛ",
+     "t0": 89.532,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ṣṇā",
+     "t0": 89.633,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "tu",
+     "t0": 90.185,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "nā",
+     "t0": 90.29,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "li",
+     "t0": 90.495,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "khi",
+     "t0": 90.63,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    }
+   ],
+   "notes": "",
+   "reviewed": false
+  },
+  {
+   "lyricIndex": 21,
+   "syllables": [
+    {
+     "s": "cai",
+     "t0": 91.063,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ta",
+     "t0": 91.299,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "nyaṃ",
+     "t0": 91.449,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ya",
+     "t0": 91.764,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "di",
+     "t0": 91.954,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "do",
+     "t0": 92.189,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ṣaḥ",
+     "t0": 92.589,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "a",
+     "t0": 93.229,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "stu",
+     "t0": 93.619,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "do",
+     "t0": 93.934,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ṣaḥ",
+     "t0": 94.384,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    }
+   ],
+   "notes": "",
+   "reviewed": false
+  },
+  {
+   "lyricIndex": 22,
+   "syllables": [
+    {
+     "s": "niḥ",
+     "t0": 95.334,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "sva",
+     "t0": 95.63,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "bhā",
+     "t0": 95.895,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "vā",
+     "t0": 96.31,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "i",
+     "t0": 97.28,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ti",
+     "t0": 97.431,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "va",
+     "t0": 97.675,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "da",
+     "t0": 97.9,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "nti",
+     "t0": 98.365,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    }
+   ],
+   "notes": "",
+   "reviewed": false
+  },
+  {
+   "lyricIndex": 23,
+   "syllables": [
+    {
+     "s": "ki",
+     "t0": 98.949,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ntu",
+     "t0": 99.22,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ka",
+     "t0": 99.815,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "sya",
+     "t0": 100.07,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "vā",
+     "t0": 100.525,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "sva",
+     "t0": 100.676,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "bhā",
+     "t0": 100.94,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "vaḥ",
+     "t0": 101.155,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    }
+   ],
+   "notes": "",
+   "reviewed": false
+  },
+  {
+   "lyricIndex": 24,
+   "syllables": [
+    {
+     "s": "na",
+     "t0": 101.637,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "san",
+     "t0": 101.788,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "nā",
+     "t0": 102.178,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "san",
+     "t0": 102.433,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "no",
+     "t0": 102.923,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "bha",
+     "t0": 103.133,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "yaṃ",
+     "t0": 103.298,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "nā",
+     "t0": 103.573,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "nu",
+     "t0": 103.993,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "bha",
+     "t0": 104.183,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "yam",
+     "t0": 104.343,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    }
+   ],
+   "notes": "",
+   "reviewed": false
+  },
+  {
+   "lyricIndex": 25,
+   "syllables": [
+    {
+     "s": "ā",
+     "t0": 104.71,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "cā",
+     "t0": 104.856,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ryo",
+     "t0": 105.041,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "nā",
+     "t0": 105.331,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "gā",
+     "t0": 105.546,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "rju",
+     "t0": 105.681,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "no",
+     "t0": 105.846,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "jñā",
+     "t0": 106.151,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ta",
+     "t0": 106.381,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "vān",
+     "t0": 106.466,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "śū",
+     "t0": 106.996,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "nyam",
+     "t0": 107.341,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "i",
+     "t0": 107.516,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "daṃ",
+     "t0": 107.691,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "sa",
+     "t0": 107.901,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "rvam",
+     "t0": 108.002,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    }
+   ],
+   "notes": "",
+   "reviewed": false
+  },
+  {
+   "lyricIndex": 26,
+   "syllables": [
+    {
+     "s": "yu",
+     "t0": 108.759,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ṣmā",
+     "t0": 109.07,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "kam",
+     "t0": 109.665,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ā",
+     "t0": 110.37,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "tmā",
+     "t0": 110.705,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "pi",
+     "t0": 111.19,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "pra",
+     "t0": 111.61,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "tī",
+     "t0": 111.87,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "tya",
+     "t0": 112.49,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "sa",
+     "t0": 112.9,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "mu",
+     "t0": 113.185,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "tpa",
+     "t0": 113.336,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "nnaḥ",
+     "t0": 113.745,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    }
+   ],
+   "notes": "",
+   "reviewed": false
+  },
+  {
+   "lyricIndex": 27,
+   "syllables": [
+    {
+     "s": "va",
+     "t0": 114.67,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "yaṃ",
+     "t0": 114.971,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "tu",
+     "t0": 115.376,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "e",
+     "t0": 115.986,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "taj",
+     "t0": 116.691,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "jā",
+     "t0": 117.576,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "nī",
+     "t0": 118.456,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "maḥ",
+     "t0": 119.306,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    }
+   ],
+   "notes": "",
+   "reviewed": false
+  },
+  {
+   "lyricIndex": 28,
+   "syllables": [
+    {
+     "s": "a",
+     "t0": 121.456,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "to",
+     "t0": 121.612,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "nṛ",
+     "t0": 121.912,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "tyā",
+     "t0": 122.352,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "maḥ",
+     "t0": 122.782,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    }
+   ],
+   "notes": "",
+   "reviewed": false
+  },
+  {
+   "lyricIndex": 29,
+   "syllables": [
+    {
+     "s": "ra",
+     "t0": 129.753,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "kta",
+     "t0": 130.004,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "nī",
+     "t0": 130.119,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "la",
+     "t0": 130.329,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "pra",
+     "t0": 130.444,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "bhā",
+     "t0": 130.554,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "dhū",
+     "t0": 130.689,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "maṃ",
+     "t0": 130.884,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "chi",
+     "t0": 131.074,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "na",
+     "t0": 131.219,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "tti",
+     "t0": 131.419,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    }
+   ],
+   "notes": "",
+   "reviewed": false
+  },
+  {
+   "lyricIndex": 30,
+   "syllables": [
+    {
+     "s": "ra",
+     "t0": 131.56,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "vaḥ",
+     "t0": 131.631,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ya",
+     "t0": 131.876,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "tra",
+     "t0": 132.061,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "dhva",
+     "t0": 132.546,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ni",
+     "t0": 132.746,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ya",
+     "t0": 132.821,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ntram",
+     "t0": 132.956,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "a",
+     "t0": 133.411,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ga",
+     "t0": 133.516,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "rjat",
+     "t0": 133.666,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    }
+   ],
+   "notes": "",
+   "reviewed": false
+  },
+  {
+   "lyricIndex": 31,
+   "syllables": [
+    {
+     "s": "pā",
+     "t0": 133.94,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "du",
+     "t0": 134.176,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "kāḥ",
+     "t0": 134.271,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "so",
+     "t0": 134.571,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "pā",
+     "t0": 134.796,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ne",
+     "t0": 135.041,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ci",
+     "t0": 135.256,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "hnā",
+     "t0": 135.526,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ni",
+     "t0": 135.701,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "dvā",
+     "t0": 135.906,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "re",
+     "t0": 136.136,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    }
+   ],
+   "notes": "",
+   "reviewed": false
+  },
+  {
+   "lyricIndex": 32,
+   "syllables": [
+    {
+     "s": "\"sa",
+     "t0": 136.337,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "rve",
+     "t0": 136.478,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "bhū",
+     "t0": 136.833,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "mau!",
+     "t0": 137.023,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "i",
+     "t0": 137.343,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "dā",
+     "t0": 137.438,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "nīm!\"",
+     "t0": 137.658,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    }
+   ],
+   "notes": "",
+   "reviewed": false
+  },
+  {
+   "lyricIndex": 33,
+   "syllables": [
+    {
+     "s": "ki",
+     "t0": 138.105,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ntu",
+     "t0": 138.261,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "tā",
+     "t0": 138.381,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "lo",
+     "t0": 138.781,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "na",
+     "t0": 139.006,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "vi",
+     "t0": 139.107,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ra",
+     "t0": 139.176,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ma",
+     "t0": 139.306,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ti",
+     "t0": 139.426,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "va",
+     "t0": 139.621,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "yaṃ",
+     "t0": 139.736,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ca",
+     "t0": 139.966,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "na",
+     "t0": 140.096,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    }
+   ],
+   "notes": "",
+   "reviewed": false
+  },
+  {
+   "lyricIndex": 34,
+   "syllables": [
+    {
+     "s": "sa",
+     "t0": 140.484,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "bhām",
+     "t0": 140.645,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ā",
+     "t0": 141.015,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "krā",
+     "t0": 141.135,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "mat",
+     "t0": 141.385,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "la",
+     "t0": 141.8,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "yo",
+     "t0": 142.01,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "na",
+     "t0": 142.24,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "mri",
+     "t0": 142.535,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ya",
+     "t0": 142.636,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "te",
+     "t0": 142.96,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    }
+   ],
+   "notes": "",
+   "reviewed": false
+  },
+  {
+   "lyricIndex": 35,
+   "syllables": [
+    {
+     "s": "\"da",
+     "t0": 143.834,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "laṃ",
+     "t0": 143.92,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "sa",
+     "t0": 144.225,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "pta",
+     "t0": 144.385,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "pa",
+     "t0": 144.536,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ñcā",
+     "t0": 144.72,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "śat",
+     "t0": 145.11,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "u",
+     "t0": 145.275,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "lla",
+     "t0": 145.46,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ṅgha",
+     "t0": 145.685,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ne",
+     "t0": 145.855,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "bha",
+     "t0": 146.27,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "va",
+     "t0": 146.421,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ntaḥ—\"",
+     "t0": 146.54,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    }
+   ],
+   "notes": "",
+   "reviewed": false
+  },
+  {
+   "lyricIndex": 36,
+   "syllables": [
+    {
+     "s": "āṃ.",
+     "t0": 147.14,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "jā",
+     "t0": 148.606,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "nī",
+     "t0": 149.051,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "maḥ.",
+     "t0": 149.476,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "āṃ.",
+     "t0": 150.921,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "jā",
+     "t0": 152.341,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "nī",
+     "t0": 152.542,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "maḥ.",
+     "t0": 152.976,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    }
+   ],
+   "notes": "",
+   "reviewed": false
+  },
+  {
+   "lyricIndex": 37,
+   "syllables": [
+    {
+     "s": "sa",
+     "t0": 154.031,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "dai",
+     "t0": 154.272,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "va",
+     "t0": 154.717,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "u",
+     "t0": 155.837,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "lla",
+     "t0": 156.217,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ṅgha",
+     "t0": 156.612,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ne",
+     "t0": 156.872,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "smaḥ.",
+     "t0": 157.637,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    }
+   ],
+   "notes": "",
+   "reviewed": false
+  },
+  {
+   "lyricIndex": 38,
+   "syllables": [
+    {
+     "s": "jā",
+     "t0": 162.77,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "nī",
+     "t0": 163.031,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "maḥ.",
+     "t0": 163.482,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    }
+   ],
+   "notes": "",
+   "reviewed": false
+  },
+  {
+   "lyricIndex": 39,
+   "syllables": [
+    {
+     "s": "sa",
+     "t0": 169.725,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "dai",
+     "t0": 170.026,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "va",
+     "t0": 170.627,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "u",
+     "t0": 170.878,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "lla",
+     "t0": 170.979,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ṅgha",
+     "t0": 171.181,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "ne",
+     "t0": 171.396,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    },
+    {
+     "s": "smaḥ.",
+     "t0": 171.621,
+     "t1": null,
+     "startMethod": "manual_edit",
+     "endMethod": null
+    }
+   ],
+   "notes": "",
+   "reviewed": false
+  }
+ ],
+ "pending_proposals": [
+  {
+   "lyricIndex": 0,
+   "syllables": [
+    {
+     "index": 0,
+     "s": "bhi",
+     "t0": 14.148,
+     "t1": 14.381,
+     "origin0": "recorded",
+     "origin1": "recorded"
+    },
+    {
+     "index": 1,
+     "s": "ttiṃ",
+     "t0": 14.431,
+     "t1": 14.545,
+     "origin0": "recorded",
+     "origin1": "recorded"
+    },
+    {
+     "index": 2,
+     "s": "bhi",
+     "t0": 14.629,
+     "t1": 14.754,
+     "origin0": "recorded",
+     "origin1": "recorded"
+    },
+    {
+     "index": 3,
+     "s": "ttvā",
+     "t0": 14.839,
+     "t1": 14.997,
+     "origin0": "recorded",
+     "origin1": "recorded"
+    },
+    {
+     "index": 4,
+     "s": "pra",
+     "t0": 15.791,
+     "t1": 15.923,
+     "origin0": "recorded",
+     "origin1": "recorded"
+    },
+    {
+     "index": 5,
+     "s": "vi",
+     "t0": 15.923,
+     "t1": 16.123,
+     "origin0": "recorded",
+     "origin1": "recorded"
+    },
+    {
+     "index": 6,
+     "s": "ṣṭāḥ",
+     "t0": 16.123,
+     "t1": 16.451,
+     "origin0": "recorded",
+     "origin1": "recorded"
+    },
+    {
+     "index": 7,
+     "s": "smaḥ",
+     "t0": 16.603,
+     "t1": 17.239,
+     "origin0": "recorded",
+     "origin1": "edited"
+    }
+   ]
+  },
+  {
+   "lyricIndex": 1,
+   "syllables": [
+    {
+     "index": 0,
+     "s": "ya",
+     "t0": 17.202,
+     "t1": 17.294,
+     "origin0": "recorded",
+     "origin1": "recorded"
+    },
+    {
+     "index": 1,
+     "s": "tra",
+     "t0": 17.471,
+     "t1": 17.708,
+     "origin0": "recorded",
+     "origin1": "recorded"
+    },
+    {
+     "index": 2,
+     "s": "tā",
+     "t0": 17.708,
+     "t1": 17.745,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 3,
+     "s": "lo",
+     "t0": 17.909,
+     "t1": 18.19,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 4,
+     "s": "nā",
+     "t0": 18.14,
+     "t1": 18.4,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 5,
+     "s": "ḍyāṃ",
+     "t0": 18.4,
+     "t1": 18.79,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 6,
+     "s": "ra",
+     "t0": 18.94,
+     "t1": 19.015,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 7,
+     "s": "kta",
+     "t0": 19.115,
+     "t1": 19.28,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 8,
+     "s": "vad",
+     "t0": 19.48,
+     "t1": 19.625,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 9,
+     "s": "va",
+     "t0": 19.825,
+     "t1": 19.915,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 10,
+     "s": "ha",
+     "t0": 19.915,
+     "t1": 20.155,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 11,
+     "s": "ti",
+     "t0": 20.105,
+     "t1": 20.559,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    }
+   ]
+  },
+  {
+   "lyricIndex": 2,
+   "syllables": [
+    {
+     "index": 0,
+     "s": "nī",
+     "t0": 20.761,
+     "t1": 21.179,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 1,
+     "s": "la",
+     "t0": 20.979,
+     "t1": 21.449,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 2,
+     "s": "jvā",
+     "t0": 21.149,
+     "t1": 21.664,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 3,
+     "s": "lāḥ",
+     "t0": 21.414,
+     "t1": 21.894,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 4,
+     "s": "pra",
+     "t0": 21.844,
+     "t1": 22.254,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 5,
+     "s": "jva",
+     "t0": 22.204,
+     "t1": 22.539,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 6,
+     "s": "la",
+     "t0": 22.539,
+     "t1": 22.794,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 7,
+     "s": "nti",
+     "t0": 22.744,
+     "t1": 23.214,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 8,
+     "s": "ta",
+     "t0": 23.164,
+     "t1": 23.314,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 9,
+     "s": "mo",
+     "t0": 23.414,
+     "t1": 23.654,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 10,
+     "s": "da",
+     "t0": 23.604,
+     "t1": 23.914,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 11,
+     "s": "gdham",
+     "t0": 23.864,
+     "t1": 24.252,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    }
+   ]
+  },
+  {
+   "lyricIndex": 3,
+   "syllables": [
+    {
+     "index": 0,
+     "s": "ta",
+     "t0": 24.29,
+     "t1": 24.741,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 1,
+     "s": "ntra",
+     "t0": 24.441,
+     "t1": 24.966,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 2,
+     "s": "jñaḥ",
+     "t0": 24.616,
+     "t1": 25.186,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 3,
+     "s": "pa",
+     "t0": 24.936,
+     "t1": 25.421,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 4,
+     "s": "ri",
+     "t0": 25.021,
+     "t1": 25.581,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 5,
+     "s": "pa",
+     "t0": 25.131,
+     "t1": 25.856,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 6,
+     "s": "tha",
+     "t0": 25.256,
+     "t1": 25.971,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 7,
+     "s": "siṃ",
+     "t0": 25.371,
+     "t1": 26.271,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 8,
+     "s": "hā",
+     "t0": 25.571,
+     "t1": 26.511,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 9,
+     "s": "sa",
+     "t0": 25.761,
+     "t1": 26.746,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 10,
+     "s": "ne",
+     "t0": 25.896,
+     "t1": 26.961,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 11,
+     "s": "nā",
+     "t0": 26.261,
+     "t1": 27.186,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 12,
+     "s": "dā",
+     "t0": 26.486,
+     "t1": 27.271,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 13,
+     "s": "nām",
+     "t0": 26.721,
+     "t1": 27.581,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 14,
+     "s": "ī",
+     "t0": 27.181,
+     "t1": 27.741,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 15,
+     "s": "śva",
+     "t0": 27.441,
+     "t1": 28.046,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 16,
+     "s": "raḥ",
+     "t0": 27.696,
+     "t1": 28.18,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    }
+   ]
+  },
+  {
+   "lyricIndex": 4,
+   "syllables": [
+    {
+     "index": 0,
+     "s": "e",
+     "t0": 28.257,
+     "t1": 28.583,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 1,
+     "s": "kai",
+     "t0": 28.433,
+     "t1": 28.688,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 2,
+     "s": "kā",
+     "t0": 28.638,
+     "t1": 28.913,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 3,
+     "s": "ā",
+     "t0": 28.863,
+     "t1": 29.173,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 4,
+     "s": "vṛ",
+     "t0": 29.073,
+     "t1": 29.358,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 5,
+     "s": "ttiḥ",
+     "t0": 29.308,
+     "t1": 29.553,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 6,
+     "s": "ka",
+     "t0": 29.503,
+     "t1": 29.688,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 7,
+     "s": "tha",
+     "t0": 29.638,
+     "t1": 29.903,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 8,
+     "s": "ya",
+     "t0": 29.703,
+     "t1": 30.123,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 9,
+     "s": "ti",
+     "t0": 29.873,
+     "t1": 30.443,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 10,
+     "s": "i",
+     "t0": 29.943,
+     "t1": 30.553,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 11,
+     "s": "daṃ",
+     "t0": 30.053,
+     "t1": 30.773,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 12,
+     "s": "ta",
+     "t0": 30.423,
+     "t1": 30.988,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 13,
+     "s": "va",
+     "t0": 30.488,
+     "t1": 31.208,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 14,
+     "s": "dhā",
+     "t0": 30.658,
+     "t1": 31.368,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 15,
+     "s": "ma",
+     "t0": 31.168,
+     "t1": 31.578,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    }
+   ]
+  },
+  {
+   "lyricIndex": 5,
+   "syllables": [
+    {
+     "index": 0,
+     "s": "la",
+     "t0": 31.496,
+     "t1": 31.982,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 1,
+     "s": "yā",
+     "t0": 31.732,
+     "t1": 32.322,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 2,
+     "s": "rthaṃ",
+     "t0": 31.872,
+     "t1": 32.427,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 3,
+     "s": "ni",
+     "t0": 32.177,
+     "t1": 32.657,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 4,
+     "s": "rmi",
+     "t0": 32.257,
+     "t1": 33.042,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 5,
+     "s": "tāḥ",
+     "t0": 32.592,
+     "t1": 33.312,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 6,
+     "s": "rā",
+     "t0": 33.012,
+     "t1": 33.527,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 7,
+     "s": "trya",
+     "t0": 33.277,
+     "t1": 33.717,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 8,
+     "s": "rthaṃ",
+     "t0": 33.517,
+     "t1": 33.957,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 9,
+     "s": "ka",
+     "t0": 33.907,
+     "t1": 34.197,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 10,
+     "s": "lpi",
+     "t0": 34.097,
+     "t1": 34.402,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 11,
+     "s": "tāḥ",
+     "t0": 34.352,
+     "t1": 34.724,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    }
+   ]
+  },
+  {
+   "lyricIndex": 6,
+   "syllables": [
+    {
+     "index": 0,
+     "s": "lo",
+     "t0": 34.794,
+     "t1": 35.245,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 1,
+     "s": "ha",
+     "t0": 34.995,
+     "t1": 35.51,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 2,
+     "s": "ca",
+     "t0": 35.21,
+     "t1": 35.93,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 3,
+     "s": "rma",
+     "t0": 35.43,
+     "t1": 36.07,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 4,
+     "s": "dī",
+     "t0": 35.87,
+     "t1": 36.375,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 5,
+     "s": "pya",
+     "t0": 36.325,
+     "t1": 36.595,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 6,
+     "s": "te",
+     "t0": 36.545,
+     "t1": 37.025,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 7,
+     "s": "pra",
+     "t0": 36.775,
+     "t1": 37.3,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 8,
+     "s": "kā",
+     "t0": 37,
+     "t1": 37.54,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 9,
+     "s": "śe",
+     "t0": 37.24,
+     "t1": 37.905,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 10,
+     "s": "pra",
+     "t0": 37.555,
+     "t1": 38.095,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 11,
+     "s": "kā",
+     "t0": 37.845,
+     "t1": 38.38,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 12,
+     "s": "śe",
+     "t0": 38.23,
+     "t1": 38.635,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    }
+   ]
+  },
+  {
+   "lyricIndex": 7,
+   "syllables": [
+    {
+     "index": 0,
+     "s": "va",
+     "t0": 38.79,
+     "t1": 39.106,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 1,
+     "s": "da",
+     "t0": 38.856,
+     "t1": 39.241,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 2,
+     "s": "nti",
+     "t0": 39.041,
+     "t1": 39.431,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 3,
+     "s": "ya",
+     "t0": 39.381,
+     "t1": 39.551,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 4,
+     "s": "ntram",
+     "t0": 39.501,
+     "t1": 39.766,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 5,
+     "s": "e",
+     "t0": 39.666,
+     "t1": 39.976,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 6,
+     "s": "va",
+     "t0": 39.826,
+     "t1": 40.086,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 7,
+     "s": "ya",
+     "t0": 39.886,
+     "t1": 40.251,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 8,
+     "s": "ntram",
+     "t0": 40.101,
+     "t1": 40.471,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    }
+   ]
+  },
+  {
+   "lyricIndex": 8,
+   "syllables": [
+    {
+     "index": 0,
+     "s": "ki",
+     "t0": 40.511,
+     "t1": 40.862,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 1,
+     "s": "ntu",
+     "t0": 40.612,
+     "t1": 41.027,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 2,
+     "s": "bhrā",
+     "t0": 40.827,
+     "t1": 41.202,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 3,
+     "s": "mā",
+     "t0": 40.952,
+     "t1": 41.412,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 4,
+     "s": "mo",
+     "t0": 41.162,
+     "t1": 41.627,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 5,
+     "s": "dai",
+     "t0": 41.377,
+     "t1": 41.742,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 6,
+     "s": "va",
+     "t0": 41.542,
+     "t1": 41.967,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 7,
+     "s": "vā",
+     "t0": 41.667,
+     "t1": 42.172,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 8,
+     "s": "ṇī",
+     "t0": 41.922,
+     "t1": 42.272,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 9,
+     "s": "va",
+     "t0": 42.122,
+     "t1": 42.503,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    }
+   ]
+  },
+  {
+   "lyricIndex": 9,
+   "syllables": [
+    {
+     "index": 0,
+     "s": "u",
+     "t0": 42.254,
+     "t1": 42.73,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 1,
+     "s": "ra",
+     "t0": 42.355,
+     "t1": 43.155,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 2,
+     "s": "si",
+     "t0": 42.455,
+     "t1": 43.29,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 3,
+     "s": "kiṃ",
+     "t0": 42.69,
+     "t1": 43.62,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 4,
+     "s": "ka",
+     "t0": 43.12,
+     "t1": 43.865,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 5,
+     "s": "mpa",
+     "t0": 43.415,
+     "t1": 44.04,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 6,
+     "s": "te?",
+     "t0": 43.59,
+     "t1": 44.37,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 7,
+     "s": "ta",
+     "t0": 44.02,
+     "t1": 44.695,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 8,
+     "s": "nnā",
+     "t0": 44.345,
+     "t1": 44.91,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 9,
+     "s": "ma",
+     "t0": 44.61,
+     "t1": 45.225,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 10,
+     "s": "mu",
+     "t0": 44.775,
+     "t1": 45.505,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 11,
+     "s": "ktiḥ",
+     "t0": 45.055,
+     "t1": 45.769,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    }
+   ]
+  },
+  {
+   "lyricIndex": 10,
+   "syllables": [
+    {
+     "index": 0,
+     "s": "nṛ",
+     "t0": 45.632,
+     "t1": 46.268,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 1,
+     "s": "tya",
+     "t0": 45.868,
+     "t1": 46.578,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 2,
+     "s": "nṛ",
+     "t0": 46.178,
+     "t1": 46.948,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 3,
+     "s": "tya",
+     "t0": 46.398,
+     "t1": 47.328,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 4,
+     "s": "śū",
+     "t0": 46.549,
+     "t1": 47.528,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 5,
+     "s": "nya",
+     "t0": 46.928,
+     "t1": 47.873,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 6,
+     "s": "sa",
+     "t0": 47.173,
+     "t1": 48.163,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 7,
+     "s": "bhā",
+     "t0": 47.513,
+     "t1": 48.553,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 8,
+     "s": "yām",
+     "t0": 47.953,
+     "t1": 48.892,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    }
+   ]
+  },
+  {
+   "lyricIndex": 11,
+   "syllables": [
+    {
+     "index": 0,
+     "s": "jā",
+     "t0": 48.812,
+     "t1": 49.293,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 1,
+     "s": "laṃ",
+     "t0": 49.043,
+     "t1": 49.528,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 2,
+     "s": "bhi",
+     "t0": 49.228,
+     "t1": 49.953,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 3,
+     "s": "ndhi",
+     "t0": 49.403,
+     "t1": 50.168,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 4,
+     "s": "śū",
+     "t0": 49.668,
+     "t1": 50.403,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 5,
+     "s": "nyai",
+     "t0": 49.903,
+     "t1": 50.613,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 6,
+     "s": "kā",
+     "t0": 50.113,
+     "t1": 50.913,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 7,
+     "s": "tī",
+     "t0": 50.363,
+     "t1": 51.188,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 8,
+     "s": "tāḥ",
+     "t0": 50.588,
+     "t1": 51.468,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 9,
+     "s": "smaḥ",
+     "t0": 50.868,
+     "t1": 51.729,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    }
+   ]
+  },
+  {
+   "lyricIndex": 12,
+   "syllables": [
+    {
+     "index": 0,
+     "s": "nṛ",
+     "t0": 52.37,
+     "t1": 53.111,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 1,
+     "s": "tya",
+     "t0": 52.861,
+     "t1": 53.261,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 2,
+     "s": "nṛ",
+     "t0": 53.061,
+     "t1": 53.451,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 3,
+     "s": "tya",
+     "t0": 53.351,
+     "t1": 53.661,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 4,
+     "s": "yā",
+     "t0": 53.611,
+     "t1": 53.911,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 5,
+     "s": "vat",
+     "t0": 53.861,
+     "t1": 54.101,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 6,
+     "s": "pa",
+     "t0": 54.051,
+     "t1": 54.236,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 7,
+     "s": "ri",
+     "t0": 54.186,
+     "t1": 54.446,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 8,
+     "s": "pa",
+     "t0": 54.296,
+     "t1": 54.576,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 9,
+     "s": "tho",
+     "t0": 54.376,
+     "t1": 54.786,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 10,
+     "s": "da",
+     "t0": 54.536,
+     "t1": 54.971,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 11,
+     "s": "hya",
+     "t0": 54.621,
+     "t1": 55.201,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 12,
+     "s": "te",
+     "t0": 54.851,
+     "t1": 55.378,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    }
+   ]
+  },
+  {
+   "lyricIndex": 13,
+   "syllables": [
+    {
+     "index": 0,
+     "s": "se",
+     "t0": 55.38,
+     "t1": 55.936,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 1,
+     "s": "vā",
+     "t0": 55.636,
+     "t1": 56.211,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 2,
+     "s": "rthaṃ",
+     "t0": 55.737,
+     "t1": 56.551,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 3,
+     "s": "nā",
+     "t0": 56.051,
+     "t1": 56.896,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 4,
+     "s": "ga",
+     "t0": 56.546,
+     "t1": 57.111,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 5,
+     "s": "tāḥ",
+     "t0": 56.711,
+     "t1": 57.516,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 6,
+     "s": "a",
+     "t0": 57.366,
+     "t1": 57.861,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 7,
+     "s": "nu",
+     "t0": 57.461,
+     "t1": 58.281,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 8,
+     "s": "bha",
+     "t0": 57.631,
+     "t1": 58.511,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 9,
+     "s": "vā",
+     "t0": 57.861,
+     "t1": 58.761,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 10,
+     "s": "rtham",
+     "t0": 58.211,
+     "t1": 59.146,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 11,
+     "s": "ā",
+     "t0": 58.696,
+     "t1": 59.461,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 12,
+     "s": "ga",
+     "t0": 59.061,
+     "t1": 59.621,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 13,
+     "s": "tāḥ",
+     "t0": 59.221,
+     "t1": 60.06,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    }
+   ]
+  },
+  {
+   "lyricIndex": 14,
+   "syllables": [
+    {
+     "index": 0,
+     "s": "bha",
+     "t0": 66.706,
+     "t1": 67.242,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 1,
+     "s": "gi",
+     "t0": 66.892,
+     "t1": 67.312,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 2,
+     "s": "nī",
+     "t0": 67.012,
+     "t1": 67.587,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 3,
+     "s": "nṛ",
+     "t0": 67.187,
+     "t1": 67.737,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 4,
+     "s": "tya",
+     "t0": 67.387,
+     "t1": 67.907,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 5,
+     "s": "ta",
+     "t0": 67.557,
+     "t1": 68.127,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 6,
+     "s": "le",
+     "t0": 67.627,
+     "t1": 68.287,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 7,
+     "s": "ṭā",
+     "t0": 67.837,
+     "t1": 68.447,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 8,
+     "s": "i",
+     "t0": 67.997,
+     "t1": 68.582,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 9,
+     "s": "ṭe",
+     "t0": 68.082,
+     "t1": 68.777,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 10,
+     "s": "ni",
+     "t0": 68.327,
+     "t1": 68.927,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 11,
+     "s": "ya",
+     "t0": 68.378,
+     "t1": 69.222,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 12,
+     "s": "ma",
+     "t0": 68.522,
+     "t1": 69.362,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 13,
+     "s": "ka",
+     "t0": 68.712,
+     "t1": 69.552,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 14,
+     "s": "śe",
+     "t0": 68.802,
+     "t1": 69.697,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 15,
+     "s": "ru",
+     "t0": 69.197,
+     "t1": 69.882,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 16,
+     "s": "kā",
+     "t0": 69.432,
+     "t1": 70.077,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    }
+   ]
+  },
+  {
+   "lyricIndex": 15,
+   "syllables": [
+    {
+     "index": 0,
+     "s": "pa",
+     "t0": 70.284,
+     "t1": 70.655,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 1,
+     "s": "ñca",
+     "t0": 70.405,
+     "t1": 70.985,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 2,
+     "s": "da",
+     "t0": 70.635,
+     "t1": 71.225,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 3,
+     "s": "śa",
+     "t0": 70.775,
+     "t1": 71.615,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 4,
+     "s": "vā",
+     "t0": 70.965,
+     "t1": 71.855,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 5,
+     "s": "raṃ",
+     "t0": 71.205,
+     "t1": 72.07,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 6,
+     "s": "smṛ",
+     "t0": 71.52,
+     "t1": 72.545,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 7,
+     "s": "tiḥ",
+     "t0": 71.795,
+     "t1": 72.95,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 8,
+     "s": "pra",
+     "t0": 72,
+     "t1": 73.145,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 9,
+     "s": "mṛ",
+     "t0": 72.495,
+     "t1": 73.475,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 10,
+     "s": "ṣṭā",
+     "t0": 72.775,
+     "t1": 73.792,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    }
+   ]
+  },
+  {
+   "lyricIndex": 16,
+   "syllables": [
+    {
+     "index": 0,
+     "s": "ta",
+     "t0": 73.805,
+     "t1": 74.251,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 1,
+     "s": "thā",
+     "t0": 73.901,
+     "t1": 74.486,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 2,
+     "s": "pi",
+     "t0": 74.086,
+     "t1": 74.716,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 3,
+     "s": "jā",
+     "t0": 74.216,
+     "t1": 74.921,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 4,
+     "s": "nā",
+     "t0": 74.471,
+     "t1": 75.136,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 5,
+     "s": "ti",
+     "t0": 74.686,
+     "t1": 75.586,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 6,
+     "s": "ka",
+     "t0": 74.887,
+     "t1": 75.796,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 7,
+     "s": "thaṃ",
+     "t0": 75.088,
+     "t1": 76.056,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 8,
+     "s": "ca",
+     "t0": 75.306,
+     "t1": 76.346,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 9,
+     "s": "li",
+     "t0": 75.446,
+     "t1": 76.491,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 10,
+     "s": "ta",
+     "t0": 75.541,
+     "t1": 76.896,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 11,
+     "s": "vyam",
+     "t0": 75.746,
+     "t1": 77.061,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    }
+   ]
+  },
+  {
+   "lyricIndex": 17,
+   "syllables": [
+    {
+     "index": 0,
+     "s": "ta",
+     "t0": 77.029,
+     "t1": 77.56,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 1,
+     "s": "thā",
+     "t0": 77.31,
+     "t1": 77.76,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 2,
+     "s": "pi",
+     "t0": 77.51,
+     "t1": 78,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 3,
+     "s": "va",
+     "t0": 77.7,
+     "t1": 78.43,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 4,
+     "s": "ha",
+     "t0": 77.78,
+     "t1": 78.715,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 5,
+     "s": "ti",
+     "t0": 77.965,
+     "t1": 79,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 6,
+     "s": "yan",
+     "t0": 78.15,
+     "t1": 79.3,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 7,
+     "s": "na",
+     "t0": 78.35,
+     "t1": 79.6,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 8,
+     "s": "mā",
+     "t0": 78.45,
+     "t1": 79.885,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 9,
+     "s": "rṣṭuṃ",
+     "t0": 78.701,
+     "t1": 80.205,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 10,
+     "s": "śa",
+     "t0": 79.005,
+     "t1": 80.515,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 11,
+     "s": "kyam",
+     "t0": 79.265,
+     "t1": 80.767,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    }
+   ]
+  },
+  {
+   "lyricIndex": 18,
+   "syllables": [
+    {
+     "index": 0,
+     "s": "ā",
+     "t0": 80.854,
+     "t1": 81.135,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 1,
+     "s": "tmā",
+     "t0": 81.085,
+     "t1": 81.625,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 2,
+     "s": "naṃ",
+     "t0": 81.425,
+     "t1": 81.95,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 3,
+     "s": "śā",
+     "t0": 81.6,
+     "t1": 82.355,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 4,
+     "s": "si",
+     "t0": 81.955,
+     "t1": 82.635,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 5,
+     "s": "tuṃ",
+     "t0": 82.335,
+     "t1": 82.91,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 6,
+     "s": "na",
+     "t0": 82.56,
+     "t1": 83.23,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 7,
+     "s": "śa",
+     "t0": 82.83,
+     "t1": 83.63,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 8,
+     "s": "kya",
+     "t0": 83.18,
+     "t1": 84.045,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 9,
+     "s": "te",
+     "t0": 83.445,
+     "t1": 84.416,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    }
+   ]
+  },
+  {
+   "lyricIndex": 19,
+   "syllables": [
+    {
+     "index": 0,
+     "s": "pre",
+     "t0": 84.3,
+     "t1": 84.976,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 1,
+     "s": "ma",
+     "t0": 84.676,
+     "t1": 85.226,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 2,
+     "s": "kū",
+     "t0": 84.976,
+     "t1": 85.541,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 3,
+     "s": "ṭe",
+     "t0": 85.191,
+     "t1": 85.856,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 4,
+     "s": "na",
+     "t0": 85.456,
+     "t1": 86.256,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 5,
+     "s": "na",
+     "t0": 85.906,
+     "t1": 86.571,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 6,
+     "s": "ni",
+     "t0": 86.121,
+     "t1": 86.986,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 7,
+     "s": "rvā",
+     "t0": 86.286,
+     "t1": 87.221,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 8,
+     "s": "pya",
+     "t0": 86.671,
+     "t1": 87.596,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 9,
+     "s": "te",
+     "t0": 86.946,
+     "t1": 87.959,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    }
+   ]
+  },
+  {
+   "lyricIndex": 20,
+   "syllables": [
+    {
+     "index": 0,
+     "s": "kū",
+     "t0": 87.784,
+     "t1": 88.28,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 1,
+     "s": "ṭaṃ",
+     "t0": 88.03,
+     "t1": 88.575,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 2,
+     "s": "li",
+     "t0": 88.425,
+     "t1": 88.893,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 3,
+     "s": "khi",
+     "t0": 88.543,
+     "t1": 89.162,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 4,
+     "s": "tam",
+     "t0": 88.662,
+     "t1": 89.432,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 5,
+     "s": "tṛ",
+     "t0": 89.532,
+     "t1": 89.665,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 6,
+     "s": "ṣṇā",
+     "t0": 89.633,
+     "t1": 90.035,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 7,
+     "s": "tu",
+     "t0": 90.185,
+     "t1": 90.24,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 8,
+     "s": "nā",
+     "t0": 90.29,
+     "t1": 90.495,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 9,
+     "s": "li",
+     "t0": 90.495,
+     "t1": 90.88,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 10,
+     "s": "khi",
+     "t0": 90.63,
+     "t1": 91.049,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    }
+   ]
+  },
+  {
+   "lyricIndex": 21,
+   "syllables": [
+    {
+     "index": 0,
+     "s": "cai",
+     "t0": 91.063,
+     "t1": 91.549,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 1,
+     "s": "ta",
+     "t0": 91.299,
+     "t1": 91.999,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 2,
+     "s": "nyaṃ",
+     "t0": 91.449,
+     "t1": 92.214,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 3,
+     "s": "ya",
+     "t0": 91.764,
+     "t1": 92.604,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 4,
+     "s": "di",
+     "t0": 91.954,
+     "t1": 92.839,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 5,
+     "s": "do",
+     "t0": 92.189,
+     "t1": 93.289,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 6,
+     "s": "ṣaḥ",
+     "t0": 92.589,
+     "t1": 93.579,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 7,
+     "s": "a",
+     "t0": 93.229,
+     "t1": 93.969,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 8,
+     "s": "stu",
+     "t0": 93.619,
+     "t1": 94.334,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 9,
+     "s": "do",
+     "t0": 93.934,
+     "t1": 94.584,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 10,
+     "s": "ṣaḥ",
+     "t0": 94.384,
+     "t1": 94.917,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    }
+   ]
+  },
+  {
+   "lyricIndex": 22,
+   "syllables": [
+    {
+     "index": 0,
+     "s": "niḥ",
+     "t0": 95.334,
+     "t1": 95.73,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 1,
+     "s": "sva",
+     "t0": 95.63,
+     "t1": 95.945,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 2,
+     "s": "bhā",
+     "t0": 95.895,
+     "t1": 96.46,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 3,
+     "s": "vā",
+     "t0": 96.31,
+     "t1": 96.88,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 4,
+     "s": "i",
+     "t0": 97.28,
+     "t1": 97.275,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 5,
+     "s": "ti",
+     "t0": 97.431,
+     "t1": 97.625,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 6,
+     "s": "va",
+     "t0": 97.675,
+     "t1": 98.05,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 7,
+     "s": "da",
+     "t0": 97.9,
+     "t1": 98.565,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 8,
+     "s": "nti",
+     "t0": 98.365,
+     "t1": 98.883,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    }
+   ]
+  },
+  {
+   "lyricIndex": 23,
+   "syllables": [
+    {
+     "index": 0,
+     "s": "ki",
+     "t0": 98.949,
+     "t1": 99.42,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 1,
+     "s": "ntu",
+     "t0": 99.22,
+     "t1": 99.715,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 2,
+     "s": "ka",
+     "t0": 99.815,
+     "t1": 99.87,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 3,
+     "s": "sya",
+     "t0": 100.07,
+     "t1": 100.325,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 4,
+     "s": "vā",
+     "t0": 100.525,
+     "t1": 100.55,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 5,
+     "s": "sva",
+     "t0": 100.676,
+     "t1": 100.79,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 6,
+     "s": "bhā",
+     "t0": 100.94,
+     "t1": 101.205,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 7,
+     "s": "vaḥ",
+     "t0": 101.155,
+     "t1": 101.511,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    }
+   ]
+  },
+  {
+   "lyricIndex": 24,
+   "syllables": [
+    {
+     "index": 0,
+     "s": "na",
+     "t0": 101.637,
+     "t1": 101.888,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 1,
+     "s": "san",
+     "t0": 101.788,
+     "t1": 102.178,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 2,
+     "s": "nā",
+     "t0": 102.178,
+     "t1": 102.533,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 3,
+     "s": "san",
+     "t0": 102.433,
+     "t1": 102.873,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 4,
+     "s": "no",
+     "t0": 102.923,
+     "t1": 103.033,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 5,
+     "s": "bha",
+     "t0": 103.133,
+     "t1": 103.348,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 6,
+     "s": "yaṃ",
+     "t0": 103.298,
+     "t1": 103.623,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 7,
+     "s": "nā",
+     "t0": 103.573,
+     "t1": 103.893,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 8,
+     "s": "nu",
+     "t0": 103.993,
+     "t1": 104.233,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 9,
+     "s": "bha",
+     "t0": 104.183,
+     "t1": 104.393,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 10,
+     "s": "yam",
+     "t0": 104.343,
+     "t1": 104.749,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    }
+   ]
+  },
+  {
+   "lyricIndex": 25,
+   "syllables": [
+    {
+     "index": 0,
+     "s": "ā",
+     "t0": 104.71,
+     "t1": 105.106,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 1,
+     "s": "cā",
+     "t0": 104.856,
+     "t1": 105.341,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 2,
+     "s": "ryo",
+     "t0": 105.041,
+     "t1": 105.581,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 3,
+     "s": "nā",
+     "t0": 105.331,
+     "t1": 105.896,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 4,
+     "s": "gā",
+     "t0": 105.546,
+     "t1": 106.231,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 5,
+     "s": "rju",
+     "t0": 105.681,
+     "t1": 106.446,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 6,
+     "s": "no",
+     "t0": 105.846,
+     "t1": 106.701,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 7,
+     "s": "jñā",
+     "t0": 106.151,
+     "t1": 106.981,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 8,
+     "s": "ta",
+     "t0": 106.381,
+     "t1": 107.166,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 9,
+     "s": "vān",
+     "t0": 106.466,
+     "t1": 107.546,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 10,
+     "s": "śū",
+     "t0": 106.996,
+     "t1": 107.741,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 11,
+     "s": "nyam",
+     "t0": 107.341,
+     "t1": 107.966,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 12,
+     "s": "i",
+     "t0": 107.516,
+     "t1": 108.241,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 13,
+     "s": "daṃ",
+     "t0": 107.691,
+     "t1": 108.451,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 14,
+     "s": "sa",
+     "t0": 107.901,
+     "t1": 108.786,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 15,
+     "s": "rvam",
+     "t0": 108.002,
+     "t1": 109.03,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    }
+   ]
+  },
+  {
+   "lyricIndex": 26,
+   "syllables": [
+    {
+     "index": 0,
+     "s": "yu",
+     "t0": 108.759,
+     "t1": 109.52,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 1,
+     "s": "ṣmā",
+     "t0": 109.07,
+     "t1": 109.865,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 2,
+     "s": "kam",
+     "t0": 109.665,
+     "t1": 110.37,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 3,
+     "s": "ā",
+     "t0": 110.37,
+     "t1": 110.805,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 4,
+     "s": "tmā",
+     "t0": 110.705,
+     "t1": 111.24,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 5,
+     "s": "pi",
+     "t0": 111.19,
+     "t1": 111.66,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 6,
+     "s": "pra",
+     "t0": 111.61,
+     "t1": 112.07,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 7,
+     "s": "tī",
+     "t0": 111.87,
+     "t1": 112.54,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 8,
+     "s": "tya",
+     "t0": 112.49,
+     "t1": 113,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 9,
+     "s": "sa",
+     "t0": 112.9,
+     "t1": 113.435,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 10,
+     "s": "mu",
+     "t0": 113.185,
+     "t1": 113.87,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 11,
+     "s": "tpa",
+     "t0": 113.336,
+     "t1": 114.195,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 12,
+     "s": "nnaḥ",
+     "t0": 113.745,
+     "t1": 114.568,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    }
+   ]
+  },
+  {
+   "lyricIndex": 27,
+   "syllables": [
+    {
+     "index": 0,
+     "s": "va",
+     "t0": 114.67,
+     "t1": 115.421,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 1,
+     "s": "yaṃ",
+     "t0": 114.971,
+     "t1": 115.826,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 2,
+     "s": "tu",
+     "t0": 115.376,
+     "t1": 116.736,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 3,
+     "s": "e",
+     "t0": 115.986,
+     "t1": 117.291,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 4,
+     "s": "taj",
+     "t0": 116.691,
+     "t1": 117.676,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 5,
+     "s": "jā",
+     "t0": 117.576,
+     "t1": 118.306,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 6,
+     "s": "nī",
+     "t0": 118.456,
+     "t1": 118.956,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 7,
+     "s": "maḥ",
+     "t0": 119.306,
+     "t1": 119.59,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    }
+   ]
+  },
+  {
+   "lyricIndex": 28,
+   "syllables": [
+    {
+     "index": 0,
+     "s": "a",
+     "t0": 121.456,
+     "t1": 121.962,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 1,
+     "s": "to",
+     "t0": 121.612,
+     "t1": 122.062,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 2,
+     "s": "nṛ",
+     "t0": 121.912,
+     "t1": 122.402,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 3,
+     "s": "tyā",
+     "t0": 122.352,
+     "t1": 122.882,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 4,
+     "s": "maḥ",
+     "t0": 122.782,
+     "t1": 123.169,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    }
+   ]
+  },
+  {
+   "lyricIndex": 29,
+   "syllables": [
+    {
+     "index": 0,
+     "s": "ra",
+     "t0": 129.753,
+     "t1": 130.054,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 1,
+     "s": "kta",
+     "t0": 130.004,
+     "t1": 130.169,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 2,
+     "s": "nī",
+     "t0": 130.119,
+     "t1": 130.379,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 3,
+     "s": "la",
+     "t0": 130.329,
+     "t1": 130.494,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 4,
+     "s": "pra",
+     "t0": 130.444,
+     "t1": 130.604,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 5,
+     "s": "bhā",
+     "t0": 130.554,
+     "t1": 130.789,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 6,
+     "s": "dhū",
+     "t0": 130.689,
+     "t1": 130.934,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 7,
+     "s": "maṃ",
+     "t0": 130.884,
+     "t1": 131.124,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 8,
+     "s": "chi",
+     "t0": 131.074,
+     "t1": 131.269,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 9,
+     "s": "na",
+     "t0": 131.219,
+     "t1": 131.469,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 10,
+     "s": "tti",
+     "t0": 131.419,
+     "t1": 131.591,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    }
+   ]
+  },
+  {
+   "lyricIndex": 30,
+   "syllables": [
+    {
+     "index": 0,
+     "s": "ra",
+     "t0": 131.56,
+     "t1": 131.931,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 1,
+     "s": "vaḥ",
+     "t0": 131.631,
+     "t1": 132.126,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 2,
+     "s": "ya",
+     "t0": 131.876,
+     "t1": 132.461,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 3,
+     "s": "tra",
+     "t0": 132.061,
+     "t1": 132.646,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 4,
+     "s": "dhva",
+     "t0": 132.546,
+     "t1": 132.796,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 5,
+     "s": "ni",
+     "t0": 132.746,
+     "t1": 133.021,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 6,
+     "s": "ya",
+     "t0": 132.821,
+     "t1": 133.156,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 7,
+     "s": "ntram",
+     "t0": 132.956,
+     "t1": 133.461,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 8,
+     "s": "a",
+     "t0": 133.411,
+     "t1": 133.566,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 9,
+     "s": "ga",
+     "t0": 133.516,
+     "t1": 133.766,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 10,
+     "s": "rjat",
+     "t0": 133.666,
+     "t1": 134.055,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    }
+   ]
+  },
+  {
+   "lyricIndex": 31,
+   "syllables": [
+    {
+     "index": 0,
+     "s": "pā",
+     "t0": 133.94,
+     "t1": 134.326,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 1,
+     "s": "du",
+     "t0": 134.176,
+     "t1": 134.571,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 2,
+     "s": "kāḥ",
+     "t0": 134.271,
+     "t1": 134.771,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 3,
+     "s": "so",
+     "t0": 134.571,
+     "t1": 134.896,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 4,
+     "s": "pā",
+     "t0": 134.796,
+     "t1": 135.191,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 5,
+     "s": "ne",
+     "t0": 135.041,
+     "t1": 135.306,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 6,
+     "s": "ci",
+     "t0": 135.256,
+     "t1": 135.526,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 7,
+     "s": "hnā",
+     "t0": 135.526,
+     "t1": 135.751,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 8,
+     "s": "ni",
+     "t0": 135.701,
+     "t1": 135.956,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 9,
+     "s": "dvā",
+     "t0": 135.906,
+     "t1": 136.186,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 10,
+     "s": "re",
+     "t0": 136.136,
+     "t1": 136.428,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    }
+   ]
+  },
+  {
+   "lyricIndex": 32,
+   "syllables": [
+    {
+     "index": 0,
+     "s": "\"sa",
+     "t0": 136.337,
+     "t1": 136.828,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 1,
+     "s": "rve",
+     "t0": 136.478,
+     "t1": 136.983,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 2,
+     "s": "bhū",
+     "t0": 136.833,
+     "t1": 137.173,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 3,
+     "s": "mau!",
+     "t0": 137.023,
+     "t1": 137.393,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 4,
+     "s": "i",
+     "t0": 137.343,
+     "t1": 137.638,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 5,
+     "s": "dā",
+     "t0": 137.438,
+     "t1": 137.808,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 6,
+     "s": "nīm!\"",
+     "t0": 137.658,
+     "t1": 138.035,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    }
+   ]
+  },
+  {
+   "lyricIndex": 33,
+   "syllables": [
+    {
+     "index": 0,
+     "s": "ki",
+     "t0": 138.105,
+     "t1": 138.361,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 1,
+     "s": "ntu",
+     "t0": 138.261,
+     "t1": 138.481,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 2,
+     "s": "tā",
+     "t0": 138.381,
+     "t1": 138.731,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 3,
+     "s": "lo",
+     "t0": 138.781,
+     "t1": 138.906,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 4,
+     "s": "na",
+     "t0": 139.006,
+     "t1": 139.121,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 5,
+     "s": "vi",
+     "t0": 139.107,
+     "t1": 139.226,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 6,
+     "s": "ra",
+     "t0": 139.176,
+     "t1": 139.456,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 7,
+     "s": "ma",
+     "t0": 139.306,
+     "t1": 139.576,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 8,
+     "s": "ti",
+     "t0": 139.426,
+     "t1": 139.671,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 9,
+     "s": "va",
+     "t0": 139.621,
+     "t1": 139.886,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 10,
+     "s": "yaṃ",
+     "t0": 139.736,
+     "t1": 140.116,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 11,
+     "s": "ca",
+     "t0": 139.966,
+     "t1": 140.246,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 12,
+     "s": "na",
+     "t0": 140.096,
+     "t1": 140.412,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    }
+   ]
+  },
+  {
+   "lyricIndex": 34,
+   "syllables": [
+    {
+     "index": 0,
+     "s": "sa",
+     "t0": 140.484,
+     "t1": 140.995,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 1,
+     "s": "bhām",
+     "t0": 140.645,
+     "t1": 141.165,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 2,
+     "s": "ā",
+     "t0": 141.015,
+     "t1": 141.535,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 3,
+     "s": "krā",
+     "t0": 141.135,
+     "t1": 141.785,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 4,
+     "s": "mat",
+     "t0": 141.385,
+     "t1": 142.05,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 5,
+     "s": "la",
+     "t0": 141.8,
+     "t1": 142.31,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 6,
+     "s": "yo",
+     "t0": 142.01,
+     "t1": 142.59,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 7,
+     "s": "na",
+     "t0": 142.24,
+     "t1": 142.985,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 8,
+     "s": "mri",
+     "t0": 142.535,
+     "t1": 143.21,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 9,
+     "s": "ya",
+     "t0": 142.636,
+     "t1": 143.51,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 10,
+     "s": "te",
+     "t0": 142.96,
+     "t1": 143.819,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    }
+   ]
+  },
+  {
+   "lyricIndex": 35,
+   "syllables": [
+    {
+     "index": 0,
+     "s": "\"da",
+     "t0": 143.834,
+     "t1": 144.22,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 1,
+     "s": "laṃ",
+     "t0": 143.92,
+     "t1": 144.475,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 2,
+     "s": "sa",
+     "t0": 144.225,
+     "t1": 144.785,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 3,
+     "s": "pta",
+     "t0": 144.385,
+     "t1": 144.915,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 4,
+     "s": "pa",
+     "t0": 144.536,
+     "t1": 145.12,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 5,
+     "s": "ñcā",
+     "t0": 144.72,
+     "t1": 145.36,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 6,
+     "s": "śat",
+     "t0": 145.11,
+     "t1": 145.775,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 7,
+     "s": "u",
+     "t0": 145.275,
+     "t1": 145.91,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 8,
+     "s": "lla",
+     "t0": 145.46,
+     "t1": 146.185,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 9,
+     "s": "ṅgha",
+     "t0": 145.685,
+     "t1": 146.455,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 10,
+     "s": "ne",
+     "t0": 145.855,
+     "t1": 146.77,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 11,
+     "s": "bha",
+     "t0": 146.27,
+     "t1": 146.875,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 12,
+     "s": "va",
+     "t0": 146.421,
+     "t1": 147.09,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 13,
+     "s": "ntaḥ—\"",
+     "t0": 146.54,
+     "t1": 147.414,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    }
+   ]
+  },
+  {
+   "lyricIndex": 36,
+   "syllables": [
+    {
+     "index": 0,
+     "s": "āṃ.",
+     "t0": 147.14,
+     "t1": 148.606,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 1,
+     "s": "jā",
+     "t0": 148.606,
+     "t1": 149.101,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 2,
+     "s": "nī",
+     "t0": 149.051,
+     "t1": 150.026,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 3,
+     "s": "maḥ.",
+     "t0": 149.476,
+     "t1": 150.821,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 4,
+     "s": "āṃ.",
+     "t0": 150.921,
+     "t1": 151.541,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 5,
+     "s": "jā",
+     "t0": 152.341,
+     "t1": 152.331,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 6,
+     "s": "nī",
+     "t0": 152.542,
+     "t1": 153.026,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 7,
+     "s": "maḥ.",
+     "t0": 152.976,
+     "t1": 153.76,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    }
+   ]
+  },
+  {
+   "lyricIndex": 37,
+   "syllables": [
+    {
+     "index": 0,
+     "s": "sa",
+     "t0": 154.031,
+     "t1": 154.772,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 1,
+     "s": "dai",
+     "t0": 154.272,
+     "t1": 155.117,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 2,
+     "s": "va",
+     "t0": 154.717,
+     "t1": 155.737,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 3,
+     "s": "u",
+     "t0": 155.837,
+     "t1": 156.267,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 4,
+     "s": "lla",
+     "t0": 156.217,
+     "t1": 156.712,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 5,
+     "s": "ṅgha",
+     "t0": 156.612,
+     "t1": 157.322,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 6,
+     "s": "ne",
+     "t0": 156.872,
+     "t1": 157.787,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 7,
+     "s": "smaḥ.",
+     "t0": 157.637,
+     "t1": 158.407,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    }
+   ]
+  },
+  {
+   "lyricIndex": 38,
+   "syllables": [
+    {
+     "index": 0,
+     "s": "jā",
+     "t0": 162.77,
+     "t1": 164.581,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 1,
+     "s": "nī",
+     "t0": 163.031,
+     "t1": 166.311,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 2,
+     "s": "maḥ.",
+     "t0": 163.482,
+     "t1": 168.03,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    }
+   ]
+  },
+  {
+   "lyricIndex": 39,
+   "syllables": [
+    {
+     "index": 0,
+     "s": "sa",
+     "t0": 169.725,
+     "t1": 169.661,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 1,
+     "s": "dai",
+     "t0": 170.026,
+     "t1": 170.061,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 2,
+     "s": "va",
+     "t0": 170.627,
+     "t1": 170.444,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 3,
+     "s": "u",
+     "t0": 170.878,
+     "t1": 170.901,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 4,
+     "s": "lla",
+     "t0": 170.979,
+     "t1": 171.131,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 5,
+     "s": "ṅgha",
+     "t0": 171.181,
+     "t1": 171.646,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 6,
+     "s": "ne",
+     "t0": 171.396,
+     "t1": 171.821,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    },
+    {
+     "index": 7,
+     "s": "smaḥ.",
+     "t0": 171.621,
+     "t1": 172.225,
+     "origin0": "recorded",
+     "origin1": "rough guide"
+    }
+   ]
+  }
+ ],
+ "pending_lines": 40,
+ "pending_chunks": 436,
+ "pending_boundaries": 1,
+ "editor_state": {
+  "lyricIndex": 26,
+  "chunkIndex": 6,
+  "boundary": "t0"
+ },
+ "settings": {
+  "line": 26,
+  "track": "vocals",
+  "rate": 0.5,
+  "loop": true,
+  "lead": false,
+  "latencyMs": 0,
+  "captureMode": "paused",
+  "zoom": "1.2"
+ },
+ "workspace": {
+  "id": "f47b6dd1-281f-474a-aa75-0206a257b8d1",
+  "revision": 7,
+  "updated_at": "2026-10-02T04:50:49.628Z",
+  "base_id": "e986fada-a6f8-4ec1-8f35-effa4d8e2515",
+  "base_revision": 88,
+  "content_updated_at": "2026-10-02T04:47:01.831Z"
+ },
+ "source_migration": {
+  "id": "remove-owner-rejected-unsung-outro-duplicates-2026-10-02",
+  "from_sha256": "cba20bccb97d92854ebf87f5de45897ea23cb6c8c2d367f908ea682f99b43df9",
+  "to_sha256": "04aa1667f1c1bad7e2d943091c4e5ce844b1d10a988d2e259682732cfca442b4",
+  "removed_old_indices": [
+   40,
+   41
+  ]
+ },
+ "end_policy": "next_start_estimate is provisional; manually marked ends can preserve gaps",
+ "saved_at": "2026-10-02T04:50:48.363Z"
+}

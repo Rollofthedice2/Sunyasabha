@@ -1,0 +1,27 @@
+{
+ "sister": {
+  "beat0": 66.8386,
+  "period": 0.4376,
+  "offsets": [
+   0.0,
+   0.5
+  ],
+  "groups": 2,
+  "from": 66.84,
+  "to": 69.4
+ },
+ "bridge": {
+  "beat0": 95.2824,
+  "period": 0.8752,
+  "offsets": [
+   0.0
+  ],
+  "groups": 1,
+  "from": 94.917,
+  "to": 108.759,
+  "h": {
+   "every": 4,
+   "all_from": 105.78
+  }
+ }
+}

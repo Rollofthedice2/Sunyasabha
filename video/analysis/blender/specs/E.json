@@ -1,0 +1,8 @@
+{"name": "E", "_note": "ring dancer at layartham nirmitah (31.7 s): silver crop, open black vest over bare chest, chrome RIGHT forearm, grey trousers, black boots, muscular",
+ "colors": {"skin": [0.45, 0.27, 0.17], "top": [0.07, 0.06, 0.07], "bottom": [0.30, 0.30, 0.32], "shoes": [0.06, 0.06, 0.07], "hair": [0.72, 0.72, 0.74], "metal": [0.74, 0.76, 0.80]},
+ "top": {"type": "tank", "r": {"hem": [0.17, 0.13], "belt": [0.165, 0.125], "waist": [0.155, 0.13], "chest": [0.19, 0.145], "upt": [0.2, 0.13], "scap": [0.1, 0.085]}},
+ "bottom": {"type": "long", "r": {"pelvis": [0.18, 0.13], "belt": [0.16, 0.12], "hip": [0.1, 0.12], "knee": [0.085, 0.09], "ankle": [0.08, 0.085]}},
+ "arms": {"sh": [0.09, 0.085], "bic": [0.076, 0.072], "el": [0.055, 0.053], "fore": [0.066, 0.058], "wr": [0.043, 0.037], "kk": [0.052, 0.046]},
+ "metal_forearm": "R",
+ "neck": 0.072, "head": {"scale": [0.105, 0.125, 0.14], "hair": "buzz"},
+ "shoes": {"w": 0.15, "len": 0.33, "top_above_ankle": 0.12}}

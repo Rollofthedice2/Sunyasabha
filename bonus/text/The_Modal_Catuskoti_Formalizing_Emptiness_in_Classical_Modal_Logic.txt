@@ -1,0 +1,689 @@
+Comparative Philosophy Volume 17, No. 2 (2026): 4-17
+Open Access / ISSN 2151-6014 / www.comparativephilosophy.org
+https://doi.org/10.31979/2151-6014(2026).170205
+
+                         THE MODAL CATUṢKOṬI:
+ FORMALIZING EMPTINESS IN CLASSICAL MODAL LOGIC
+
+                                      CHANCE CHAPMAN
+
+ABSTRACT: Nāgārjuna’s arguments in the Mūlamadhyamakakārikā rely extensively on
+modus tollens, yet this inference is invalid in the paraconsistent frameworks typically used to
+formalize the catuṣkoṭi. We develop a modal extension of Belnap-Dunn semantics to address
+this, expressed as: ¬□(v(P) = t) ∧ ¬□(v(P) = f) ∧ ¬□(v(P) = b) ∧ ¬□(v(P) = n). This formula
+applies self-reflexively, resolves longstanding interpretive debates regarding verses within
+Nāgārjuna’s Mūlamadhyamakakārikā and Vigrahavyāvartanī such as his “no thesis” defense,
+and bridges interpretive gaps between traditionally designated Eastern and Western logical
+traditions, providing a Western analytical translation of Indian dialectic into symbolic modal
+logic that is system-agnostic across K, T, S4, S5, non-normal logics, and neighborhood
+semantics. The modal operators function classically while the four-valued structure is
+modalized, preserving modus tollens at the level of modal reasoning while accommodating
+paraconsistent valuation at the object level. Self-application produces a non-terminating
+regress that is virtuous rather than vicious: each application is self-contained, demonstrating
+the unavailability of stable ground rather than constituting a failure to find it.
+
+Keywords: catuṣkoṭi, Madhyamaka, modal logic, Nāgārjuna, paraconsistent logic, svabhāva
+
+                                    1. INTRODUCTION
+
+Central to philosophical Mahayana and Vajrayana Buddhism is the Madhyamaka
+tradition, traditionally held as founded by the ancient Indian thinker Nāgārjuna.
+Madhyamaka incorporates a distinctive argumentative and analytical structure known
+as the catuṣkoṭi, or tetralemma in order to discuss the concept of ‘svabhāva’ – inherent
+metaphysical essence or existence independent from outside alteration. The catuṣkoṭi
+consists of four sides, or lemmas: [X] has svabhāva; [X] does not have svabhāva; [X]
+both does and does not have svabhāva; [X] neither has nor does not have svabhāva.
+Svabhāva, as inherent existence or essence independent of causes and conditions, is
+intrinsically a modal property; to possess svabhāva is to possess one's nature
+necessarily (Westerhoff 2009, 22).
+
+________________________
+CHAPMAN, CHANCE: Independent Scholar, USA. chancehchapman@gmail.com
+
+Comparative Philosophy 17.2 (2026)  CHAPMAN
+                                                   5
+
+    Graham Priest in “The Logic of the Catuskoti” (2010) has explored how the
+catuṣkoṭi operates within paraconsistent four-valued logic (using true, false, both, and
+neither) to avoid the consequences of the principle of explosion in classical and
+intuitionistic logic. However, Nāgārjuna made extensive use of modus tollens, which
+is invalid under Priest’s paraconsistent four-valued logics. This paper offers a modal
+extension of Belnap-Dunn semantics to resolve this problem. By reasoning classically
+to refute modal necessity-claims, we can employ modus tollens without restraint in a
+system-agnostic fashion, valid across K, T, S4, S5 and extending naturally to non-
+normal modal logics and neighborhood semantics, where analogous results hold under
+their respective interpretations of necessity.
+
+    We express this as the formula:
+
+    ¬□(v(P) = t) ∧ ¬□(v(P) = f) ∧ ¬□(v(P) = b) ∧ ¬□(v(P) = n)
+
+    The modal operators function classically; the four-valued structure is what is being
+modalized. This preserves modus tollens at the level of modal reasoning while
+accommodating paraconsistent valuation at the object level. By negating the necessity
+claims of all truth-value assignments, the formula achieves self-application, embracing
+the lack of a halting condition to analysis. This provides an internally consistent
+explanation for Nāgārjuna’s statement within the Vigrahavyāvartanī (The End of
+Disputes) in which he seems to assert the absence of a thesis. The formula, as
+generalized method, applies to every positive assertion - including the assertion of the
+formula itself - without reaching contradiction or explosion.
+
+                                           2. THE FORMULA
+
+2.1 COMPONENTS AND INTERPRETATION
+
+It is necessary to define the components of the formula for the purposes of
+disambiguation.
+Let P be any proposition.
+Let v be a valuation function assigning truth values to propositions, where v(P) ∈ {t, f,
+b, n}:
+
+    • t: true (supported by evidence, not refuted)
+    • f: false (refuted by evidence, not supported)
+    • b: both (supported and refuted)
+    • n: neither (neither supported nor refuted)
+
+    These are the four values of Belnap-Dunn semantics (Belnap 1977; Dunn 1976),
+originally developed for reasoning with incomplete and inconsistent information.
+Let □ denote the necessity operator of standard modal logic, where □φ asserts that φ
+holds necessarily (in all accessible worlds under Kripke semantics, or under analogous
+interpretations in other frameworks).
+Let ¬ denote classical negation; let ∧ denote conjunction.
+
+Comparative Philosophy 17.2 (2026)  CHAPMAN
+                                    6
+
+2.1.1 FORMATION RULES
+
+The well-formed formulas of the language are defined recursively as follows:
+
+    1. If P is a propositional variable and x ∈ {t, f, b, n}, then v(P) = x is a formula.
+    2. If φ is a formula and x ∈ {t, f, b, n}, then v(φ) = x is a formula.
+    3. If φ is a formula, then □φ is a formula.
+    4. If φ is a formula, then ¬φ is a formula.
+    5. If φ and ψ are formulas, then φ ∧ ψ is a formula.
+    6. If φ and ψ are formulas, then φ → ψ is a formula.
+
+    Propositional variables enter the language only through valuation atoms v(P) = x.
+No formula asserts P independently of a valuation context, reflecting the dependence
+structure central to the Madhyamaka analysis and preventing svabhāva-claims at the
+level of P assertions.
+
+We define φ ∨ ψ as ¬(¬φ ∧ ¬ψ) and ◇φ as ¬□¬φ.
+
+    Models M = ⟨W, R, V⟩ consist of a set of worlds W, an accessibility relation R,
+and a valuation function V assigning to each propositional variable P and world w a
+value V(P, w) ∈ {t, f, b, n}.
+
+2.1.2 SEMANTIC CLAUSES
+
+The truth conditions for formulas at a world w in model M are defined recursively:
+
+    1. M, w ⊨ v(P) = x iff V(P, w) = x, where P is a propositional variable.
+    2. M, w ⊨ □φ iff for all w' such that wRw', M, w' ⊨ φ.
+    3. M, w ⊨ ¬φ iff M, w ⊭ φ
+    4. M, w ⊨ φ ∧ ψ iff M, w ⊨ φ and M, w ⊨ ψ
+    5. M, w ⊨ φ → ψ iff M, w ⊭ φ or M, w ⊨ ψ
+
+    For formulas φ other than valuation atoms:
+
+    6. M, w ⊨ v(φ) = t iff M, w ⊨ φ
+    7. M, w ⊨ v(φ) = f iff M, w ⊭ φ
+    8. M, w ⊨ v(φ) = b holds at no world.
+    9. M, w ⊨ v(φ) = n holds at no world.
+
+    Clauses 8 and 9 follow from 6 and 7: since the satisfaction relation is bivalent (for
+any φ and w, either M, w ⊨ φ or M, w ⊭ φ), exactly one of v(φ) = t and v(φ) = f holds
+at each world. The values b and n are therefore inapplicable to formulas other than
+valuation atoms. This asymmetry of being four-valued for atomic propositions and
+bivalent for complex formulas does not affect the framework's argumentative work:
+modus tollens at the modal level operates on the bivalent satisfaction of ¬□-formulas,
+
+Comparative Philosophy 17.2 (2026)     CHAPMAN
+                                    7
+
+regardless of whether the underlying atomic variable carries a four-valued assignment.
+The four-valued apparatus permits paraconsistent valuation of object propositions but
+does not enter the inferential chain that refutes necessity.
+
+2.1.3 DEFINITION
+
+The modal catuṣkoṭi formula T(P) is:
+
+          T(P) =def ¬□(v(P) = t) ∧ ¬□(v(P) = f) ∧ ¬□(v(P) = b) ∧ ¬□(v(P) = n)
+
+         T(P) asserts: no truth value is necessarily assigned to P.
+
+2.2 SELF-APPLICATION
+
+Importantly, the formula applies to itself. As T(P) is itself a proposition, T can be
+applied to T(P), like so:
+
+     T(T(P)) = ¬□(v(T(P)) = t) ∧ ¬□(v(T(P)) = f) ∧ ¬□(v(T(P)) = b) ∧ ¬□(v(T(P)) = n)
+
+    This asserts: the truth value of the claim "P has no necessary truth value" is itself
+not necessarily any of the four values.
+
+    This process can continue reflexively as T(T(T(P))), and so on, without a halting
+point. Self-application is well-formed by formation rule 2, and the truth conditions for
+v(T(P)) = x are given by semantic clauses 6–9. Because T(P) asserts something about
+V(P) - not about V(T(P)) - no liar-like circularity arises. The non-terminating regress
+reflects the structure of the analysis, not paradox.
+
+    This prevents the formula from stabilizing into a necessary meta-position. One
+cannot assert 'all propositions lack necessary truth values' as a necessary truth, as that
+assertion is itself contingent - true in some models, false in others. This establishes the
+non-necessity as structural rather than a defect to be remedied.
+
+    More precisely: for any natural number n, the n-fold self-application Tⁿ(P) is
+satisfiable in modal systems that admit asymmetric accessibility: K, T, S4, and their
+non-normal extensions. At each stage, the formula is contingent in these systems, and
+the next application therefore has the semantic space to operate.
+
+    Crucially, n-fold self-application fails to be satisfiable in S5. This restriction is
+principled rather than arbitrary: S5’s equivalence relation forces modal claims to be
+class-constant within equivalence classes, which collapses the directional structure that
+grounding relations require. That is, if worlds can access each other’s alternatives, the
+truth of necessity-claims becomes fixed across them uniformly. Since svabhāva is
+precisely a grounding-style necessity – necessity in virtue of intrinsic nature,
+independent of conditions – it is not appropriately modeled by the uniform necessity of
+S5. The formula’s failure to iterate in S5, rather than being a defect, is a formal
+registration of the incompatibility between uniform necessity and the asymmetric
+dependence relations characteristic of svabhāva. The n-fold satisfiability result for the
+
+Comparative Philosophy 17.2 (2026)     CHAPMAN
+                                    8
+
+appropriate modal systems is formally verified in Lean 4 (see Appendix). This
+accommodates Nāgārjuna’s rejection of all four lemmas so far as they relate to
+metaphysical truth values, as rejection compounds indefinitely.
+
+    This self-referential structure requires that T(P) remain within the scope of the
+analysis rather than quarantined at a separate metalinguistic level. Such refusal of type-
+theoretic stratification is standard in paraconsistent treatments of self-reference (Priest
+1987) and is philosophically necessitated: a rigid level-hierarchy would presuppose the
+stable ground the formula shows to be unavailable.
+
+    Formulas of the modal language receive values in {t, f} only, as a consequence of
+semantic clauses 6–9; the four values {t, f, b, n} apply to propositional variables
+through the base valuation V. When T applies to modal formulas like T(P), the
+conjuncts concerning b and n are trivially satisfied, and T(T(P)) reduces to classical
+contingency: T(P) is neither necessarily true nor necessarily false. This asymmetry is
+philosophically appropriate: the method operates within conventional discourse, which
+is bivalent; what the method reveals is that its object lacks necessary truth value. This
+mirrors the Two Truths structure already invoked: conventional reasoning about
+ultimate emptiness.
+
+2.3 RELATION TO PRIOR FORMALIZATIONS
+
+Graham Priest in In Contradiction (1987) articulated and defended the principle of
+dialetheism, in which the negation of a true statement can also be true in non-classical
+logical systems, such as paraconsistent logics. Priest has since elaborated extensively
+on paraconsistent logics, notably in An Introduction to Non-Classical Logic (2001).
+
+    In “The Logic of the Catuskoti” (2010), Priest applied this framework directly to
+Nāgārjuna's tetralemma, demonstrating how paraconsistent four-valued semantics can
+accommodate the apparent contradictions within the catuṣkoṭi without triggering the
+principle of explosion.
+
+    However, Priest's formalization faces a difficulty. Nāgārjuna's argumentative
+method in the Mūlamadhyamakakārikā (Root Verses of the Middle Way) relies
+extensively on modus tollens to frame several series of reductio ad absurdum
+arguments - demonstrating that if X had svabhāva, absurd consequences would follow,
+and therefore X lacks svabhāva. Under Priest's FDE (First Degree Entailment), modus
+tollens is invalid: from P → Q and ¬Q, one cannot infer ¬P when P may have the value
+‘both.’1
+
+    The modal extension offered here resolves this tension. By situating the four values
+within a modal framework, the reasoning about necessity claims operates classically.
+
+1 Priest (1987, Ch. 6) develops a strict entailment connective → that preserves modus tollens. Priest
+explicitly declines to import this connective into his 2010 catuṣkoṭi formalization as "irrelevant for the
+matter at hand" (Priest 2010, 34 n. 1). Doing so would require a designated world G with the omniscience
+condition ∀w ∈ W, wRG, non-reflexivity of R elsewhere, or in the updated account (Priest 2006, §19.8)
+impossible worlds with a ternary relation and an Augmentation Constraint Priest himself calls "not, in
+general, effectively checkable" (Priest 2006, 272). Our modal approach avoids all of these in standard
+Kripke frames.
+
+Comparative Philosophy 17.2 (2026)     CHAPMAN
+                                    9
+
+Modus tollens is preserved at the level where Nāgārjuna actually employs it.2 Of course,
+we do not claim Nāgārjuna reasoned in terms of possible worlds; we are claiming his
+arguments exhibit a structure that modal logic makes perspicuous, just as formalizing
+any natural-language argument in logic doesn't impute the formalism to the original
+author.
+
+    It should be noted that the formula does not impose modal structure on non-modal
+arguments. Svabhāva is constitutively modal: to possess svabhāva is to possess one's
+nature independently, intrinsically, not in dependence on conditions - which is to
+possess it necessarily. When Nāgārjuna concludes that X lacks svabhāva, he concludes
+that X does not have its nature necessarily. The formula makes explicit the modal
+structure already present in svabhāva-discourse rather than adding something foreign
+to the original arguments.
+
+    This interpretation is not merely one option among equals. Nāgārjuna demonstrably
+employs modus tollens throughout the MMK. Readings that treat svabhāva non-
+modally render these arguments invalid under four-valued semantics. The modal
+reading preserves them. The standard of charitable interpretation in which we attribute
+logical competence to the author favors the reading under which Nāgārjuna's explicit
+argumentative moves remain valid.
+
+    For instance, consider MMK 2:5-6. Nāgārjuna argues: if the act of going inherently
+exists in the path being traversed, then two acts of going would follow - the going that
+makes the path 'being traversed,' and the going supposedly located there (Siderits &
+Katsura 2013, 34-35) (Translating from the original Sanskrit). Two acts of going entail
+two goers. But two goers are absurd; there is one motion and one mover. Therefore,
+going does not inherently exist in the path.
+
+    Reconstructed modally, representing entailments that preserve necessity:
+
+    (1) □(v(going-in-path) = t) → □(v(two-goings) = t)
+    (2) □(v(two-goings) = t) → □(v(two-goers) = t)
+    (3) ¬□(v(two-goers) = t) [there is contingently one goer; necessity fails]
+    (4) ∴ ¬□(v(going-in-path) = t)
+
+    Modus tollens applies twice, classically, at the modal level. The four-valued
+structure permits the object-level propositions to receive any value; what the argument
+refutes is the necessity of those assignments. This is the argumentative pattern
+throughout the MMK.
+
+                                 3. SYSTEM-AGNOSTICISM
+
+We demonstrate that the formula is satisfiable across the standard hierarchy of normal
+modal logics.
+
+2 This also reflects the “Two Truths” in Madhyamaka Buddhist philosophical thought, in which one may
+speak of the “conventional” (classical reasoning) to frame modal discussion of the “ultimate” nature of
+existence. Applied reflexively and given no halting condition, the two frames interleave without
+prioritization; the analysis becomes the analysandum.
+
+Comparative Philosophy 17.2 (2026)     CHAPMAN
+                                    10
+
+3.1 SATISFIABILITY IN K
+
+Consider the following Kripke model M = ⟨W, R, V⟩:
+
+    • W = {w₀, w₁, w₂, w₃, w₄}
+    • R = {(w₀, w₁), (w₀, w₂), (w₀, w₃), (w₀, w₄)}
+    • V(P, w₁) = t; V(P, w₂) = f; V(P, w₃) = b; V(P, w₄) = n
+
+    At w₀, for each value x ∈ {t, f, b, n}, there exists an accessible world wᵢ such that
+V(P, wᵢ) ≠ x. V(P, w₀) may be assigned any value; the accessibility to w₁–w₄ provides
+the necessary counterexamples regardless. Therefore:
+
+    • ¬□(v(P) = t) holds at w₀ (since V(P, w₂) ≠ t)
+    • ¬□(v(P) = f) holds at w₀ (since V(P, w₁) ≠ f)
+    • ¬□(v(P) = b) holds at w₀ (since V(P, w₁) ≠ b)
+    • ¬□(v(P) = n) holds at w₀ (since V(P, w₁) ≠ n)
+
+    As the conjunction holds, the formula is satisfiable in K.
+
+3.2 EXTENSION TO T, S4, S5
+
+From the preceding, one then sees how the formula remains satisfiable in T, S4, and S5
+modal logics.
+
+    • Under T in which □φ → φ, the additional reflexivity adds accessible worlds and does
+         not remove them, keeping the formula satisfiable.
+
+    • Under S4 in which □φ → □□φ, the addition of transitivity chaining world accessibility
+         does not affect the formula, as transitivity governs which worlds access which and does
+         not touch the values those worlds contain. In other words, the transitivity of
+         accessibility does not force the fixity of any value.
+
+    • Under S5, the strongest system, in which □φ ↔ ◇□φ and ◇φ ↔ □◇φ, worlds partition
+         into equivalence classes with full mutual accessibility. However, mutual accessibility
+         does not entail uniform valuation. A model with diverse valuations across worlds
+         within a single equivalence class remains well-formed and satisfies the formula. The
+         model constructed for K above, with R extended to an equivalence relation over W,
+         satisfies the formula in S5. While T(P) itself is satisfiable in S5, the iteration T(T(P))
+         is not; this restriction and its philosophical significance are discussed in Section 2.2.
+         (See Appendix for formal verification of T(P) satisfiability in K, T, S4, S5, and
+         satisfiability of T(T(P)) in K, T, S4.)
+
+3.3 NEIGHBORHOOD AND NON-NORMAL SEMANTICS
+
+Non-normal semantics are weaker than the above systems in that they validate fewer
+necessity inferences. Intuitively, if the formula is satisfiable in the minimal normal
+modal logic of K, it remains satisfiable in systems more permissive toward when
+necessity fails. For example, in neighborhood semantics, □φ holds at w iff the
+
+Comparative Philosophy 17.2 (2026)      CHAPMAN
+                                    11
+
+proposition expressed by φ belongs to the neighborhood N(w) – a designated set of
+propositions deemed necessary at that world. If models exist in K where no value is
+necessitated, analogous models exist in neighborhood semantics where no value-
+assignment proposition belongs to the neighborhood of necessities.
+
+    Similarly, non-normal modal logics weaken the inference rules governing □. Since
+our result requires only that necessity claims can fail, not that they must, weaker
+systems preserve satisfiability.
+
+    A full treatment is beyond the scope of this paper, but we assert the structural
+element: the formula's satisfiability does not depend on features peculiar to normal
+modal logic.
+
+3.4 SIGNIFICANCE
+
+By maintaining satisfiability across a broad array of modal systems, both normal and
+non-normal, the formula does not merely hold as an artifact of system choice. This is
+due to the nature of modal systems: refutation of necessity makes minimal
+commitments, and systems generally distinguish themselves by which positive
+necessity claims they validate, not by which necessity-denials they permit.
+
+    The iteration’s sensitivity to S5, discussed in Section 2.2, does not undercut this.
+On the contrary: the iteration holds in every modal system that admits asymmetric
+accessibility and fails only in the system that imposes the uniform necessity svabhāva
+is defined against. The instability the formula identifies is a structural feature across
+exactly the formal choices appropriate to modeling dependence. This parallels the
+pervasiveness of śūnyatā on all levels of conceptual analysis where dependence
+operates. A Lean 4 formalization verifying these results is detailed in the Appendix.
+
+                              4. ADDRESSING OBJECTIONS
+
+A position should be considered and defended from the viewpoint of the strongest
+identifiable objections. These are identified as follows:
+
+4.1 THE TRIVIALISM CONCERN
+
+The formula and its implications might be read at first glance as overly nihilistic in
+suggesting non-necessity to all truth value claims. However, it must be noted that the
+formula does not affirmatively deny the presence of valuations and is solely focused
+on the modal status of such valuations. This parallels the Buddhist concession that
+conventional function is not nonexistent. The nihilist watchword of “anything goes” is
+subjected to the formula as a matter of course and revealed to be not necessary, allowing
+for pragmatic response.
+
+4.2 THE TRANSCENDENTAL OBJECTION
+
+It is possible for a critic to attempt to attack the formula on what seems to be its own
+
+Comparative Philosophy 17.2 (2026)      CHAPMAN
+                                                  12
+
+grounds by noting that to state the formula presupposes semantic stability. However,
+we assert that it does not presuppose stability in the sense of refusing or failing to
+subject that stability to analysis and refutation. Instead, the observation is embraced as
+an unavoidable consequence of the structure: the formula, applied to itself, is not
+necessarily true in all possible worlds. Indeed, this unavoidable presupposition of stable
+referents, fixed meanings, and determinate boundaries is precisely what Madhyamaka
+identifies as svabhāva. Every proposition, insofar as it functions semantically, encodes
+this presupposition. The formula therefore applies to any proposition, not merely to
+explicitly metaphysical claims.
+
+    This relates to the ‘no thesis’ statement of Nāgārjuna, to be discussed in section 5:
+the critic’s own assertion that semantic stability is necessarily presupposed is itself a
+necessity claim, subject to the same analysis.
+
+4.3 REFLEXIVE SCOPE
+
+A unique element of the formula’s operation is that any objection to the formula must
+itself be expressible as a proposition; any such proposition is subject to the formula’s
+analysis. Critics engaging with this framework are therefore obligated to specify what
+kind of claim their objection is making and why that claim is not reachable by the
+operation it purports to refute. Objections that cannot meet this requirement have not
+engaged the framework, as they have instead asserted its inadequacy without showing
+the inadequacy’s content. Indeed, objections, in their structure, create binary divides
+between permissibility and impermissibility, or accessibility and inaccessibility. Such
+propositional binaries are how svabhāva-like necessity claims are formed in
+conventional speech. As such, dialectical engagement with necessity-enforcing
+binaries, such as through Nāgārjuna's use of reductio ad absurdum, collapses them
+into incoherence.
+
+5. THE VIGRAHAVYĀVARTANĪ DEFENSE
+
+Nāgārjuna defends his approach, as outlined in the Mūlamadhyamakakārikā, in the
+Vigrahavyāvartanī. A much-discussed passage within the Vigrahavyāvartanī is as
+follows:
+
+    29. If I had any thesis, that fault would apply to me. But I do not have any thesis, so there
+    is indeed no fault for me.
+    If I had any thesis, the earlier fault you mentioned would apply to me, because the mark of
+    my thesis has been affected. But I do not have any thesis. To that extent, while all things
+    are empty, completely pacified, and by nature free from substance, from where could a
+    thesis come? In this context your statement “there is precisely that fault for you, because
+    the mark of your thesis has been affected” is not tenable (Westerhoff 2010, 30).
+
+    This passage has long vexed commentators on Nāgārjuna because it seems to itself
+assert a thesis – the thesis of not having a thesis. Scholars have proposed semantic
+
+Comparative Philosophy 17.2 (2026)  CHAPMAN
+                                    13
+
+(Westerhoff 2010; Siderits & Garfield 2013), pragmatic (Tillemans 2016), and
+dialetheist (Deguchi, Garfield & Priest 2008) readings, among others.
+
+    However, each proposed reading has generated its own tensions and logical issues
+in turn. As previously discussed, dialetheist and paraconsistent readings cannot easily
+accommodate Nāgārjuna’s extensive usage of modus tollens in argument. Semantic
+readings distinguish levels of discourse between the conventional and ultimate truth
+without claiming Nāgārjuna rejects assertions, but in so doing risk either infinite regress
+in search of ground (“The ultimate truth is that there is no ultimate truth”), or make
+‘conventional’ speech dependent on a metaphysically existent “real” to function
+(Ferraro 2013). 3 Pragmatic readings emphasize Nāgārjuna’s usage of reductio
+arguments (known in Indian philosophy as prasaṅga) to refute positions without
+offering theses, but lack the formalization to offer justification of the status of his “no
+thesis” statement.
+
+    Our formula neither asserts a metaphysical existent nor evades the content of
+Nāgārjuna’s maneuver. A subtle distinction must be highlighted: Semantic readings
+must take infinite regress as a problem due to their reliance on positive assertions
+regarding conventional and ultimate truth, which presupposes a stable ground from
+which no more assertions can productively be made, indicative of svabhāva. In this
+sense, the circularity is vicious.
+
+    Our formula is non-vicious, or virtuous; ground is not sought, because the formula's
+regress demonstrates ground is unavailable.
+
+    More directly: A regress is vicious when each stage requires completion of
+subsequent stages for its justification; absent termination, no stage is justified. The
+formula's regress is virtuous because no stage claims justification from subsequent
+stages. Each application of T is self-contained. The infinite continuation demonstrates
+a structural feature (the unavailability of ground) rather than constituting a failure to
+find it.
+
+    In this sense non-termination is the result rather than a defect to be remedied. Non-
+termination prevents stabilization into a meta-position and parallels the Buddhist
+doctrine of the conceptual proliferation of dualisms within the mind. Nāgārjuna does
+not seek to step outside of this proliferation in order to assert a metaphysical existent
+that lies outside of mind. Rather, lacking the specific formalism seen in this paper, he
+applies the method of the formula to all svabhāva-propositions so as to deconstruct the
+processes of conceptual thought within the inescapable language of conceptual thought.
+
+                                       6. IMPLICATIONS
+
+Our formula directly translates Nāgārjuna into the language of formal modal logic
+within a Western analytical lens. It uses the tools of modal and classical logic in order
+
+3 Siderits & Garfield (2013) reply to Ferraro by parameterizing 'ultimate truth,' but it should be noted
+this disambiguation itself constitutes a semantic distinction subject to modal analysis; "The very idea of
+how things ultimately are is incoherent" is an assertion with a truth value (Siderits & Garfield 2013, 5).
+The formula provides what parameterization cannot: structural non-stabilization without necessarily
+requiring either endless disambiguation or embracing true contradictions.
+
+Comparative Philosophy 17.2 (2026)      CHAPMAN
+                                                  14
+
+to reject the foundationalist metaphysics that underlie classical reasoning in Western
+philosophical traditions. This is itself prasaṅga in action – the formula uses the
+master’s own tools to reveal the instability of the master’s house. Our approach
+highlights that the “East vs. West” division in philosophical circles is an arbitrary
+convention given the existence of this formula, which can be parsed in a system-
+agnostic fashion and reflected equivalently in human language.
+
+    Work remains to be done to investigate whether this formula holds in application
+beyond Nāgārjuna himself. However, it brings significant clarity to some of the most
+disputed passages within the Mūlamadhyamakakārikā (MMK). Three are hereby given:
+
+    “Emptiness is taught by the conquerors as the expedient to get rid of all
+[metaphysical] views. / But those for whom emptiness is a [metaphysical] view have
+been called incurable." (MMK 13:8; Siderits & Katsura 2013, 145)
+
+    Here, while the context is more pedagogically oriented, the concern is similar to
+that of the ‘no thesis’ proposition and is resolved in the same fashion by the formula:
+Nāgārjuna is not making a metaphysical assertion but is instead expressing one step of
+the self-reflexive prasaṅga methodology. His defense in the Vigrahavyāvartanī
+expounds on this.
+
+    “All is real, or all is unreal, all is both real and unreal, all is neither unreal nor real;
+this is the graded teaching of the Buddha.” MMK 18:8 (ibid, 200)
+
+    On paper, this seems in contradiction to the formula, as Nāgārjuna seems to be
+expressing a positive assertion of all four lemmas being existents. However, operative
+here is the descriptor that “this is the graded teaching of the Buddha” – The Buddha
+employs pedagogical structure as skillful means that does not contradict the formula,
+because a teaching does not necessarily impart a metaphysical existent, nor is it itself
+necessarily true. More directly, all four lemmas are held to be available rather than
+necessary.
+
+    Moreover, the objection that you make concerning emptiness cannot be a faulty
+    consequence for us or for emptiness.
+    All is possible when emptiness is possible.
+    Nothing is possible when emptiness is impossible.
+    You, throwing your own faults on us,
+    are like the person mounted on a horse who forgets the horse.
+    If you look upon existents as real intrinsically,
+    in that case you regard existents as being without cause and conditions.
+    Effect and cause, as well as agent, instrument and act,
+    arising and ceasing, and fruit – all these you thereby deny.
+    Dependent origination we declare to be emptiness.
+    It [emptiness] is a dependent concept; just that is the middle path.
+    (MMK 24:13-18) (ibid, 276-277)
+
+    Here, Nāgārjuna denies an intrinsic necessity to emptiness, dependent origination,
+and the Middle Way itself. As such, the Way rejects a position between extremes or
+further fifth truth-value outside of the tetralemma, as Priest has suggested to resolve
+
+Comparative Philosophy 17.2 (2026)  CHAPMAN
+                                    15
+
+the paradox of ineffability (The Fifth Corner of Four, 2018).4 The inexhaustible nature
+of the formula expresses the dependency that characterizes dependent origination.
+
+    We can see from these examples that the formula’s framework of modal non-
+necessity coherently ties together multiple difficult passages of the MMK into a unified
+interpretation. Whether this coherence extends to subsequent transmissions, such as
+into Chan Buddhism and Tibetan scholastic traditions, remains to be investigated.
+
+                                        7. CONCLUSION
+
+This paper has presented a modal extension of Belnap-Dunn semantics that formalizes
+the Madhyamaka catuṣkoṭi while preserving modus tollens. The formula's self-
+application structurally instantiates Nāgārjuna's 'no thesis' defense without evasion or
+paradox within the modal systems appropriate to asymmetric dependence. The base
+formula's satisfiability across K, T, S4, and S5 demonstrates that the core result is not
+an artifact of formal choices, while the iteration’s restriction to non-uniform modalities
+reveals that S5’s uniform necessity is structurally incompatible with the directional
+grounding characterizing svabhāva – the very target of Nāgārjuna's analysis.
+
+    Madhyamaka, rendered in the language of Western logic, awaits further
+investigation when extended to all propositions, given that semanticity depends on the
+use of stable referents, fixed meanings, and determinate boundaries that must
+presuppose svabhāva in order to perform productive work.
+
+APPENDIX: LEAN 4 VERIFICATION SUMMARY
+
+A Lean 4 formalization of the results below, generated and verified using Aristotle
+(Harmonic), is publicly available at https://github.com/rollofthedice/modal-catuskoti-
+lean. Aristotle is an AI theorem-proving tool that generates formal proofs that are
+verified in Lean 4, a proof assistant whose kernel mechanically checks each logical
+step. All proofs are machine-checked with no unproven assumptions.
+
+    1. The formation rules and semantic clauses of Section 2.1 are formally encoded,
+         including the two-tier evaluation structure in which formulas other than
+         valuation atoms receive only classical truth values.
+
+    2. T(P) is satisfiable in K, T, S4, and S5. A single two-world model with universal
+         accessibility – which is itself an S5 frame – suffices to establish satisfiability
+         across the entire hierarchy.
+
+    3. T(T(P)) is satisfiable in K, T, and S4. The proof uses a combined-model
+         construction that joins two component models at a fresh root world, where one
+         component satisfies T(P) and the other refutes it. The construction preserves
+
+4 While Priest (2018) resolves the ineffability paradox via a designated fifth semantic value (ineffability)
+in a plurivalent lattice, we argue that the modal approach remains closer to the Madhyamaka spirit of
+prapañca (conceptual proliferation). Rather than positing a static 'ineffable' value, the modal formula
+models the dynamic failure of analysis to settle, treating the lack of a halting point as the logical feature
+corresponding to emptiness. In so doing, ineffability avoids reification.
+
+Comparative Philosophy 17.2 (2026)      CHAPMAN
+                                    16
+
+         reflexivity and transitivity as needed, but does not impose symmetry.
+    4. For all natural numbers n, the n-fold self-application Tⁿ(P) is satisfiable in K,
+
+         T, and S4. The proof proceeds by induction: at each stage, the combined-model
+         construction from (3) is applied to a satisfying model and a refuting model of
+         the previous level, yielding a model for the next level that preserves the relevant
+         frame conditions.
+    5. T(T(P)) is unsatisfiable in S5. The proof proceeds by showing that T(P), as a
+         conjunction of ¬□-formulas, is class-constant under S5's equivalence relation
+         on worlds; therefore, no single equivalence class can contain both a world
+         where T(P) holds and a world where it fails, which contradicts the requirements
+         of T(T(P)). This result is discussed philosophically in Section 2.2.
+    6. The b and n conjuncts of T(T(P)) hold trivially at every world with at least one
+         accessible world, because the valuation of a formula other than a valuation atom
+         never yields b or n.
+
+                                       ACKNOWLEDGEMENTS
+
+I thank the anonymous reviewers of the journal Comparative Philosophy for their
+constructive and insightful feedback.
+
+                                          REFERENCES
+
+Belnap, N. D. (1977), “A Useful Four-Valued Logic”, in J. Michael Dunn and George Epstein
+    (eds), Modern Uses of Multiple-Valued Logic (Dordrecht: Reidel), 5-37.
+
+Deguchi, Y.; Garfield, J. L.; and Priest, G. (2008), “The Way of the Dialetheist: Contradictions
+    in Buddhism”, Philosophy East and West 58.3: 395-402 <https://doi.org/10.1353/PEW.0.
+    0011>.
+
+Dunn, J. M. (1976), “Intuitive Semantics for First-Degree Entailments and ‘Coupled Trees’”,
+    Philosophical Studies 29.3: 149-68 <https://doi.org/10.1007/BF00373152>.
+
+Ferraro, G. (2013), “A Criticism of M. Siderits and J. L. Garfield's 'Semantic Interpretation' of
+    Nāgārjuna's Theory of Two Truths”, Journal of Indian Philosophy 41.2: 195-219
+    <https://doi.org/10.1007/s10781-013-9179-2>.
+
+Priest, G. (1987), In Contradiction: A Study of the Transconsistent (Dordrecht: Martinus
+    Nijhoff).
+
+Priest, G. (2001; 2nd edition 2008), An Introduction to Non-Classical Logic (Cambridge:
+    Cambridge University Press) <https://doi.org/10.1017/CBO9780511801174>.
+
+Priest, G. (2006), In Contradiction: A Study of the Transconsistent, 2nd ed. (Oxford: Oxford
+    University Press) <https://doi.org/10.1093/acprof:oso/9780199263301.001.0001>.
+
+Priest, G. (2010), “The Logic of the Catuskoti”, Comparative Philosophy 1.2: 24-54 <https://
+    doi.org/10.31979/2151-6014(2010).010206>.
+
+Priest, G. (2018), The Fifth Corner of Four: An Essay on Buddhist Metaphysics and the
+    Catuṣkoṭi (Oxford: Oxford University Press) <https://doi.org/10.1093/oso/
+    9780198758716.001.0001>.
+
+Comparative Philosophy 17.2 (2026)      CHAPMAN
+                                                  17
+
+Siderits, M., and Garfield, J. L. (2013), “Defending the Semantic Interpretation: A Reply to
+    Ferraro”, Journal of Indian Philosophy 41.6: 655-64 <https://doi.org/10.1007/s10781-013-
+    9195-2>.
+
+Siderits, M., and Katsura, S. (2013), Nāgārjuna's Middle Way: Mūlamadhyamakakārikā
+    (Boston: Wisdom Publications).
+
+Tillemans, T. J. F. (2016), How Do Mādhyamikas Think?: And Other Essays on the Buddhist
+    Philosophy of the Middle (Boston: Wisdom Publications).
+
+Westerhoff, J. (2009), Nāgārjuna's Madhyamaka: A Philosophical Introduction (Oxford:
+    Oxford University Press) <https://doi.org/10.1093/acprof:oso/9780195375213.001.0001>.
+
+Westerhoff, J. (2010), The Dispeller of Disputes: Nāgārjuna's Vigrahavyāvartanī (Oxford:
+    Oxford University Press) <https://doi.org/10.1093/acprof:oso/9780199732692.001. 0001>.
+
+Comparative Philosophy 17.2 (2026)  CHAPMAN
+

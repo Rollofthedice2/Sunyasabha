@@ -1,0 +1,403 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Śūnyasabhā — lyric timing</title>
+<style>
+  :root { --bg:#0b0812; --panel:#14101e; --ink:#e9e4f2; --dim:#8a83a0; --red:#f5323a; --blue:#5b8ff5; --cyan:#6fe0ff; --line:#2a2340; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:14px/1.45 system-ui, sans-serif; }
+  header { padding:14px 18px; border-bottom:1px solid var(--line); display:flex; gap:16px; align-items:center; flex-wrap:wrap; }
+  h1 { font-size:16px; margin:0 12px 0 0; letter-spacing:.04em; }
+  button { background:var(--panel); color:var(--ink); border:1px solid var(--line); border-radius:6px; padding:6px 10px; cursor:pointer; font:inherit; }
+  button:hover { border-color:var(--blue); }
+  button.on { border-color:var(--cyan); color:var(--cyan); }
+  #clock { font:600 18px ui-monospace, monospace; min-width:90px; }
+  @keyframes flash { from { color: var(--cyan); text-shadow: 0 0 8px var(--cyan); } to { color: var(--ink); text-shadow: none; } }
+  #clock.flash { animation: flash .8s ease-out; }
+  #help { color:var(--dim); font-size:13px; padding:10px 18px; border-bottom:1px solid var(--line); }
+  #help b { color:var(--ink); }
+  kbd { background:#221b33; border:1px solid #3a3054; border-radius:4px; padding:0 5px; font:12px ui-monospace, monospace; }
+  canvas { display:block; width:100%; height:120px; background:#09060f; cursor:pointer; }
+  main { display:grid; grid-template-columns: 1fr; }
+  #lines { max-height: calc(100vh - 330px); overflow:auto; position:relative; }
+  @media (max-width: 700px) { #lines { max-height: calc(100vh - 420px); } canvas { height:80px; } }
+  .row { display:grid; grid-template-columns: 54px 92px 92px 1fr; gap:10px; padding:7px 18px; border-bottom:1px solid #18122a; cursor:pointer; align-items:baseline; }
+  .row:hover { background:#140f22; }
+  .row.cur { background:#1c1630; outline:1px solid var(--blue); }
+  .row.playing { box-shadow: inset 4px 0 0 var(--red); }
+  .row.playing .en { color: var(--ink); }
+  .row.done .t { color:var(--cyan); }
+  .row.est .t { color:var(--dim); font-style:italic; }
+  .row.skip { opacity:.35; text-decoration: line-through; }
+  .sec { color:var(--red); font:600 11px ui-monospace, monospace; text-transform:uppercase; letter-spacing:.08em; }
+  .t { font:13px ui-monospace, monospace; }
+  .sa { color:#c9c2db; } .en { color:var(--dim); font-size:13px; }
+  .live { color:var(--cyan); }
+  footer { padding:10px 18px; color:var(--dim); font-size:12px; }
+  @media (max-width: 700px) { .row { grid-template-columns: 40px 70px 70px 1fr; } header { padding:10px 12px; gap:8px; } #help { display:none; } }
+  #touch { position:sticky; bottom:0; background:var(--panel); border-top:1px solid var(--line); padding:8px 10px calc(8px + env(safe-area-inset-bottom)); display:grid; grid-template-columns: repeat(5, 1fr); gap:6px; }
+  #touch button { padding:12px 0; font-size:15px; touch-action:manipulation; }
+  #hold { grid-column: 1 / -1; padding:26px 0 !important; font:700 20px system-ui !important; letter-spacing:.06em; background:#1a1430; border-color:var(--blue);
+    user-select:none; -webkit-user-select:none; -webkit-touch-callout:none; touch-action:none; }
+  #hold.down { background:#0f3b48; border-color:var(--cyan); color:var(--cyan); }
+  #lat { color:var(--dim); font-size:12px; display:flex; align-items:center; gap:6px; grid-column: 1 / -1; justify-content:center; }
+  #lat button { padding:4px 10px; font-size:13px; }
+  #saved { color:var(--cyan); font-size:13px; }
+  .row { grid-template-columns: 54px 92px 92px 1fr 30px; }
+  .row .ed { color:var(--dim); font-size:16px; text-align:right; }
+  .row .note { color:#d9b35a; font-size:12px; white-space:pre-wrap; }
+  .row .iast { color:#a89fc0; font-size:12px; font-style:italic; }
+  .row .syl { color:var(--cyan); font-size:11px; }
+  #editor { background:#120d1c; border-top:1px solid var(--line); border-bottom:1px solid var(--line); padding:10px 14px; display:none; }
+  #editor.open { display:block; }
+  #editor label { display:block; color:var(--dim); font-size:12px; margin-top:8px; }
+  #editor input, #editor textarea { width:100%; background:#0b0812; color:var(--ink); border:1px solid var(--line); border-radius:6px; padding:8px; font:inherit; }
+  #editor textarea { min-height:52px; }
+  #editor .btns { display:flex; gap:6px; flex-wrap:wrap; margin-top:10px; }
+  #editor .btns button { padding:10px 12px; }
+  #editor .danger { border-color:#6a2030; color:#ff8a94; }
+  #sylbox { margin-top:10px; display:none; }
+  #sylbox.open { display:block; }
+  #sylbox .chips { display:flex; flex-wrap:wrap; gap:6px; margin:8px 0; }
+  #sylbox .chip { background:#0b0812; border:1px solid var(--line); border-radius:6px; padding:8px 10px; font:14px ui-monospace, monospace; }
+  #sylbox .chip.done { border-color:var(--cyan); color:var(--cyan); }
+  #sylbox .chip.next { border-color:var(--red); }
+  #syltap { width:100%; padding:24px 0; font:700 18px system-ui; background:#1a1430; border-color:var(--blue); user-select:none; -webkit-user-select:none; touch-action:manipulation; }
+  @media (max-width: 700px) { .row { grid-template-columns: 40px 70px 70px 1fr 26px; } }
+</style>
+</head>
+<body>
+<header>
+  <h1>ŚŪNYASABHĀ · lyric timing</h1>
+  <button id="play">▶ Play</button>
+  <span id="clock">0:00.00</span>
+  <button id="vox" title="V">Vocals only</button>
+  <button id="slow" title="S">Speed 1×</button>
+  <button id="savepc" hidden>💾 Save to desktop</button><span id="saved"></span>
+  <button id="export">Export JSON</button>
+  <button id="copy">Copy JSON</button>
+  <button id="reset">Reset to estimates</button>
+</header>
+<div id="help">
+  <b>Hold <kbd>J</kbd> while each line is sung</b>: press when the line begins, release when it ends. The current line then advances.
+  <kbd>Space</kbd> play/pause · <kbd>←</kbd>/<kbd>→</kbd> seek 2 s · <kbd>V</kbd> vocals only · <kbd>S</kbd> slow down ·
+  click a line to jump to it (exactly, or 2 s before with the run-up toggle) · <kbd>[</kbd>/<kbd>]</kbd> nudge the selected line's start by 0.05 s (<kbd>Shift</kbd> for its end) ·
+  <kbd>Del</kbd> mark a line as not sung · <b>✎</b> on a line: edit its text/times, add notes, add or delete lines, time syllables · Saves automatically in this browser.
+</div>
+<canvas id="wave" width="1600" height="120"></canvas>
+<main>
+<div id="editor">
+  <div style="display:flex;justify-content:space-between;align-items:center"><b id="ed-title">Edit line</b><button id="ed-close">close</button></div>
+  <label>Sanskrit</label><input id="ed-sa">
+  <label>Transliteration (IAST)</label><input id="ed-iast">
+  <label>English (the subtitle)</label><input id="ed-en">
+  <label>Start · End (s)</label><div style="display:flex;gap:6px"><input id="ed-start" inputmode="decimal"><input id="ed-end" inputmode="decimal"></div>
+  <label>Notes (delivery quirks, extended syllables)</label><textarea id="ed-note"></textarea>
+  <div class="btns">
+    <button id="ed-save">Apply</button>
+    <button id="ed-add">+ Add line after</button>
+    <button id="ed-syl">Syllables…</button>
+    <button id="ed-del" class="danger">Delete line</button>
+  </div>
+  <div id="sylbox">
+    <div style="color:var(--dim);font-size:12px;margin-top:8px">Tap <b>SYLLABLE</b> on each syllable as it's sung (playback starts 1 s before the line). Edit the transliteration above to change the split; hyphens and spaces split syllables.</div>
+    <div class="chips" id="chips"></div>
+    <button id="syltap">SYLLABLE</button>
+    <div class="btns"><button id="syl-restart">restart</button><button id="syl-clear">clear</button></div>
+  </div>
+</div>
+<div id="lines"></div></main>
+<div id="touch">
+  <button id="t-back">−2 s</button><button id="t-prev">▲ line</button><button id="t-skip" title="mark this line as not sung">skip</button><button id="t-next">▼ line</button><button id="t-fwd">+2 s</button>
+  <button id="hold">HOLD while sung</button>
+  <div id="lat"><button id="runup"></button> · tap delay <button id="lat-">−</button><span id="latv">0.00 s</span><button id="lat+">+</button> (raise for Bluetooth)</div>
+</div>
+<footer>When done: <b>Save to desktop</b> (when the page is served over http) writes it straight to <code>video/data/lyrics_timing.json</code>. Or <b>Export JSON</b> and save it there yourself.</footer>
+<audio id="song" src="song.mp3" preload="auto"></audio>
+<audio id="vocals" src="vocals.mp3" preload="auto"></audio>
+<script>
+const WAVE = /*WAVE*/null;
+const LINES = /*LINES*/null;
+const BASE_KEY='sunyasabha-sync-v1',KEY=BASE_KEY+':source:'+/*SOURCE_HASH*/null;
+const SOURCE_MIGRATIONS = /*MIGRATIONS*/[];
+const initialRows=()=>LINES.map(l=>({...l,start:l.start??l.est,end:l.end??l.estEnd,done:l.confirmed===true,skip:l.sung===false}));
+const song = document.getElementById('song'), vocals = document.getElementById('vocals');
+let state = load() || initialRows();
+let cur = Math.max(0, state.findIndex(l => !l.done && !l.skip));
+let held = null, voxOnly = false, rate = 1;
+// how late your press lands after you hear the line (Bluetooth audio is ~0.15–0.3 s behind): subtracted from both marks
+let lat = 0; try { lat = +(localStorage.getItem(KEY + '-lat')??localStorage.getItem(BASE_KEY + '-lat')) || 0; } catch {}
+const showLat = () => { document.getElementById('latv').textContent = `${lat.toFixed(2)} s`; try { localStorage.setItem(KEY + '-lat', String(lat)); } catch {} };
+function holdStart() { if (held !== null || !state[cur]) return; held = cur; state[cur].start = Math.max(0, now() - lat); state[cur].end = null; document.getElementById('hold').classList.add('down'); render(); }
+function holdEnd() {
+  if (held === null) return;
+  const l = state[held]; l.end = Math.max(l.start, now() - lat); l.done = true; l.skip = false; held = null;
+  document.getElementById('hold').classList.remove('down');
+  do { cur++; } while (cur < state.length && state[cur].skip);
+  cur = Math.min(cur, state.length - 1);
+  save(); render();
+}
+
+function load() {
+  try {
+    const raw=localStorage.getItem(KEY)??localStorage.getItem(BASE_KEY),rows=JSON.parse(raw);if(!Array.isArray(rows))return null;
+    const migration=SOURCE_MIGRATIONS.find(m=>rows.length===m.from_source_lyrics.length&&m.retained_old_indices.length===LINES.length&&m.removed_old_indices.every(i=>rows[i]?.sec===m.from_source_lyrics[i].sec&&rows[i]?.iast===m.from_source_lyrics[i].iast));
+    if(migration){
+      // rows saved under the base key are remapped to the current lyric source; only the source-specific key is ever written
+      return migration.retained_old_indices.map(i=>rows[i]);
+    }
+    return rows;
+  } catch { return null; }
+}
+function save() { try { localStorage.setItem(KEY, JSON.stringify(state)); } catch {} }
+const fmt = t => t == null ? '—' : `${Math.floor(t / 60)}:${(t % 60).toFixed(2).padStart(5, '0')}`;
+const esc = v => String(v ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
+const now = () => song.currentTime;
+
+function render() {
+  const box = document.getElementById('lines');
+  let html = '', lastSec = '';
+  state.forEach((l, i) => {
+    const cls = ['row', i === cur ? 'cur' : '', i === playing ? 'playing' : '', l.done ? 'done' : 'est', l.skip ? 'skip' : ''].join(' ');
+    html += `<div class="${cls}" data-i="${i}"><span class="sec">${l.sec !== lastSec ? l.sec : ''}</span>` +
+      `<span class="t">${fmt(l.start)}</span><span class="t">${fmt(l.end)}</span>` +
+      `<span><div class="sa">${esc(l.sa)}</div><div class="iast">${esc(l.iast)}</div><div class="en">${esc(l.en)}</div>` +
+      (l.note ? `<div class="note">✎ ${esc(l.note)}</div>` : '') + (l.syl && l.syl.some(x => x.t != null) ? `<div class="syl">${l.syl.filter(x => x.t != null).length}/${l.syl.length} syllables timed</div>` : '') +
+      `</span><span class="ed" data-edit="${i}">✎</span></div>`;
+    lastSec = l.sec;
+  });
+  box.innerHTML = html;
+  follow();
+}
+// keep the line that matters centred in the list: the one being sung while the song plays, else the target line.
+// Pauses for 4 s after you scroll or touch the list yourself.
+let userScrollAt = -1e9;
+for (const ev of ['wheel', 'touchstart', 'pointerdown']) document.getElementById('lines').addEventListener(ev, () => { userScrollAt = performance.now(); }, { passive: true });
+function follow(force = false) {
+  if (!force && performance.now() - userScrollAt < 4000) return;
+  const box = document.getElementById('lines');
+  // while playing: follow the sung line, and hold still in the gaps between lines; when paused: the target line
+  const el = !song.paused && !force ? box.querySelector('.playing') : box.querySelector('.cur');
+  if (!el) return;
+  box.scrollTo({ top: el.offsetTop - box.clientHeight / 2 + el.offsetHeight / 2, behavior: 'smooth' });
+}
+// which line is being sung at time t (by its current times); -1 in the gaps between lines
+let playing = -1;
+function playingAt(t) {
+  for (let i = state.length - 1; i >= 0; i--) {
+    const l = state[i];
+    if (l.skip || l.start == null) continue;
+    if (l.start <= t) return t < (l.end ?? l.start + 0.3) + 0.25 ? i : -1;
+  }
+  return -1;
+}
+document.getElementById('lines').addEventListener('click', e => {
+  const r = e.target.closest('.row'); if (!r) return;
+  cur = +r.dataset.i;
+  if (e.target.closest('[data-edit]')) { openEditor(cur); render(); return; }
+  jumpToLine(cur); render(); follow(true);
+});
+
+function seek(t) { song.currentTime = t; vocals.currentTime = t; }
+// jumping to a line lands exactly on its listed start, unless the run-up is on (then 2 s before, so you can get ready)
+let runup = false; try { runup = localStorage.getItem(KEY + '-runup') === '1'; } catch {}
+function jumpToLine(i) {
+  const t = Math.max(0, (state[i].start ?? 0) - (runup ? 2 : 0));
+  seek(t);
+  const c = document.getElementById('clock');
+  c.classList.remove('flash'); void c.offsetWidth; c.classList.add('flash');
+}
+function play() { song.play(); vocals.play(); document.getElementById('play').textContent = '❚❚ Pause'; }
+function pause() { song.pause(); vocals.pause(); document.getElementById('play').textContent = '▶ Play'; }
+function toggle() { song.paused ? play() : pause(); }
+function setVox(v) { voxOnly = v; song.muted = v; vocals.muted = !v; document.getElementById('vox').classList.toggle('on', v); }
+setVox(false);
+function setRate(r) { rate = r; song.playbackRate = r; vocals.playbackRate = r; document.getElementById('slow').textContent = `Speed ${r}×`; }
+
+document.getElementById('play').onclick = toggle;
+document.getElementById('vox').onclick = () => setVox(!voxOnly);
+document.getElementById('slow').onclick = () => setRate(rate === 1 ? 0.75 : rate === 0.75 ? 0.5 : 1);
+document.getElementById('reset').onclick = () => { if (confirm('Discard these local edits and reload the canonical saved line timings?')) { state = initialRows(); cur = 0; save(); render(); } };
+function exportJson() {
+  return JSON.stringify(state.map(({ sec, sa, iast, en, start, end, done, skip, note, syl }) => ({ sec, sa, iast, en, start: +(start ?? 0).toFixed(3), end: +(end ?? 0).toFixed(3), confirmed: done, sung: !skip, ...(note ? { note } : {}), ...(syl && syl.some(x => x.t != null) ? { syl: syl.map(x => ({ s: x.s, t: x.t == null ? null : +x.t.toFixed(3) })) } : {}) })), null, 1);
+}
+document.getElementById('export').onclick = () => {
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(new Blob([exportJson()], { type: 'application/json' }));
+  a.download = 'lyrics_timing.json'; a.click();
+};
+document.getElementById('copy').onclick = async () => { try { await navigator.clipboard.writeText(exportJson()); alert('Copied.'); } catch { alert('Copy failed — use Export.'); } };
+
+// shortcuts never fire while you're typing in the editor (space, arrows, Delete, J all belong to the text then)
+const typing = () => { const a = document.activeElement; return a && (a.tagName === 'INPUT' || a.tagName === 'TEXTAREA'); };
+addEventListener('keydown', e => {
+  if (e.repeat || typing()) return;
+  const k = e.key.toLowerCase();
+  if (k === ' ') { e.preventDefault(); toggle(); }
+  else if (k === 'j') holdStart();
+  else if (k === 'arrowleft') seek(Math.max(0, now() - 2));
+  else if (k === 'arrowright') seek(now() + 2);
+  else if (k === 'v') setVox(!voxOnly);
+  else if (k === 's') document.getElementById('slow').click();
+  else if (k === '[' || k === ']' || k === '{' || k === '}') {
+    const d = (k === '[' || k === '{') ? -0.05 : 0.05;
+    const l = state[cur]; if (!l) return;
+    if (e.shiftKey) l.end = (l.end ?? l.start) + d; else l.start = (l.start ?? 0) + d;
+    l.done = true; save(); render();
+  }
+  else if (k === 'delete' || k === 'backspace') { state[cur].skip = !state[cur].skip; save(); render(); }
+  else if (k === 'arrowdown') { cur = Math.min(state.length - 1, cur + 1); render(); }
+  else if (k === 'arrowup') { cur = Math.max(0, cur - 1); render(); }
+});
+addEventListener('keyup', e => {
+  if (typing()) return;
+  if (e.key.toLowerCase() === 'j') holdEnd();
+});
+
+// waveform + markers
+const cv = document.getElementById('wave'), cx = cv.getContext('2d');
+const DUR = WAVE.env.length / WAVE.rate;
+let view0 = 0, viewLen = 20; // seconds shown, follows the playhead
+cv.addEventListener('click', e => { const r = cv.getBoundingClientRect(); seek(view0 + ((e.clientX - r.left) / r.width) * viewLen); });
+function draw() {
+  const W = cv.width, H = cv.height, t = now();
+  document.getElementById('clock').textContent = fmt(t);
+  if (t < view0 + 2 || t > view0 + viewLen - 4) view0 = Math.max(0, t - 4);
+  cx.fillStyle = '#09060f'; cx.fillRect(0, 0, W, H);
+  const X = s => ((s - view0) / viewLen) * W;
+  // beats
+  for (const b of WAVE.beats) { if (b < view0 || b > view0 + viewLen) continue; cx.fillStyle = '#1b1530'; cx.fillRect(X(b), 0, 1, H); }
+  for (const b of WAVE.downbeats) { if (b < view0 || b > view0 + viewLen) continue; cx.fillStyle = '#32285a'; cx.fillRect(X(b), 0, 2, H); }
+  // line spans
+  state.forEach((l, i) => {
+    if (l.skip || l.start == null) return;
+    const e = l.end ?? (i === held ? t : l.start + 0.3);
+    cx.fillStyle = i === cur ? 'rgba(111,224,255,.25)' : l.done ? 'rgba(91,143,245,.18)' : 'rgba(138,131,160,.12)';
+    cx.fillRect(X(l.start), 0, Math.max(2, X(e) - X(l.start)), H);
+    cx.fillStyle = l.done ? '#6fe0ff' : '#8a83a0'; cx.fillRect(X(l.start), 0, 2, H);
+  });
+  // vocal envelope
+  cx.fillStyle = '#c9c2db';
+  for (let x = 0; x < W; x++) {
+    const s = view0 + (x / W) * viewLen, i = Math.floor(s * WAVE.rate);
+    const v = WAVE.env[i] || 0;
+    cx.fillRect(x, H / 2 - v * H * 0.45, 1, Math.max(1, v * H * 0.9));
+  }
+  // playhead
+  cx.fillStyle = '#f5323a'; cx.fillRect(X(t), 0, 2, H);
+  // keep vocals locked to the mix
+  if (!song.paused && Math.abs(vocals.currentTime - song.currentTime) > 0.05) vocals.currentTime = song.currentTime;
+  if (held === null) {
+    let moved = false;
+    if (!song.paused) while (cur < state.length - 1 && (state[cur].done || state[cur].skip) && state[cur].end != null && state[cur].end < t) { cur++; moved = true; }
+    const p = playingAt(t);
+    if (p !== playing || moved) { playing = p; render(); }
+  }
+  requestAnimationFrame(draw);
+}
+const hb = document.getElementById('hold');
+hb.addEventListener('pointerdown', (e) => { e.preventDefault(); hb.setPointerCapture(e.pointerId); if (song.paused) play(); holdStart(); });
+hb.addEventListener('pointerup', (e) => { e.preventDefault(); holdEnd(); });
+hb.addEventListener('pointercancel', () => holdEnd());
+hb.addEventListener('contextmenu', (e) => e.preventDefault());
+document.getElementById('t-back').onclick = () => seek(Math.max(0, now() - 2));
+document.getElementById('t-fwd').onclick = () => seek(now() + 2);
+document.getElementById('t-prev').onclick = () => { cur = Math.max(0, cur - 1); jumpToLine(cur); render(); };
+document.getElementById('t-next').onclick = () => { cur = Math.min(state.length - 1, cur + 1); jumpToLine(cur); render(); };
+const rb = document.getElementById('runup');
+const showRunup = () => { rb.textContent = runup ? 'line jump: 2 s run-up' : 'line jump: exact'; rb.classList.toggle('on', runup); try { localStorage.setItem(KEY + '-runup', runup ? '1' : '0'); } catch {} };
+rb.onclick = () => { runup = !runup; showRunup(); };
+showRunup();
+document.getElementById('t-skip').onclick = () => { state[cur].skip = !state[cur].skip; save(); render(); };
+document.getElementById('lat-').onclick = () => { lat = Math.max(0, +(lat - 0.05).toFixed(2)); showLat(); };
+document.getElementById('lat+').onclick = () => { lat = Math.min(0.6, +(lat + 0.05).toFixed(2)); showLat(); };
+showLat();
+// when served over http, the server accepts the timings and writes video/data/lyrics_timing.json (keeping a backup)
+if (location.protocol.startsWith('http')) {
+  const sb = document.getElementById('savepc'), sv = document.getElementById('saved');
+  sb.hidden = false;
+  sb.onclick = async () => {
+    sv.textContent = 'saving…';
+    try {
+      const r = await fetch('save', { method: 'POST', headers: { 'content-type': 'application/json' }, body: exportJson() });
+      const j = await r.json();
+      sv.textContent = r.ok ? `saved ${j.confirmed}/${j.lines} lines ✓` : `failed: ${j.error}`;
+    } catch (err) { sv.textContent = 'failed: ' + err; }
+  };
+}
+// ---------- line editor: edit text/times/notes, add a line after, delete a line ----------
+let edI = -1;
+const $ = id => document.getElementById(id);
+function openEditor(i) {
+  edI = i; const l = state[i];
+  $('ed-title').textContent = `Edit line ${i + 1} of ${state.length}`;
+  $('ed-sa').value = l.sa ?? ''; $('ed-iast').value = l.iast ?? ''; $('ed-en').value = l.en ?? '';
+  $('ed-start').value = l.start == null ? '' : l.start.toFixed(2); $('ed-end').value = l.end == null ? '' : l.end.toFixed(2);
+  $('ed-note').value = l.note ?? '';
+  $('editor').classList.add('open'); $('sylbox').classList.remove('open');
+  $('editor').scrollIntoView({ block: 'start', behavior: 'smooth' });
+}
+function applyEditor() {
+  if (edI < 0) return; const l = state[edI];
+  const iastBefore = l.iast;
+  l.sa = $('ed-sa').value; l.iast = $('ed-iast').value; l.en = $('ed-en').value; l.note = $('ed-note').value.trim();
+  const st = parseFloat($('ed-start').value), en = parseFloat($('ed-end').value);
+  if (Number.isFinite(st)) l.start = st; if (Number.isFinite(en)) l.end = en;
+  if (l.iast !== iastBefore) l.syl = null;
+  save(); render();
+}
+$('ed-save').onclick = () => { applyEditor(); $('editor').classList.remove('open'); };
+$('ed-close').onclick = () => $('editor').classList.remove('open');
+$('ed-add').onclick = () => {
+  applyEditor();
+  const l = state[edI];
+  const n = { sec: l.sec, sa: '', iast: '', en: '(new line)', start: l.end ?? l.start ?? 0, end: (l.end ?? l.start ?? 0) + 2, done: false, skip: false, note: '', syl: null };
+  state.splice(edI + 1, 0, n); cur = edI + 1; save(); render(); openEditor(cur);
+};
+$('ed-del').onclick = () => {
+  if (state.length < 2 || !confirm('Delete this line?')) return;
+  state.splice(edI, 1); cur = Math.min(cur, state.length - 1); $('editor').classList.remove('open'); save(); render();
+};
+// ---------- syllables: split the IAST into syllables; tap each as it is sung ----------
+function syllabify(iast) {
+  const out = [];
+  for (const word of (iast || '').split(/\s+/).filter(Boolean)) {
+    for (const part of word.split('-')) {
+      // a syllable = any consonants + one vowel (with its length mark) + a following anusvāra/visarga; trailing
+      // consonants join the last syllable
+      const m = part.match(/[^aeiouāīūṛṝḷḹ]*[aeiouāīūṛṝḷḹ](?:[ṃḥ])?/gi);
+      if (!m) { out.push(part); continue; }
+      const used = m.join('');
+      if (used.length < part.length) m[m.length - 1] += part.slice(used.length);
+      out.push(...m);
+    }
+  }
+  return out;
+}
+let sylI = 0;
+function openSyl() {
+  applyEditor();
+  const l = state[edI];
+  if (!l.syl || l.syl.map(x => x.s).join('|') !== syllabify(l.iast).join('|')) l.syl = syllabify(l.iast).map(s => ({ s, t: null }));
+  sylI = l.syl.findIndex(x => x.t == null); if (sylI < 0) sylI = l.syl.length;
+  $('sylbox').classList.add('open'); renderSyl();
+  seek(Math.max(0, (l.start ?? 0) - 1)); play();
+}
+function renderSyl() {
+  const l = state[edI];
+  $('chips').innerHTML = l.syl.map((x, i) => `<span class="chip ${x.t != null ? 'done' : ''} ${i === sylI ? 'next' : ''}">${esc(x.s)}${x.t != null ? `<br><small>${x.t.toFixed(2)}</small>` : ''}</span>`).join('');
+}
+$('ed-syl').onclick = openSyl;
+$('syltap').addEventListener('pointerdown', e => {
+  e.preventDefault(); const l = state[edI]; if (!l.syl || sylI >= l.syl.length) return;
+  l.syl[sylI].t = Math.max(0, now() - lat); sylI++; save(); renderSyl();
+  if (sylI >= l.syl.length) { pause(); render(); }
+});
+$('syl-restart').onclick = () => { const l = state[edI]; l.syl.forEach(x => x.t = null); sylI = 0; save(); renderSyl(); seek(Math.max(0, (l.start ?? 0) - 1)); play(); };
+$('syl-clear').onclick = () => { state[edI].syl = null; sylI = 0; $('sylbox').classList.remove('open'); save(); render(); };
+render(); draw();
+</script>
+</body>
+</html>

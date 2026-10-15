@@ -1,0 +1,5 @@
+video/app/assets/plates/*.rgba
+video/out/
+node_modules/
+__pycache__/
+*.pyc

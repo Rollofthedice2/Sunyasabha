@@ -1,0 +1,12 @@
+{
+ "name": "sunyasabha-film",
+ "private": true,
+ "type": "module",
+ "engines": {
+  "node": ">=24"
+ },
+ "scripts": {
+  "unpack": "node ../tools/unpack_plates.mjs",
+  "render": "node scripts/render.ts --scene film --from 0 --to 226.27 --fps 30 --scale 2 --workers 2 --out ../out/sunyasabha_720p30.mp4"
+ }
+}

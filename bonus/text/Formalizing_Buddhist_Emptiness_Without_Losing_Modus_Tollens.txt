@@ -1,0 +1,219 @@
+"Formalizing Buddhist Emptiness
+Without Losing Modus Tollens" -
+Chance Chapman (Independent
+Scholar)
+
+Comparative Philosophy, 2026
+
+             MARCUS ARVAN
+             AUG 18, 2026
+By Chance Chapman
+
+Buddhist ‘emptiness’ is easy to mistake for the claim that nothing exists.
+The Indian Buddhist philosopher Nāgārjuna, operating sometime during
+the late 2nd and early 3rd centuries CE and traditionally held to be the
+founder of the “Madhyamaka” or “Middle Way” school of philosophical
+Mahayana Buddhism, was preoccupied with defending emptiness
+dialectically as a coherent and intellectually persuasive doctrine.
+Madhyamaka forms the structural skeleton of Tibetan and Chan/Zen
+Buddhist thought; Nāgārjuna accordingly is a key figure of Mahayana
+Buddhism, second only to perhaps the Buddha himself. (Indeed,
+Nāgārjuna himself asserts that he expounds the teachings of the
+Buddha rather than forming an independent doctrine.)
+
+Western scholarship has failed to come to a consensus on the character
+and classification of Nāgārjuna’s argumentation and viewpoints, and
+interpretations have ranged from the Kantian (in which phenomenon is
+differentiated from an ultimately real noumenon) to the Wittgensteinian
+and even to assertions that Nāgārjuna is objectively an irrational thinker.
+Much of this difficulty revolves around the particular dialectical schema
+used by Nāgārjuna known as the ‘tetralemma’ or ‘catuṣkoṭi.’ While it is
+generally accepted that Nāgārjuna’s mechanism of refutation is that of
+modus tollens, forming reductio attempts to render the opponent’s
+position invalid from absurdity, the catuṣkoṭi does not seem to obey the
+rules of classical logic. It presents a matrix of four options:
+
+    P (say, “Things fundamentally exist”);
+    Not-P (“Things fundamentally do not exist”);
+    Both P and Not-P (“Things both fundamentally and do not
+    fundamentally exist”);
+    Neither P Nor Not-P (“Things neither fundamentally nor not-
+    fundamentally exist”).
+
+(This sense of “fundamental” or intrinsic existence, known in Sanskrit as
+svabhāva, is the primary target of Nāgārjuna’s critique.)
+
+Moreover, Nāgārjuna never clearly appears to endorse any of the four.
+In fact, his use of reductio and modus tollens is invariably aimed at a
+rejection of the ultimate coherence – and thus, ultimate truth – of each
+position in order to affirm emptiness as the liberatory alternative. The
+general methodology of Nāgārjuna is to say that “if P were correct, Q
+would also be correct; however, Q cannot possibly be correct, so P
+cannot be correct either,” and so forth for each of the four
+arrangements.
+
+A particular point of difficulty is the “no thesis” defense that Nāgārjuna
+outlines in his Vigrahavyāvartanī (The End of Disputes), written in
+response to critiques of his prior work, the Mūlamadhyamakakārikā
+(Root Verses of the Middle Way), in which Nāgārjuna claims:
+
+    “29. If I had any thesis, that fault would apply to me. But I do not
+    have any thesis, so there is indeed no fault for me (Westerhoff 2010,
+    30).”
+
+At face value, this appears to be self-defeating; Nāgārjuna seems as if
+he’s advancing a thesis of not having a thesis.
+
+Just as many interpretations of Nāgārjuna’s viewpoint itself exist, there
+exists many interpretations of the catuṣkoṭi. The most notable attempt
+within the realm of formal logic has been by influential logician Graham
+Priest, who has argued for a viewpoint informed by his own dialetheism
+in which paraconsistency, or true contradictions, exist; Priest therefore
+claims that Nāgārjuna’s intent is to affirm the workability of true
+contradictions. Priest further posits that Nāgārjuna asserts a “fifth
+value” in which ultimate metaphysical distinctions are asserted as
+essentially ineffable.
+
+However, dialetheist logic confronts a puzzle: Because dialetheism
+accepts “Both P and Not-P”, unlike in classical logic, modus tollens
+therefore fails to be valid as an argumentative structure with
+determinative weight: if P implies Q, and Q is false, in a basic dialetheist
+interpretation P could be both true and false rather than simply false as
+determined within classical logic, robbing Nāgārjuna of logical weight.
+Priest has offered a solution to this that allows dialetheist logic to retain
+modus tollens but admits himself that it is extremely complex and “not,
+in general, effectively checkable.”
+In “The Modal Catuṣkoṭi: Formalizing Emptiness in Classical Modal
+Logic,” I advance a construction and interpretation of the catuṣkoṭi that
+does not need exotic logical systems to preserve Nāgārjuna’s use of
+modus tollens. Standard possible-worlds and modal operator
+frameworks are used to argue that what Nāgārjuna’s really after is the
+refutation of the necessity of any assignment of a truth value to any
+proposition. This can be rendered into rather simple modal logic, with
+the single initial complication of the use of Belnap-Dunn semantics,
+developed in the 1970s to better allow computers to answer questions
+that involve incomplete or contradictory information. This is strikingly
+like the catuṣkoṭi already, in that it is a four-valued logic system that
+uses true (t), false (f), both (b) and neither (n).
+
+The formula, T(P), is as follows:
+
+  ∧ ∧ ∧ T(P) =def ¬□(v(P) = t) ¬□(v(P) = f) ¬□(v(P) = b) ¬□(v(P) = n)
+
+Or something like: “No truth valuation of P is fixed as necessary.”
+
+Crucially, this applies to itself in a nested sort of fashion: the assertion
+“No truth valuation of P is fixed as necessary” also does not have a
+necessarily assigned truth value. Because T(P) is itself a formula, the same
+operation can be applied to it and then applied again. The syntax can
+operate in this manner to any finite depth. (For fans of Liar Paradoxes,
+this sidesteps such problems by being so nested; by analyzing the
+preceding formula rather than diagonally declaring itself false, no
+contradiction arises.)
+
+This formula is additionally verified in Lean 4, a rigorous mechanical
+proof checker, under various systems of modal logic.
+
+Articulating Nāgārjuna’s thinking in this fashion allows us to sidestep a
+great deal of interpretive issues while remaining parsimonious and
+faithful to the method of implementation. For one thing, it’s downright
+definitional that svabhāva, as a target of Nāgārjuna’s refutation, involves
+modal concepts like necessity, as otherwise svabhāva would not be
+speaking of something fundamental and intrinsic.
+
+For another, it provides clear intelligibility to the thinker’s various
+applications of modus tollens. The most cited example in the
+Mūlamadhyamakakārikā is that of an opponent who proposes that
+‘going’ inherently exists in the path being ‘gone’ upon – i.e. that paths
+have an essential or inherent quality of ‘going-ness’. With our formula as
+a lens, Nāgārjuna’s argument acquires a straightforward logic: If a path
+necessarily possessed ‘going-ness’, someone walking on it to get
+somewhere – a ‘goer’, also needing to possess some kind of ‘going-ness’
+– would necessarily entail two goers. But this is absurd, as then there
+would be two goers, and our sense faculties make clear that only one
+object is contingently in motion. As there are not two goers, possession
+of ‘going-ness’ cannot necessarily be the case.
+
+(Note: Nāgārjuna’s reasoning that a ‘goer’ would need to possess
+‘going-ness’ in such an entailment is that if an opponent suggests a
+‘goer’ need only interact or engage in ‘going-ness’ without possessing it
+as a property, that would mean the ‘goer’ would be interacting with the
+necessarily fundamental ‘going-ness’ in the path. However, that would
+make the svabhāva of ‘going-ness’ then go from a state of not being
+interacted with to a state of being interacted with – which would be a
+change to a necessarily fundamental existent, a contradiction;
+something that exhibits change to its properties no longer exhibits
+necessarily fundamental properties, and svabhāva would not make
+sense without these.)
+
+As the formula iterates indefinitely upon itself (without necessarily
+supposing an infinitely coherent chain, only local coherence at each
+step), sustained application leads to an eventual recognition of the
+therapeutic characteristics of Buddhist philosophy, and of Nāgārjuna’s
+‘no thesis’ claim. He is clearly not asserting the opposite – that a path
+necessarily doesn’t possess ‘going-ness’ - since that would trap him in
+the same bind. He is providing a methodological deconstruction of any
+non-local, universal, and/or utterly non-contingent necessity claim,
+which is itself essentially what ‘necessity’ must tend toward being once
+we get to the realms of metaphysics, broad epistemics, et cetera.
+
+Since the formula is Lean-verified as satisfiable, we consider that
+satisfiability correct in the sense that it operates coherently in classical
+logic and doesn’t speak beyond it. Even tautologies display this
+distinction; for example, excluded middle is valid in classical logic but
+not First-Degree Entailment (FDE), where a proposition may be neither
+true nor false. Its classical validity can’t certify classical logic as reality’s
+uniquely necessary structure. (One may note this has a remarkably
+Gödelian air to itself.)
+
+Because the formula operates under the rules of classical logic and
+
+binary negation, the initial (b) and (n) values are also not necessarily
+
+assigned; therefore, after the first application, it all boils down to basic
+♢ ∧ ♢ and bivalent modal contingency: T(φ) = φ
+                                              ¬φ. It’s no wonder it
+
+checks out in Lean!
+
+However, most uses of contingency are much more bounded rather
+than applying over any arbitrary P, and this is how Nāgārjuna’s
+arguments begin to acquire non-foundationalist force. ‘Any arbitrary
+proposition’ is about as big of a topic as there is. To assert a claim of
+necessity in the first place – let alone a necessary metaphysics – one
+advances that claim as a proposition. A local necessity, like modus
+tollens in classical logic, is what we may call ‘conventionally’ or
+‘provisionally’ necessary; it’s a necessary consequence in classical logic,
+but not in dialetheist logic. This allows us to say things are necessary in
+this mundane, modest, contingent sense.
+
+But a claim of fundamental, intrinsic, or ‘ultimate’ necessity has the same
+highest burden of proof within standard systems of logic as necessity
+itself does: All necessity needs to be refuted is the satisfiability of an
+admissible countermodel. Nāgārjuna is not playing by any special rules
+separate from that of the opponent. Therefore, if an opponent objects
+that the ‘countermodel’ of Nāgārjuna’s argument is not admissible,
+Nāgārjuna need only ask what fundamentally bars the countermodel. As
+the satisfiability is otherwise valid within classical modal logic, the
+opponent invariably runs into either a bare posit of necessity that lacks
+strict justificatory or logical force, or an infinite regress that the
+opponent is unlikely to accept if they want to keep making sense of the
+word ‘fundamental’; i.e., foundational or ground-producing. Notably, for
+Nāgārjuna this regress becomes what I call virtuous rather than vicious;
+the indefinite iteration that accounts for itself at any local level of
+analysis is all that is needed for the job.
+
+With the analysis concluded, it becomes clear that Nāgārjuna provides a
+rigorously coherent explanation of emptiness as a non-foundationalist
+philosophy of non-necessity, provisionally held as self-revisable, in
+which its consequences are argued to lead to the Buddhist path. In
+establishing that coherence, essentialist or necessitarian foundations
+are formally refuted within the bounds of classical modal logic.
+
+              Thanks for reading New Work in Philosophy!
+               Subscribe for free to receive new posts and
+
+                                 support my work.
+
+                                            Pledge your support
+

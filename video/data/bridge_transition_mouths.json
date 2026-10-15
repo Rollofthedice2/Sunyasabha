@@ -1,0 +1,292 @@
+{
+ "bridge_T0g_pair_c0_v2": {
+  "transition": "T0",
+  "key": 0,
+  "pos": [
+   71,
+   25
+  ],
+  "zncc": 0.944,
+  "accept": true
+ },
+ "bridge_T0g_pair_c1_v2": {
+  "transition": "T0",
+  "key": 0,
+  "pos": [
+   71,
+   25
+  ],
+  "zncc": 0.945,
+  "accept": true
+ },
+ "bridge_T0g_six_c2_v2": {
+  "transition": "T0",
+  "key": 0,
+  "pos": [
+   73,
+   25
+  ],
+  "zncc": 0.935,
+  "accept": true
+ },
+ "bridge_T0g_six_c3_v2": {
+  "transition": "T0",
+  "key": 0,
+  "pos": [
+   73,
+   25
+  ],
+  "zncc": 0.976,
+  "accept": true
+ },
+ "bridge_T0g_six_c4_v2": {
+  "transition": "T0",
+  "key": 0,
+  "pos": [
+   73,
+   25
+  ],
+  "zncc": 0.965,
+  "accept": true
+ },
+ "bridge_T0g_six_c5_v2": {
+  "transition": "T0",
+  "key": 0,
+  "pos": [
+   72,
+   25
+  ],
+  "zncc": 0.955,
+  "accept": true
+ },
+ "bridge_T1g_five_c0_v2": {
+  "transition": "T1",
+  "key": 0,
+  "pos": [
+   74,
+   25
+  ],
+  "zncc": 0.978,
+  "accept": true
+ },
+ "bridge_T1g_five_c1_v2": {
+  "transition": "T1",
+  "key": 0,
+  "pos": [
+   74,
+   25
+  ],
+  "zncc": 0.961,
+  "accept": true
+ },
+ "bridge_T1g_five_c2_v2": {
+  "transition": "T1",
+  "key": 0,
+  "pos": [
+   75,
+   25
+  ],
+  "zncc": 0.973,
+  "accept": true
+ },
+ "bridge_T1g_five_c3_v2": {
+  "transition": "T1",
+  "key": 0,
+  "pos": [
+   87,
+   25
+  ],
+  "zncc": 0.945,
+  "accept": true
+ },
+ "bridge_T2g_five_c1_v2": {
+  "transition": "T2",
+  "key": 1,
+  "pos": [
+   75,
+   25
+  ],
+  "zncc": 0.956,
+  "accept": true
+ },
+ "bridge_T2g_five_c2_v2": {
+  "transition": "T2",
+  "key": 1,
+  "pos": [
+   75,
+   25
+  ],
+  "zncc": 0.958,
+  "accept": true
+ },
+ "bridge_T2g_five_c3_v2": {
+  "transition": "T2",
+  "key": 1,
+  "pos": [
+   74,
+   26
+  ],
+  "zncc": 0.946,
+  "accept": true
+ },
+ "bridge_T3g_five_c1_v2": {
+  "transition": "T3",
+  "key": 2,
+  "pos": [
+   73,
+   25
+  ],
+  "zncc": 0.924,
+  "accept": true
+ },
+ "bridge_T3g_five_c2_v2": {
+  "transition": "T3",
+  "key": 2,
+  "pos": [
+   74,
+   25
+  ],
+  "zncc": 0.911,
+  "accept": true
+ },
+ "bridge_T3g_five_c3_v2": {
+  "transition": "T3",
+  "key": 2,
+  "pos": [
+   72,
+   25
+  ],
+  "zncc": 0.944,
+  "accept": true
+ },
+ "bridge_T3g_five_c4_v2": {
+  "transition": "T3",
+  "key": 2,
+  "pos": [
+   73,
+   25
+  ],
+  "zncc": 0.962,
+  "accept": true
+ },
+ "bridge_abh12_A01_c00": {
+  "transition": "ABH12",
+  "key": 0,
+  "pos": [
+   74,
+   25
+  ],
+  "zncc": 0.939,
+  "accept": true
+ },
+ "bridge_abh12_A01_c01": {
+  "transition": "ABH12",
+  "key": 0,
+  "pos": [
+   81,
+   24
+  ],
+  "zncc": 0.827,
+  "accept": true
+ },
+ "bridge_abh12_A01_c02": {
+  "transition": "ABH12",
+  "key": 0,
+  "pos": [
+   75,
+   24
+  ],
+  "zncc": 0.384,
+  "accept": false
+ },
+ "bridge_abh12_A01_c03": {
+  "transition": "ABH12",
+  "key": 0,
+  "pos": [
+   79,
+   25
+  ],
+  "zncc": 0.932,
+  "accept": true
+ },
+ "bridge_abh12_A01_c04": {
+  "transition": "ABH12",
+  "key": 0,
+  "pos": [
+   76,
+   24
+  ],
+  "zncc": 0.913,
+  "accept": true
+ },
+ "bridge_abh12_A01_c05": {
+  "transition": "ABH12",
+  "key": 0,
+  "pos": [
+   77,
+   24
+  ],
+  "zncc": 0.912,
+  "accept": true
+ },
+ "bridge_abh12_A01_c06": {
+  "transition": "ABH12",
+  "key": 0,
+  "pos": [
+   75,
+   24
+  ],
+  "zncc": 0.784,
+  "accept": false
+ },
+ "bridge_abh12_A01_c07": {
+  "transition": "ABH12",
+  "key": 0,
+  "pos": [
+   76,
+   25
+  ],
+  "zncc": 0.923,
+  "accept": true
+ },
+ "bridge_abh12_A01_c08": {
+  "transition": "ABH12",
+  "key": 0,
+  "pos": [
+   77,
+   25
+  ],
+  "zncc": 0.921,
+  "accept": true
+ },
+ "bridge_abh12_A01_c09": {
+  "transition": "ABH12",
+  "key": 0,
+  "pos": [
+   75,
+   25
+  ],
+  "zncc": 0.939,
+  "accept": true
+ },
+ "bridge_abh12_A01_c10": {
+  "transition": "ABH12",
+  "key": 0,
+  "pos": [
+   76,
+   25
+  ],
+  "zncc": 0.946,
+  "accept": true
+ },
+ "bridge_abh12_A01_c11": {
+  "transition": "ABH12",
+  "key": 0,
+  "pos": [
+   77,
+   25
+  ],
+  "zncc": 0.931,
+  "accept": true
+ }
+}

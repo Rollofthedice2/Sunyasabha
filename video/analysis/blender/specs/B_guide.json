@@ -1,0 +1,145 @@
+{
+ "name": "B_guide",
+ "colors": {
+  "skin": [
+   0.5,
+   0.28,
+   0.17
+  ],
+  "top": [
+   0.07,
+   0.06,
+   0.08
+  ],
+  "bottom": [
+   0.45,
+   0.1,
+   0.25
+  ],
+  "shoes": [
+   0.06,
+   0.06,
+   0.07
+  ],
+  "hair": [
+   0.36,
+   0.13,
+   0.06
+  ],
+  "accent": [
+   0.06,
+   0.06,
+   0.07
+  ]
+ },
+ "top": {
+  "type": "crop",
+  "r": {
+   "belt": [
+    0.165,
+    0.12
+   ],
+   "waist": [
+    0.15,
+    0.11
+   ],
+   "chest": [
+    0.172,
+    0.13
+   ],
+   "upt": [
+    0.17,
+    0.115
+   ],
+   "scap": [
+    0.08,
+    0.072
+   ]
+  },
+  "loft": true
+ },
+ "bottom": {
+  "type": "long",
+  "r": {
+   "pelvis": [
+    0.19,
+    0.13
+   ],
+   "belt": [
+    0.165,
+    0.12
+   ],
+   "hip": [
+    0.11,
+    0.13
+   ],
+   "knee": [
+    0.095,
+    0.105
+   ],
+   "ankle": [
+    0.085,
+    0.095
+   ]
+  },
+  "loft": true
+ },
+ "arms": {
+  "sh": [
+   0.078,
+   0.075
+  ],
+  "bic": [
+   0.066,
+   0.063
+  ],
+  "el": [
+   0.052,
+   0.05
+  ],
+  "fore": [
+   0.058,
+   0.052
+  ],
+  "wr": [
+   0.038,
+   0.034
+  ],
+  "kk": [
+   0.046,
+   0.041
+  ]
+ },
+ "neck": 0.058,
+ "head": {
+  "scale": [
+   0.105,
+   0.125,
+   0.14
+  ],
+  "hair": "none",
+  "braid_len": 0.8,
+  "face_marks": true,
+  "pitch": true
+ },
+ "shoes": {
+  "w": 0.15,
+  "len": 0.32,
+  "top_above_ankle": 0.12
+ },
+ "extras": {
+  "wristbands": true
+ },
+ "_note": "guide variant of B (radii as B): no hair (modelled hair reads as a head turn; the prompt describes the hair), face marks and head pitch; lofted midriff and trouser seat (no skin-modifier twist at the midsection); relaxed hands loosely curled",
+ "hand_poses": {
+  "relaxed": [
+   [
+    70,
+    85,
+    50
+   ],
+   0.0,
+   0.7
+  ]
+ }
+}

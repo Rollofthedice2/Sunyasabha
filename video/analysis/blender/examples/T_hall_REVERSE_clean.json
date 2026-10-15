@@ -1,0 +1,34 @@
+{
+ "hall": {
+  "nave_w": 19,
+  "aisle_w": 7,
+  "bay": 7.5,
+  "n_bays": 9,
+  "y0": 6,
+  "pillar_r": 0.9,
+  "cap_h": 10,
+  "arch_h": 17,
+  "stage_y": 48,
+  "stage_h": 3.0,
+  "stage_w": 17,
+  "steps": 5,
+  "wall_h": 26,
+  "face_k": 1.7,
+  "face_z": 4.5
+ },
+ "cam": {
+  "x": 0.8,
+  "y": 44.5,
+  "z": 0.95,
+  "yaw_deg": 178.67164026736103,
+  "pitch_deg": -1.4507976132217195,
+  "hfov_deg": 64,
+  "res": [
+   1280,
+   720
+  ]
+ },
+ "lines_only": false,
+ "marks": [],
+ "figures": []
+}
